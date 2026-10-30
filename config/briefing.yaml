@@ -22,9 +22,9 @@ llm:
   max_output_tokens: 1200
   max_attempts: 2         # total generations, including retries after failed verification
   max_daily_usd: 0.25     # hard stop; checked before every call using worst-case output
-  # copilot_cli: set prices to 0 (billed as Copilot premium requests; max_attempts bounds the request count).
-  price_in_per_mtok: 0.15 # USD per 1M tokens: ASSUMPTION, update to your provider's price list
-  price_out_per_mtok: 0.60
+  # Copilot bills premium requests, not tokens; max_attempts bounds generations per run.
+  price_in_per_mtok: 0
+  price_out_per_mtok: 0
 
 # Section routing for sources whose region is "global".
 region_keywords:

@@ -105,6 +105,7 @@ def evaluate(fixtures: str | Path = "tests/fixtures", cfg_path: str | Path = "co
         m["llm_path_mode"] = rl["briefing"]["mode"]
         tight = copy.deepcopy(cfg)
         tight["llm"]["max_daily_usd"] = 0.0
+        tight["llm"]["price_in_per_mtok"] = tight["llm"]["price_out_per_mtok"] = 1.0  # guard needs non-zero prices
         rb = run(tight, sources, FixtureFetcher(fx), now, Path(tmp) / "b", StubProvider(), "TEST")
         m["budget_hard_stop"] = rb["briefing"]["mode"] == "evidence-only" and rb["briefing"]["usage"]["calls"] == 0
     head = {k: r1["briefing"][k] for k in ("edition", "generated_at", "window_start", "window_end")}
