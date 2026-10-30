@@ -1,0 +1,270 @@
+{
+ "bluf": "Highest-ranked development: Russian drone attack on Ukrainian train station kills at least 14, officials say. Further items follow by region.",
+ "changes": [],
+ "changes_summary": "8 new and 0 updated development(s) reported.",
+ "collection": {
+  "clusters": 138,
+  "items": 200,
+  "quarantined": 0,
+  "sources_ok": 12,
+  "sources_total": 14
+ },
+ "cyber": [
+  {
+   "event_id": "E2",
+   "kind": "attributed",
+   "refs": [
+    2
+   ],
+   "section": "Cyber and Infrastructure",
+   "text": "According to BleepingComputer: New Cisco firewall zero-day exploited to crash SSL VPN devices"
+  }
+ ],
+ "disasters": [
+  {
+   "event_id": "E6",
+   "kind": "observed",
+   "refs": [
+    6
+   ],
+   "section": "Significant Disasters",
+   "text": "Green earthquake (Magnitude 6.2M, Depth:142.833km) in Vanuatu 29/10/2026 21:46 UTC, 120 thousand in MMI IV."
+  },
+  {
+   "event_id": "E7",
+   "kind": "observed",
+   "refs": [
+    7
+   ],
+   "section": "Significant Disasters",
+   "text": "Green earthquake (Magnitude 6.4M, Depth:10km) in Southeast Of Easter Island 29/10/2026 07:49 UTC, [unknown]."
+  }
+ ],
+ "edition": "2026-10-29",
+ "events": [
+  {
+   "confidence": "low",
+   "event_id": "E1",
+   "score": 8.8,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E2",
+   "score": 8.75,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E3",
+   "score": 8.6,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E4",
+   "score": 8.6,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E5",
+   "score": 7.6,
+   "status": "new"
+  },
+  {
+   "confidence": "moderate",
+   "event_id": "E6",
+   "score": 7.05,
+   "status": "new"
+  },
+  {
+   "confidence": "moderate",
+   "event_id": "E7",
+   "score": 7.05,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E8",
+   "score": 6.8,
+   "status": "new"
+  }
+ ],
+ "generated_at": "2026-10-30T04:06:53.825718+00:00",
+ "label": null,
+ "mode": "dry-run",
+ "sections": [
+  {
+   "items": [
+    {
+     "event_id": "E1",
+     "kind": "attributed",
+     "refs": [
+      1
+     ],
+     "section": "Europe / Russia",
+     "text": "According to BBC News World: Russian drone attack on Ukrainian train station kills at least 14, officials say"
+    }
+   ],
+   "name": "Europe / Russia"
+  },
+  {
+   "items": [
+    {
+     "event_id": "E4",
+     "kind": "attributed",
+     "refs": [
+      4
+     ],
+     "section": "Middle East",
+     "text": "According to The Guardian World: JD Vance letter may offer last chance to avert fresh conflict between US and Iran"
+    }
+   ],
+   "name": "Middle East"
+  },
+  {
+   "items": [
+    {
+     "event_id": "E3",
+     "kind": "attributed",
+     "refs": [
+      3
+     ],
+     "section": "Indo-Pacific",
+     "text": "According to France 24: North Korea tests attack drones as Kim calls for 'absolute superiority'"
+    },
+    {
+     "event_id": "E8",
+     "kind": "attributed",
+     "refs": [
+      8
+     ],
+     "section": "Indo-Pacific",
+     "text": "According to BBC News World: Audacious Indian jailbreak saga ends with 17 prisoners recaptured"
+    }
+   ],
+   "name": "Indo-Pacific"
+  },
+  {
+   "items": [],
+   "name": "North America"
+  },
+  {
+   "items": [
+    {
+     "event_id": "E5",
+     "kind": "attributed",
+     "refs": [
+      5
+     ],
+     "section": "Other Regions",
+     "text": "According to The Guardian World: Spain begins mourning period as search continues for train crash victims"
+    }
+   ],
+   "name": "Other Regions"
+  }
+ ],
+ "sources": [
+  {
+   "id": "0330742375c9f206",
+   "n": 1,
+   "name": "BBC News World",
+   "published": "2026-10-29T14:17:35+00:00",
+   "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko"
+  },
+  {
+   "id": "645f7bdeecdfe91e",
+   "n": 2,
+   "name": "BleepingComputer",
+   "published": "2026-10-29T11:10:13+00:00",
+   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices"
+  },
+  {
+   "id": "e838605aa02a0454",
+   "n": 3,
+   "name": "France 24",
+   "published": "2026-10-30T00:22:55+00:00",
+   "title": "North Korea tests attack drones as Kim calls for 'absolute superiority'",
+   "url": "https://www.france24.com/en/asia-pacific/20261030-north-korea-tests-attack-drones-as-kim-calls-for-absolute-superiority"
+  },
+  {
+   "id": "8b1d66e51bb1e5c3",
+   "n": 4,
+   "name": "The Guardian World",
+   "published": "2026-10-29T19:32:24+00:00",
+   "title": "JD Vance letter may offer last chance to avert fresh conflict between US and Iran",
+   "url": "https://www.theguardian.com/world/2026/oct/29/jd-vance-letter-may-offer-last-chance-to-avert-fresh-conflict-between-us-and-iran"
+  },
+  {
+   "id": "4dd579edd050ef39",
+   "n": 5,
+   "name": "The Guardian World",
+   "published": "2026-10-29T17:59:03+00:00",
+   "title": "Spain begins mourning period as search continues for train crash victims",
+   "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash"
+  },
+  {
+   "id": "114fb510d90e9fd6",
+   "n": 6,
+   "name": "GDACS",
+   "published": "2026-10-29T22:07:35+00:00",
+   "title": "Green earthquake (Magnitude 6.2M, Depth:142.833km) in Vanuatu 29/10/2026 21:46 UTC, 120 thousand in MMI IV.",
+   "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1574623"
+  },
+  {
+   "id": "fcd341b0b89dab49",
+   "n": 7,
+   "name": "GDACS",
+   "published": "2026-10-29T08:08:55+00:00",
+   "title": "Green earthquake (Magnitude 6.4M, Depth:10km) in Southeast Of Easter Island 29/10/2026 07:49 UTC, [unknown].",
+   "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1574517"
+  },
+  {
+   "id": "f16d322e8caf4b7c",
+   "n": 8,
+   "name": "BBC News World",
+   "published": "2026-10-29T09:17:05+00:00",
+   "title": "Audacious Indian jailbreak saga ends with 17 prisoners recaptured",
+   "url": "https://www.bbc.co.uk/news/articles/cmx2qrgy591ro"
+  }
+ ],
+ "title": "The Daily Brief",
+ "usage": {
+  "calls": 0,
+  "estimated_cost_usd": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ "warnings": [
+  "Partial coverage: 2 of 14 sources unavailable."
+ ],
+ "watch": [
+  {
+   "indicator": "Independent reporting on: Russian drone attack on Ukrainian train station kills at least 14, officials say",
+   "refs": [
+    1
+   ],
+   "significance": "Would confirm or contradict the current account."
+  },
+  {
+   "indicator": "Independent reporting on: New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "refs": [
+    2
+   ],
+   "significance": "Would confirm or contradict the current account."
+  },
+  {
+   "indicator": "Independent reporting on: North Korea tests attack drones as Kim calls for 'absolute superiority'",
+   "refs": [
+    3
+   ],
+   "significance": "Would confirm or contradict the current account."
+  }
+ ],
+ "window_end": "2026-10-30T04:06:53.825718+00:00",
+ "window_start": "2026-10-29T04:06:53.825718+00:00",
+ "words": 216
+}
