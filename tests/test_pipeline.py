@@ -323,6 +323,21 @@ def test_bad_llm_output_falls_back_to_evidence_only(tmp_path, text):
     assert b["mode"] == "evidence-only" and any("evidence-only" in w for w in b["warnings"]) and b["usage"]["calls"] == CFG["llm"]["max_attempts"]
 
 
+def test_fallback_omits_event_with_unverifiable_headline(tmp_path, monkeypatch):
+    import daily_wire.pipeline as pl
+    real = pl.build_packets
+
+    def tainted(*a, **k):
+        packets, srcs = real(*a, **k)
+        packets[0]["evidence"][0]["title"] += " see http://unlisted.example/x"
+        return packets, srcs
+
+    monkeypatch.setattr(pl, "build_packets", tainted)
+    r = run(CFG, SOURCES, FixtureFetcher(FX), NOW, tmp_path, None, "TEST")
+    cited = {s["event_id"] for sec in r["briefing"]["sections"] for s in sec["items"]}
+    assert r["status"] == "published" and "E1" not in cited and "unlisted.example" not in json.dumps(r["briefing"])
+
+
 def test_cli_hour_guard_and_dry_run(tmp_path, capsys):
     from daily_wire.cli import main
     base = ["run", "--fixtures", str(FX), "--site", str(tmp_path), "--config", str(ROOT / "config/briefing.yaml"), "--no-llm"]
