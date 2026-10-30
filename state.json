@@ -13,6 +13,7 @@
     "2939e2ef9e1c8927",
     "3636380c75a60095",
     "38512ca694f6b704",
+    "38775a503465826b",
     "39e5df8ce97ae6c9",
     "3a1d1639fedbc730",
     "41cb24eefd55648a",
@@ -32,13 +33,17 @@
     "87a353d3a36bbd08",
     "8a11af320aa82acf",
     "8d4a257a8b105c9f",
+    "92164e1e44d0a5e0",
     "923c1c7297a99b22",
+    "94f67ff33091f4a0",
     "9627dfac4ac766a9",
+    "9dca9eee333a766d",
     "a03553d039a5d02e",
     "a2aa87e818965564",
     "a560c6d04bddc121",
     "a6254221b07b2328",
     "b25d764fb46c36de",
+    "b42f5042f4304780",
     "b67abecf573b4cff",
     "bd18668bf6636191",
     "be1b1db3987c3875",
@@ -46,6 +51,7 @@
     "cba0af49de0fdcde",
     "cc25592d66702633",
     "ce7b69a2374f1555",
+    "d047887a006c595a",
     "d6efd9d69c750743",
     "d77ef84c6edecf96",
     "da1350c403db360d",
@@ -58,10 +64,11 @@
     "f5af82bf00e8760c",
     "f7873dfc235e9902",
     "f85f8e10443beb44",
+    "f89a3845054af93f",
     "fd693e63b5fadcc1"
    ],
    "key": "038e30711218",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Green forest fire notification in Brazil",
    "tokens": [
     "africa",
@@ -128,10 +135,11 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
+    "617008930ade0560",
     "a31a5c0f12a07002"
    ],
    "key": "0489539042b0",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Microsoft expects to raise $25 billion in US bond sale, sources say",
    "tokens": [
     "25",
@@ -142,6 +150,7 @@
     "raise",
     "sale",
     "sourc",
+    "source",
     "us"
    ]
   },
@@ -193,7 +202,7 @@
     "0d4158f28ceec897"
    ],
    "key": "075021b78103",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Binance probes potential $5.8 billion crypto-theft hack",
    "tokens": [
     "5.8",
@@ -208,14 +217,16 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
+    "6bc5a222816f04a6",
     "6d9e71f955b789a3",
     "aa2a283991e5159f"
    ],
    "key": "075dfde8c2b6",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "How could Israel break election deadlock? Here are four scenarios",
    "tokens": [
     "break",
+    "can",
     "deadlock",
     "election",
     "explainer",
@@ -298,7 +309,7 @@
     "6c71e65e346126f6"
    ],
    "key": "13b924626abe",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Japan Airlines suffers third-party data breach exposing passenger info",
    "tokens": [
     "airlin",
@@ -379,7 +390,7 @@
    ],
    "key": "1941cc072c44",
    "last_published": "2026-10-29",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
    "tokens": [
     "2.5m",
@@ -496,7 +507,7 @@
     "47969289b9a2f02f"
    ],
    "key": "2c7c97a98e2a",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Feral deer will become Australia\u2019s next feral pig problem without prompt action, report warns",
    "tokens": [
     "action",
@@ -558,19 +569,26 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
-    "2bb38e0ae7e7ba68"
+    "0c4e51a3606707e6",
+    "2bb38e0ae7e7ba68",
+    "49d57418c19e4e88"
    ],
    "key": "301b05d82a2f",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Binance says $6.3bn stolen in biggest crypto heist in history",
    "tokens": [
     "6.3bn",
+    "about",
     "biggest",
     "binance",
     "crypto",
+    "hack",
     "heist",
     "history",
-    "stolen"
+    "know",
+    "stolen",
+    "we",
+    "what"
    ]
   },
   {
@@ -600,7 +618,7 @@
     "5e3998c33a849c17"
    ],
    "key": "30fb5381c4b2",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Egyptian man who fire-bombed pro-Israel rally in Colorado pleads guilty to federal hate crimes",
    "tokens": [
     "colorado",
@@ -857,7 +875,7 @@
     "4cca421b930da333"
    ],
    "key": "40a8b3304f65",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "El Ni\u00f1o-driven drought in Papua New Guinea a \u2018national crisis\u2019 as rivers dry up and local farms fail",
    "tokens": [
     "crisi",
@@ -1058,22 +1076,27 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
+    "a50908168ef37449",
     "fe7cd8ca8416b4e0"
    ],
    "key": "505ad8bc8210",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Binance security breach has $6.3 billion impact in potential record crypto heist",
    "tokens": [
     "6.3",
+    "biggest",
     "billion",
     "binance",
     "breach",
     "crypto",
+    "hacks",
     "heist",
     "impact",
     "potenti",
+    "ranks",
     "record",
-    "security"
+    "security",
+    "where"
    ]
   },
   {
@@ -1082,7 +1105,7 @@
     "5482aceed1310c1b"
    ],
    "key": "50e6a4827a1f",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Former Sydney childcare worker Ashley Paul Griffith hit with 202 more abuse charges",
    "tokens": [
     "202",
@@ -1105,7 +1128,7 @@
    ],
    "key": "544909ef27b1",
    "last_published": "2026-10-29",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Green earthquake (Magnitude 6.2M, Depth:142.833km) in Vanuatu 29/10/2026 21:46 UTC, 120 thousand in MMI IV.",
    "tokens": [
     "10",
@@ -1130,19 +1153,24 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
-    "a3a39c0172903d03"
+    "a3a39c0172903d03",
+    "d4cd844bb7b24063"
    ],
    "key": "54f62ce4584c",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "EU force helicopter crash kills four in Bosnia",
    "tokens": [
+    "11",
     "bosnia",
     "crash",
     "eu",
     "force",
     "four",
     "helicopter",
-    "kills"
+    "injur",
+    "kills",
+    "military",
+    "photo"
    ]
   },
   {
@@ -1334,7 +1362,7 @@
     "7eaa7a4b97a71416"
    ],
    "key": "670e3cae69da",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "ECB flags December hike but sees yield rise hitting growth",
    "tokens": [
     "december",
@@ -1354,7 +1382,7 @@
     "b0b243e46b2aae17"
    ],
    "key": "68a64d6515bd",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
    "tokens": [
     "accus",
@@ -1390,7 +1418,7 @@
     "7b9ebd7053e226e7"
    ],
    "key": "6d380a3e83d1",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Brazil\u2019s victory for the planet and democracy: seven lessons from Lula\u2019s win",
    "tokens": [
     "brazil",
@@ -1427,7 +1455,7 @@
     "3ee38022c040535c"
    ],
    "key": "6f8ef57f93a3",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
    "tokens": [
     "13.4",
@@ -1482,7 +1510,7 @@
     "57b3e4d86d370681"
    ],
    "key": "72962784f667",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
    "tokens": [
     "10158",
@@ -1543,7 +1571,7 @@
     "9abe1a5cf5eb6968"
    ],
    "key": "7944c72c6f99",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "India increases growth forecast for fiscal year",
    "tokens": [
     "fisc",
@@ -1602,7 +1630,7 @@
     "90d3326b6e442304"
    ],
    "key": "7cdf65db8398",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Hong Kong\u2019s leader apologises for residential fire that killed 168 people",
    "tokens": [
     "168",
@@ -1619,12 +1647,15 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
+    "03859c90847496f6",
     "820df0c3f4e7e0c3"
    ],
    "key": "7d8b23149936",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Met refers itself to police watchdog over Meghan warning letter",
    "tokens": [
+    "handl",
+    "investigate",
     "itself",
     "letter",
     "meghan",
@@ -1638,19 +1669,24 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
+    "5b63a88f5b92dee8",
     "925af64b5d229b57"
    ],
    "key": "80f48e22abf8",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Animal welfare-focused farm group targets Republicans in rural races",
    "tokens": [
     "anim",
     "farm",
+    "fight",
     "group",
+    "midterm",
     "races",
+    "reach",
     "republican",
     "rural",
     "target",
+    "welfare",
     "welfare-focus"
    ]
   },
@@ -1660,7 +1696,7 @@
     "92f9a6802cbb503a"
    ],
    "key": "83c56b11b403",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
    "tokens": [
     "50",
@@ -1765,7 +1801,7 @@
     "f495ba54dd066bea"
    ],
    "key": "8a5d62bb0c56",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Netanyahu accused of smearing Arab voters to hold on to power",
    "tokens": [
     "accus",
@@ -1864,12 +1900,13 @@
    "first_seen": "2026-10-29",
    "item_ids": [
     "7b6b9e40fd473cd9",
+    "8af6b1fa3d514aa5",
     "91b92ab6ffee9efb",
     "964c226012909909"
    ],
    "key": "91f2c84f9d80",
    "last_published": "2026-10-29",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Patrick Stewart, star of 'Star Trek' and 'X men', dies at 86",
    "tokens": [
     "86",
@@ -1881,10 +1918,12 @@
     "men",
     "patrick",
     "picard",
+    "shakespearean",
     "star",
     "stewart",
     "thespian",
     "trek",
+    "turn",
     "x-men"
    ]
   },
@@ -1935,7 +1974,7 @@
     "6cfbee21553c5cef"
    ],
    "key": "982b7cb8f08f",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Watch: What leaked audio reveals about Spain train crash",
    "tokens": [
     "about",
@@ -1977,7 +2016,7 @@
     "b6e345eb662d1bb1"
    ],
    "key": "9a7205c38a61",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Erin Patterson to die in prison after losing appeal against mushroom murder convictions",
    "tokens": [
     "against",
@@ -2019,7 +2058,7 @@
     "bf33aaf844030034"
    ],
    "key": "9d7c764e0330",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "China leaders demand more loyalty and more initiative",
    "tokens": [
     "china",
@@ -2035,7 +2074,7 @@
     "cf0f81ee50913d9d"
    ],
    "key": "9f4388579a88",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "EU chief lays out vision for new Canada partnership at Montreal summit",
    "tokens": [
     "canada",
@@ -2054,22 +2093,26 @@
     "cea0917f1dc24253"
    ],
    "key": "a034dcdb9db9",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Sam Wood makes fresh bail bid over domestic violence charges as court hears of \u2018party lifestyle\u2019 and alleged anger issues",
    "tokens": [
     "alleg",
     "anger",
+    "another",
     "bail",
     "bid",
     "charg",
     "court",
+    "custody",
     "domestic",
+    "fail",
     "fresh",
     "hears",
     "issu",
     "lifestyle",
     "makes",
     "party",
+    "remain",
     "sam",
     "violence",
     "wood"
@@ -2153,16 +2196,21 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
-    "d1570da9060e6173"
+    "d1570da9060e6173",
+    "f5088dbc2a79c649"
    ],
    "key": "afa7de707586",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Nvidia CEO reportedly targeted by an alleged Chinese spy",
    "tokens": [
     "alleg",
+    "allegation",
     "ceo",
+    "china",
     "chinese",
+    "deni",
     "nvidia",
+    "operation",
     "reportedly",
     "spy",
     "target"
@@ -2175,7 +2223,7 @@
    ],
    "key": "b1bb9aaf9215",
    "last_published": "2026-10-29",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "JD Vance letter may offer last chance to avert fresh conflict between US and Iran",
    "tokens": [
     "avert",
@@ -2307,7 +2355,7 @@
     "66fdd877f9384f2f"
    ],
    "key": "bfdb0039e454",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "US Justice Dept subpoenas Alaska campaigns in probe of second Dan Sullivan, source says",
    "tokens": [
     "alaska",
@@ -2352,7 +2400,7 @@
     "dd4f161e6f5789f8"
    ],
    "key": "c1dbe05f0e93",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
    "tokens": [
     "cisco",
@@ -2470,7 +2518,7 @@
     "5f4f420d84fa2b02"
    ],
    "key": "cb5a57eed12d",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
    "tokens": [
     "23k",
@@ -2490,7 +2538,7 @@
     "958095fe4bcd0d81"
    ],
    "key": "cfeee3e33c9d",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Cuts like a knife: Canadian rocker Bryan Adams trolls Trump with new song",
    "tokens": [
     "adams",
@@ -2508,20 +2556,25 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
-    "341dec501c5c4281"
+    "341dec501c5c4281",
+    "543a5b6602ae513d"
    ],
    "key": "d19714be59b5",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "France braces for \u2018very high risk\u2019 of disorder at Halloween protests",
    "tokens": [
     "brac",
     "disorder",
     "france",
+    "govt",
     "halloween",
     "high",
     "protest",
     "risk",
-    "very"
+    "very",
+    "violence",
+    "warns",
+    "wave"
    ]
   },
   {
@@ -2545,17 +2598,23 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
+    "069fa5838a1a3bba",
     "2dc8a1ab3b523f1c"
    ],
    "key": "d312bbd0ade6",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Netanyahu bloc in lead without majority in Israel election, say official results",
    "tokens": [
+    "ahead",
     "bloc",
+    "difficult",
     "election",
     "israel",
     "lead",
+    "lie",
+    "lost",
     "majority",
+    "negotiation",
     "netanyahu",
     "offici",
     "result",
@@ -2569,7 +2628,7 @@
     "e4eb131c68669839"
    ],
    "key": "d3eaef4bf2df",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "China expels a record number from Communist party amid Xi\u2019s intensified purges of top officials",
    "tokens": [
     "china",
@@ -2664,7 +2723,7 @@
    ],
    "key": "dffc003dab7d",
    "last_published": "2026-10-29",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
    "tokens": [
     "alive",
@@ -2722,20 +2781,25 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
+    "b576905d5458c052",
     "e9617db7e12b7f4a"
    ],
    "key": "eabed04e2b61",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Netanyahu attacks Israel\u2019s Arab parties as he falls short of majority",
    "tokens": [
     "arab",
     "attack",
+    "election",
+    "emerge",
     "falls",
     "he",
     "israel",
+    "kingmaker",
     "majority",
     "netanyahu",
     "parti",
+    "potenti",
     "short"
    ]
   },
@@ -2787,7 +2851,7 @@
     "97e1eb09d975c625"
    ],
    "key": "f393a59f9064",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
    "tokens": [
     "campaign",
@@ -2845,7 +2909,7 @@
     "7ce85fd183afac5c"
    ],
    "key": "f647b9f0b85a",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "FCC votes to ban all Chinese labs from testing US electronics",
    "tokens": [
     "all",
@@ -2903,7 +2967,7 @@
     "081cb1193601f50a"
    ],
    "key": "1cef67c4db40",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Tether, Circle freeze $2.38 billion after Binance reports security incident By Reuters",
    "tokens": [
     "2.38",
@@ -2936,12 +3000,2705 @@
     "occupation",
     "slams"
    ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "c9149c60242688fd"
+   ],
+   "key": "02989c8e4aac",
+   "last_seen": "2026-10-30",
+   "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+   "tokens": [
+    "corridor",
+    "devastat",
+    "evacuation",
+    "leave",
+    "oleshky",
+    "opens",
+    "resident",
+    "russian-occupi"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "cfebd1c5305ba7fc"
+   ],
+   "key": "029a3e9031f6",
+   "last_seen": "2026-10-30",
+   "title": "Black Sea shipping under growing threats as drones hit container ships",
+   "tokens": [
+    "black",
+    "container",
+    "dron",
+    "grow",
+    "hit",
+    "sea",
+    "shipp",
+    "ships",
+    "threat",
+    "under"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "943fe8d8088c8f78"
+   ],
+   "key": "02fc380c9f44",
+   "last_seen": "2026-10-30",
+   "title": "Venezuela opposition leader Mar\u00eda Machado calls for elections upon return",
+   "tokens": [
+    "calls",
+    "election",
+    "leader",
+    "machado",
+    "mar",
+    "opposition",
+    "return",
+    "upon",
+    "venezuela"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "f9df75b907755ad4"
+   ],
+   "key": "039f9b0b1206",
+   "last_seen": "2026-10-30",
+   "title": "\u2018His honesty gave courage to survivors\u2019: domestic abuse charities praise Patrick Stewart\u2019s legacy",
+   "tokens": [
+    "abuse",
+    "chariti",
+    "courage",
+    "domestic",
+    "gave",
+    "honesty",
+    "legacy",
+    "patrick",
+    "praise",
+    "stewart",
+    "survivor"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "160440682a8aa153"
+   ],
+   "key": "0452bae9b795",
+   "last_seen": "2026-10-30",
+   "title": "Palestinian voter turnout exposes Israel\u2019s attitude towards Arab citizens",
+   "tokens": [
+    "arab",
+    "attitude",
+    "citizen",
+    "expos",
+    "israel",
+    "palestinian",
+    "toward",
+    "turnout",
+    "voter"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "33783e54c60aa485"
+   ],
+   "key": "047c05baa923",
+   "last_seen": "2026-10-30",
+   "title": "Who is Kevin T., the main suspect behind the racist Trappes attack?",
+   "tokens": [
+    "attack",
+    "behind",
+    "kevin",
+    "main",
+    "racist",
+    "suspect",
+    "t.",
+    "trapp"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6e72fee2f0cf9ace"
+   ],
+   "key": "0a525b28bbdc",
+   "last_seen": "2026-10-30",
+   "title": "Hackers target government Windows systems in Asia with new malware",
+   "tokens": [
+    "asia",
+    "government",
+    "hacker",
+    "malware",
+    "system",
+    "target",
+    "window"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "69a343b323d2a9e9"
+   ],
+   "key": "0db7bc6d7c3a",
+   "last_seen": "2026-10-30",
+   "title": "EXCLUSIVE: Pentagon tells Europeans to cool their rhetoric on Russia, sources say",
+   "tokens": [
+    "cool",
+    "european",
+    "exclusive",
+    "pentagon",
+    "rhetoric",
+    "russia",
+    "sourc",
+    "tells"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "68d7a905fa03f05d"
+   ],
+   "key": "0f56a89ada83",
+   "last_seen": "2026-10-30",
+   "title": "Seoul fears being sidelined as US reaches out to North Korea",
+   "tokens": [
+    "being",
+    "fears",
+    "korea",
+    "north",
+    "reach",
+    "seoul",
+    "sidelin",
+    "us"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "c4a1fcbe9774b819"
+   ],
+   "key": "136188d8e553",
+   "last_seen": "2026-10-30",
+   "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+   "tokens": [
+    "christa",
+    "confus",
+    "execution",
+    "fail",
+    "inmate",
+    "pain",
+    "pike",
+    "she",
+    "us",
+    "woke"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "55eed52bf82b3aef"
+   ],
+   "key": "14cb969b538d",
+   "last_seen": "2026-10-30",
+   "title": "Whale sharks appear off California as strong El Ni\u00f1o warms water",
+   "tokens": [
+    "appear",
+    "california",
+    "el",
+    "ni",
+    "off",
+    "shark",
+    "strong",
+    "warms",
+    "water",
+    "whale"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "3b99573e7ab441bb"
+   ],
+   "key": "14de3f4594f0",
+   "last_seen": "2026-10-30",
+   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+   "tokens": [
+    "backdoor",
+    "claude",
+    "code",
+    "cursor",
+    "extension",
+    "maliciou",
+    "plant",
+    "ssh"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "9d023429513008c9"
+   ],
+   "key": "1d89866a4afc",
+   "last_seen": "2026-10-30",
+   "title": "Watch: Why Australia's mushroom murderer may now die in prison",
+   "tokens": [
+    "australia",
+    "die",
+    "murderer",
+    "mushroom",
+    "now",
+    "prison",
+    "watch",
+    "why"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "9364eacdc20ff399"
+   ],
+   "key": "2390c73b24e0",
+   "last_seen": "2026-10-30",
+   "title": "Serial killers, set designers, and hordes of skeletons: welcome to the Halloween capital of America",
+   "tokens": [
+    "america",
+    "capit",
+    "designer",
+    "halloween",
+    "hord",
+    "killer",
+    "seri",
+    "set",
+    "skeleton",
+    "welcome"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "54b48fe33b333a55"
+   ],
+   "key": "25b3ddf8b0dc",
+   "last_seen": "2026-10-30",
+   "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+   "tokens": [
+    "about",
+    "alaska",
+    "alleg",
+    "ballot",
+    "candidate",
+    "dan",
+    "deni",
+    "know",
+    "plot",
+    "put",
+    "senate",
+    "sullivan",
+    "two"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "5facc29dc181ed8f"
+   ],
+   "key": "25eeace63e80",
+   "last_seen": "2026-10-30",
+   "title": "Aid convoy enters besieged Ukrainian town Oleshky",
+   "tokens": [
+    "aid",
+    "besieg",
+    "convoy",
+    "enter",
+    "oleshky",
+    "town",
+    "ukrainian"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "e8fc2fbeec7a85be"
+   ],
+   "key": "2963a3b3fc62",
+   "last_seen": "2026-10-30",
+   "title": "Italy tightens security as students, unions launch nationwide protests",
+   "tokens": [
+    "italy",
+    "launch",
+    "nationwide",
+    "protest",
+    "security",
+    "student",
+    "tighten",
+    "union"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "d0e7d7018d20ad65"
+   ],
+   "key": "298cc0c08e0f",
+   "last_seen": "2026-10-30",
+   "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
+   "tokens": [
+    "becom",
+    "election",
+    "first",
+    "leo",
+    "pontiff",
+    "pope",
+    "us",
+    "vote",
+    "xiv"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "04693a4643507db0"
+   ],
+   "key": "29ff575c219c",
+   "last_seen": "2026-10-30",
+   "title": "Exclusive-First Russian diesel from Putin-Trump deal heading for US, data shows",
+   "tokens": [
+    "data",
+    "deal",
+    "diesel",
+    "exclusive-first",
+    "head",
+    "putin-trump",
+    "russian",
+    "shows",
+    "us"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "71e927c2efd319e2"
+   ],
+   "key": "2c83fcc03ac1",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+   "tokens": [
+    "centr",
+    "flood",
+    "greece",
+    "issu",
+    "rainfall",
+    "severe",
+    "turkey",
+    "warning",
+    "western"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "75c250b66e75cad3"
+   ],
+   "key": "2fabfaa6a22e",
+   "last_seen": "2026-10-30",
+   "title": "Spain\u2019s deadly train crash redraws electoral battle lines",
+   "tokens": [
+    "battle",
+    "crash",
+    "deadly",
+    "elector",
+    "lines",
+    "redraw",
+    "spain",
+    "train"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6f01fab6c69abc2b"
+   ],
+   "key": "2fbe2aa5ab8c",
+   "last_seen": "2026-10-30",
+   "title": "Polymarket confirms cyberattack on third-party provider after outages",
+   "tokens": [
+    "confirm",
+    "cyberattack",
+    "outag",
+    "polymarket",
+    "provider",
+    "third-party"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "a53aa309830f740a"
+   ],
+   "key": "309f989c03a3",
+   "last_seen": "2026-10-30",
+   "title": "Foiled Hindu temple plot exposes rising anti-Indian sentiment in the US",
+   "tokens": [
+    "anti-indian",
+    "expos",
+    "foil",
+    "hindu",
+    "plot",
+    "ris",
+    "sentiment",
+    "temple",
+    "us"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "f15e9d76acc84d00"
+   ],
+   "key": "336886754b75",
+   "last_seen": "2026-10-30",
+   "title": "Prominent Russian newspaper shuts down under pressure from authorities",
+   "tokens": [
+    "authoriti",
+    "down",
+    "newspaper",
+    "pressure",
+    "prominent",
+    "russian",
+    "shuts",
+    "under"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "daeb7f5e225010c3"
+   ],
+   "key": "337afbd3e4ce",
+   "last_seen": "2026-10-30",
+   "title": "Russia recruits Africans to fight in Ukraine, families seek answers",
+   "tokens": [
+    "african",
+    "answer",
+    "famili",
+    "fight",
+    "recruit",
+    "russia",
+    "seek",
+    "ukraine"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "0c0573f7b1a396bc"
+   ],
+   "key": "359bcd0a20ea",
+   "last_seen": "2026-10-30",
+   "title": "Audi lowers margin forecast amid China, Europe pressure",
+   "tokens": [
+    "audi",
+    "china",
+    "europe",
+    "forecast",
+    "lower",
+    "margin",
+    "pressure"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "d650042d9ed78ca0"
+   ],
+   "key": "376e1455f56c",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "\ud83d\udd34 Ukraine war live: Russian strikes leave 200,000 without power in Ukraine's Dnipropetrovsk region",
+   "tokens": [
+    "000",
+    "200",
+    "dnipropetrovsk",
+    "leave",
+    "live",
+    "power",
+    "region",
+    "russian",
+    "strik",
+    "ukraine",
+    "war",
+    "without"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "08e3a90128496053"
+   ],
+   "key": "3a8b2c8c443d",
+   "last_seen": "2026-10-30",
+   "title": "Many Cubans voted for Trump - now they're turning on Republican immigration policies",
+   "tokens": [
+    "cuban",
+    "immigration",
+    "many",
+    "now",
+    "polici",
+    "re",
+    "republican",
+    "trump",
+    "turn",
+    "voted"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "f5d007b13020b3d9"
+   ],
+   "key": "3a96ed9ab418",
+   "last_seen": "2026-10-30",
+   "title": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
+   "tokens": [
+    "challeng",
+    "crisi",
+    "post-assad",
+    "pric",
+    "recovery",
+    "soar",
+    "struggle",
+    "syrian"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "a226f1145b4d3c41"
+   ],
+   "key": "3c378030b125",
+   "last_seen": "2026-10-30",
+   "title": "Friday briefing: Israel has a dilemma - can its opposition govern with Palestinian parties?",
+   "tokens": [
+    "brief",
+    "can",
+    "dilemma",
+    "friday",
+    "govern",
+    "israel",
+    "opposition",
+    "palestinian",
+    "parti"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "5e48fe89db8b4f75"
+   ],
+   "key": "3d23f047bc40",
+   "last_seen": "2026-10-30",
+   "title": "Germany takes cautious approach on Israeli election results",
+   "tokens": [
+    "approach",
+    "cautiou",
+    "election",
+    "germany",
+    "israeli",
+    "result",
+    "takes"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "58b7a20e1e6b2876"
+   ],
+   "key": "409fd35e84ab",
+   "last_seen": "2026-10-30",
+   "title": "How the record-breaking $6.3 billion heist in crypto history unfolded",
+   "tokens": [
+    "6.3",
+    "billion",
+    "crypto",
+    "heist",
+    "history",
+    "how",
+    "record-break",
+    "unfold"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "4ab64a8b3b26937a"
+   ],
+   "key": "434e2fde99e7",
+   "last_seen": "2026-10-30",
+   "title": "Russian newspaper Novaya Gazeta to close, citing pressure from \u2018special services\u2019",
+   "tokens": [
+    "cit",
+    "close",
+    "gazeta",
+    "newspaper",
+    "novaya",
+    "pressure",
+    "russian",
+    "servic",
+    "speci"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "7064f3f6fe075a72"
+   ],
+   "key": "45c9a730930d",
+   "last_seen": "2026-10-30",
+   "title": "Business secretary says UK needs to understand direction of EU before signing up to closer relationship \u2013 UK politics live",
+   "tokens": [
+    "before",
+    "busines",
+    "closer",
+    "direction",
+    "eu",
+    "live",
+    "needs",
+    "politic",
+    "relationship",
+    "secretary",
+    "sign",
+    "uk",
+    "understand"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "67db31594519d6b0"
+   ],
+   "key": "461ac504a754",
+   "last_seen": "2026-10-30",
+   "title": "TotalEnergies posts record profits as it keeps a lid on fuel prices",
+   "tokens": [
+    "fuel",
+    "keeps",
+    "lid",
+    "posts",
+    "pric",
+    "profit",
+    "record",
+    "totalenergi"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "2efc664ee7fd36a5"
+   ],
+   "key": "4628e85316ba",
+   "last_seen": "2026-10-30",
+   "title": "Qatari mediators return to Tehran to push for US-Iran deal, official says",
+   "tokens": [
+    "deal",
+    "mediator",
+    "offici",
+    "push",
+    "qatari",
+    "return",
+    "tehran",
+    "us-iran"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "dffc57f76b7cfab3"
+   ],
+   "key": "47698bdecc54",
+   "last_seen": "2026-10-30",
+   "title": "Uganda reported that 27 of its citizens were killed in the war against Ukraine \u2014 Reuters",
+   "tokens": [
+    "27",
+    "against",
+    "citizen",
+    "kill",
+    "report",
+    "reuter",
+    "uganda",
+    "ukraine",
+    "war"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "f1b4ac3f2294370b"
+   ],
+   "key": "47b24ae91633",
+   "last_seen": "2026-10-30",
+   "title": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
+   "tokens": [
+    "gold",
+    "illeg",
+    "johannesburg",
+    "land",
+    "min",
+    "scapegoat",
+    "scarr",
+    "scourge",
+    "sinkhol"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "b444fc4b73379cd3"
+   ],
+   "key": "49fb66d90e68",
+   "last_seen": "2026-10-30",
+   "title": "On the US border in Texas, Trump deportation drive galvanises midterm vote",
+   "tokens": [
+    "border",
+    "deportation",
+    "drive",
+    "galvanis",
+    "midterm",
+    "texas",
+    "trump",
+    "us",
+    "vote"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "df76289b9795df7f"
+   ],
+   "key": "4a340b0d9303",
+   "last_seen": "2026-10-30",
+   "title": "Alaska Democrat says she \u2018knew nothing\u2019 about effort to put two Dan Sullivans on ballot",
+   "tokens": [
+    "about",
+    "alaska",
+    "ballot",
+    "dan",
+    "democrat",
+    "effort",
+    "knew",
+    "noth",
+    "put",
+    "she",
+    "sullivan",
+    "two"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "114a24f0691e4a23"
+   ],
+   "key": "4c9fbbced6df",
+   "last_seen": "2026-10-30",
+   "title": "Polymarket resumes trading after third-party security breach, to reimburse users",
+   "tokens": [
+    "breach",
+    "polymarket",
+    "reimburse",
+    "resum",
+    "security",
+    "third-party",
+    "trad",
+    "users"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "58d22734f88cfddd",
+    "aed4057ee3c02e82"
+   ],
+   "key": "4ca1f5afb27d",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "DoorDash strikes $17 billion deal for US rival Instacart in mega grocery delivery bet",
+   "tokens": [
+    "17",
+    "acquire",
+    "bet",
+    "billion",
+    "cpi",
+    "deal",
+    "delivery",
+    "doordash",
+    "grocery",
+    "instacart",
+    "mega",
+    "rival",
+    "strik",
+    "us"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "59eb46cfbcebf98c"
+   ],
+   "key": "4e5f13c7aa74",
+   "last_seen": "2026-10-30",
+   "title": "Bhutan hot springs hit by flood from glacial lake burst",
+   "tokens": [
+    "bhutan",
+    "burst",
+    "flood",
+    "glaci",
+    "hit",
+    "hot",
+    "lake",
+    "spring"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "a208a1e534514af1"
+   ],
+   "key": "4faf30788149",
+   "last_seen": "2026-10-30",
+   "title": "Beijing Queer film festival cancelled after harassment from authorities",
+   "tokens": [
+    "authoriti",
+    "beij",
+    "cancell",
+    "festiv",
+    "film",
+    "harassment",
+    "queer"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "4ca43fc36b34938d"
+   ],
+   "key": "5121f194cfff",
+   "last_seen": "2026-10-30",
+   "title": "Mushroom murderer fails to overturn convictions in Australian court challenge",
+   "tokens": [
+    "australian",
+    "challenge",
+    "conviction",
+    "court",
+    "fails",
+    "murderer",
+    "mushroom",
+    "overturn"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "4d3c0a7cc2efa3e4"
+   ],
+   "key": "51b0f2203810",
+   "last_seen": "2026-10-30",
+   "title": "Third weekend of protests looms as tensions persist across France",
+   "tokens": [
+    "acros",
+    "france",
+    "looms",
+    "persist",
+    "protest",
+    "tension",
+    "third",
+    "weekend"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "c652d6218aeca708"
+   ],
+   "key": "53f948842ce2",
+   "last_seen": "2026-10-30",
+   "title": "Chase sparks Bangladesh collapse as West Indies on top in Mirpur Test",
+   "tokens": [
+    "bangladesh",
+    "chase",
+    "collapse",
+    "indi",
+    "mirpur",
+    "spark",
+    "test",
+    "top",
+    "west"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "fb1430c3f4c9db1f"
+   ],
+   "key": "59d3fd3eb0a8",
+   "last_seen": "2026-10-30",
+   "title": "Qatari officials in Iran in bid to revive ceasefire deal with US",
+   "tokens": [
+    "bid",
+    "ceasefire",
+    "deal",
+    "iran",
+    "official",
+    "qatari",
+    "revive",
+    "us"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "d3b7afa43a3b7fe2"
+   ],
+   "key": "5cc0139b8b2b",
+   "last_seen": "2026-10-30",
+   "title": "Congressional Democrats demand answers over ICE treatment of hunger strikers",
+   "tokens": [
+    "answer",
+    "congression",
+    "demand",
+    "democrat",
+    "hunger",
+    "ice",
+    "striker",
+    "treatment"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6f6bffa6894f9ca5"
+   ],
+   "key": "5d114dd26e9d",
+   "last_seen": "2026-10-30",
+   "title": "Texas Republicans accused of changing electoral rules ahead of midterms",
+   "tokens": [
+    "accus",
+    "ahead",
+    "chang",
+    "elector",
+    "midterm",
+    "republican",
+    "rules",
+    "texas"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "1b177d530b43c046"
+   ],
+   "key": "5d2ad7c256e0",
+   "last_seen": "2026-10-30",
+   "title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+   "tokens": [
+    "denounce",
+    "diaspora",
+    "group",
+    "human",
+    "job",
+    "nominee",
+    "right",
+    "sudanese",
+    "top",
+    "uae",
+    "un"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "bf368977424cb14a"
+   ],
+   "key": "5f9b8fb1c088",
+   "last_seen": "2026-10-30",
+   "title": "Spain train crash survivor recalls scenes of devastation as accident unfolded",
+   "tokens": [
+    "accident",
+    "crash",
+    "devastation",
+    "recall",
+    "scen",
+    "spain",
+    "survivor",
+    "train",
+    "unfold"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "0012ea7b7021c267",
+    "3c867dabbd11c01c"
+   ],
+   "key": "606218f4cd3a",
+   "last_seen": "2026-10-30",
+   "title": "Senators briefed on Trump\u2019s \u2018insane\u2019 plan to restart war on Iran",
+   "tokens": [
+    "brief",
+    "insane",
+    "iran",
+    "plan",
+    "restart",
+    "senator",
+    "trump",
+    "war"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6d68f6383d501723"
+   ],
+   "key": "614ec7402e53",
+   "last_seen": "2026-10-30",
+   "title": "Aramco Dhahran HQ Fire Damaged 5 Floors, Reuters Sources Say",
+   "tokens": [
+    "aramco",
+    "damag",
+    "dhahran",
+    "fire",
+    "floor",
+    "hq",
+    "reuter",
+    "sourc"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "f9d11340adfa405e"
+   ],
+   "key": "643e4086f27d",
+   "last_seen": "2026-10-30",
+   "title": "Spanish transport minister faces calls to quit after deadly train crash",
+   "tokens": [
+    "calls",
+    "crash",
+    "deadly",
+    "faces",
+    "minister",
+    "quit",
+    "spanish",
+    "train",
+    "transport"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "b24f5ee96a413e5c"
+   ],
+   "key": "64674d87afd9",
+   "last_seen": "2026-10-30",
+   "title": "How will the women's vote shape the US midterms?",
+   "tokens": [
+    "how",
+    "midterm",
+    "shape",
+    "us",
+    "vote",
+    "women"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "b9e319bfc0cdeb98"
+   ],
+   "key": "6613634c6183",
+   "last_seen": "2026-10-30",
+   "title": "Reader Q&A: How can we radically change the way we live? Ask Aditya Chakrabortty",
+   "tokens": [
+    "aditya",
+    "ask",
+    "can",
+    "chakrabortty",
+    "change",
+    "how",
+    "live",
+    "radically",
+    "reader",
+    "way",
+    "we"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "4741bd8d840a3fec"
+   ],
+   "key": "67026e7b1406",
+   "last_seen": "2026-10-30",
+   "title": "Georgia's European dream left in limbo",
+   "tokens": [
+    "dream",
+    "european",
+    "georgia",
+    "left",
+    "limbo"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "98535fe2a53ca81f"
+   ],
+   "key": "678a3ffa5402",
+   "last_seen": "2026-10-30",
+   "title": "Greece Proposes a Global Maritime Cease-Fire in Response to Attacks on Ships \u2013 Reuters",
+   "tokens": [
+    "attack",
+    "cease-fire",
+    "glob",
+    "greece",
+    "maritime",
+    "propos",
+    "response",
+    "reuter",
+    "ships"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "cbe94cc3f26c0216"
+   ],
+   "key": "6a453f7ad761",
+   "last_seen": "2026-10-30",
+   "title": "More than 43 million ballots cast so far in midterms early voting surge",
+   "tokens": [
+    "43",
+    "ballot",
+    "cast",
+    "early",
+    "far",
+    "midterm",
+    "million",
+    "so",
+    "surge",
+    "vot"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "44a164a04c9943b2"
+   ],
+   "key": "6ade3cf5f3d1",
+   "last_seen": "2026-10-30",
+   "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
+   "tokens": [
+    "army",
+    "attack",
+    "electronic",
+    "gets",
+    "hacker",
+    "prison",
+    "syrian",
+    "target",
+    "time",
+    "western"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "504569e0ffffdf59"
+   ],
+   "key": "6b56a8163d9f",
+   "last_seen": "2026-10-30",
+   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+   "tokens": [
+    "attack",
+    "diameter",
+    "expose",
+    "flaws",
+    "how",
+    "phone",
+    "signal",
+    "ss7",
+    "your"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "0a211889ed908caa"
+   ],
+   "key": "6f008421c041",
+   "last_seen": "2026-10-30",
+   "title": "New York police will now investigate Cornell sex complaints, governor says",
+   "tokens": [
+    "complaint",
+    "cornell",
+    "governor",
+    "investigate",
+    "now",
+    "police",
+    "sex",
+    "york"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "cde148a35df29c3f"
+   ],
+   "key": "70da22704f55",
+   "last_seen": "2026-10-30",
+   "title": "Andreas Malm condemns UK travel ban as \u2018drift into authoritarianism\u2019",
+   "tokens": [
+    "andrea",
+    "authoritarianism",
+    "ban",
+    "condemn",
+    "drift",
+    "malm",
+    "travel",
+    "uk"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "ea4d3ed7ded22a33"
+   ],
+   "key": "72dd887839f4",
+   "last_seen": "2026-10-30",
+   "title": "Tennis: Alexander Zverev guaranteed to become world No. 1",
+   "tokens": [
+    "alexander",
+    "become",
+    "guarante",
+    "no.",
+    "tenni",
+    "world",
+    "zverev"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "e432c3d01e5a11eb"
+   ],
+   "key": "75489f01bb65",
+   "last_seen": "2026-10-30",
+   "title": "US midterms: With deep-red states now in play, could blue wave redraw America's political landscape?",
+   "tokens": [
+    "america",
+    "blue",
+    "deep-r",
+    "landscape",
+    "midterm",
+    "now",
+    "play",
+    "politic",
+    "redraw",
+    "stat",
+    "us",
+    "wave"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "35f65ae36c0b4218"
+   ],
+   "key": "75b1a4f4fcdd",
+   "last_seen": "2026-10-30",
+   "title": "Spain\u2019s trust in high-speed rail \u2018broken\u2019 after second deadly crash this year, says PM",
+   "tokens": [
+    "broken",
+    "crash",
+    "deadly",
+    "high-spe",
+    "pm",
+    "rail",
+    "second",
+    "spain",
+    "trust",
+    "year"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "38bfc1bfbb0d3236"
+   ],
+   "key": "75dd77496f58",
+   "last_seen": "2026-10-30",
+   "title": "Pentagon urges Baltic states to tone down rhetoric on Russia \u2013 media",
+   "tokens": [
+    "baltic",
+    "down",
+    "media",
+    "pentagon",
+    "rhetoric",
+    "russia",
+    "stat",
+    "tone",
+    "urges"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "642f147345e48ec8"
+   ],
+   "key": "7c891286b8d8",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+   "tokens": [
+    "attack",
+    "commerce",
+    "core",
+    "critic",
+    "drup",
+    "exploit",
+    "flaw",
+    "warns"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "b9669e9b329155fa"
+   ],
+   "key": "7c959db64c3c",
+   "last_seen": "2026-10-30",
+   "title": "Tanzania: 2025 election violence still traumatises, one year on",
+   "tokens": [
+    "2025",
+    "election",
+    "one",
+    "still",
+    "tanzania",
+    "traumatis",
+    "violence",
+    "year"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "625de663aa0810eb"
+   ],
+   "key": "7dc608407faa",
+   "last_seen": "2026-10-30",
+   "title": "Russia back in ice hockey world championships after sport court ruling",
+   "tokens": [
+    "back",
+    "championship",
+    "court",
+    "hockey",
+    "ice",
+    "rul",
+    "russia",
+    "sport",
+    "world"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "d3f1618eacf996ef"
+   ],
+   "key": "827c3816699f",
+   "last_seen": "2026-10-30",
+   "title": "Spain transport minister says he won't resign over high-speed rail disaster",
+   "tokens": [
+    "disaster",
+    "he",
+    "high-spe",
+    "minister",
+    "rail",
+    "resign",
+    "spain",
+    "transport",
+    "won"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "68a65c1422d57783"
+   ],
+   "key": "833db17f27df",
+   "last_seen": "2026-10-30",
+   "title": "FBI and US Secret Service working with Binance after $6.3 billion hack, source says",
+   "tokens": [
+    "6.3",
+    "billion",
+    "binance",
+    "fbi",
+    "hack",
+    "secret",
+    "service",
+    "source",
+    "us",
+    "work"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "cb039faa2c694b2b"
+   ],
+   "key": "842bc0599e20",
+   "last_seen": "2026-10-30",
+   "title": "Ousted 60 Minutes correspondent Cecilia Vega on overhaul at CBS News: \u2018It hurts to watch\u2019",
+   "tokens": [
+    "60",
+    "cbs",
+    "cecilia",
+    "correspondent",
+    "hurts",
+    "minut",
+    "news",
+    "oust",
+    "overhaul",
+    "vega",
+    "watch"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "11b07fc28c3d5b2c"
+   ],
+   "key": "881234fcbffa",
+   "last_seen": "2026-10-30",
+   "title": "Canadian Official Cites Limited Progress Ahead of Threatened Jan. 1 Auto Tariff Increase",
+   "tokens": [
+    "ahead",
+    "auto",
+    "canadian",
+    "cites",
+    "increase",
+    "jan.",
+    "limit",
+    "offici",
+    "progres",
+    "tariff",
+    "threaten"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "2fce6b6b1c81d4dd"
+   ],
+   "key": "89b61b3b07aa",
+   "last_seen": "2026-10-30",
+   "title": "British spy agency cannot account for thousands of data storage devices, watchdog says",
+   "tokens": [
+    "account",
+    "agency",
+    "british",
+    "cannot",
+    "data",
+    "devic",
+    "spy",
+    "storage",
+    "thousand",
+    "watchdog"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "bea52e76a5b730df"
+   ],
+   "key": "8b218b6fc807",
+   "last_seen": "2026-10-30",
+   "title": "Democrats have an identity crisis - it won't be an easy fix",
+   "tokens": [
+    "crisi",
+    "democrat",
+    "easy",
+    "fix",
+    "identity",
+    "won"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6faa1355c3981bf5"
+   ],
+   "key": "8b8f8c5c8730",
+   "last_seen": "2026-10-30",
+   "title": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
+   "tokens": [
+    "ai",
+    "australian",
+    "breach",
+    "case",
+    "chang",
+    "compensation",
+    "constitution",
+    "copyright",
+    "expert",
+    "huge",
+    "right",
+    "spark",
+    "warn"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "f14704fe6ef602fd"
+   ],
+   "key": "8cc75d7df638",
+   "last_seen": "2026-10-30",
+   "title": "Google value plunges by $500bn as its own AI search hits ad sales",
+   "tokens": [
+    "500bn",
+    "ad",
+    "ai",
+    "google",
+    "hits",
+    "own",
+    "plung",
+    "sales",
+    "search",
+    "value"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6313753e936b75f1"
+   ],
+   "key": "8ec5b1782c91",
+   "last_seen": "2026-10-30",
+   "title": "\u2018Amateur morons\u2019: Fl\u00e1vio Bolsonaro\u2019s short-lived \u2018president-elect\u2019 claim met with mockery",
+   "tokens": [
+    "amateur",
+    "bolsonaro",
+    "claim",
+    "fl",
+    "met",
+    "mockery",
+    "moron",
+    "president-elect",
+    "short-liv",
+    "vio"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "ca487c6e99a6b068"
+   ],
+   "key": "90822209f395",
+   "last_seen": "2026-10-30",
+   "title": "Democratic senator blames Egypt press crackdown on Trump military aid decision",
+   "tokens": [
+    "aid",
+    "blam",
+    "crackdown",
+    "decision",
+    "democratic",
+    "egypt",
+    "military",
+    "press",
+    "senator",
+    "trump"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "9365da13cb7f5cc3"
+   ],
+   "key": "90824823d1ff",
+   "last_seen": "2026-10-30",
+   "title": "Pentagon tells Baltic states to curb warnings about Russian threats \u2014 Reuters",
+   "tokens": [
+    "about",
+    "baltic",
+    "curb",
+    "pentagon",
+    "reuter",
+    "russian",
+    "stat",
+    "tells",
+    "threat",
+    "warning"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "d3f21650b772118a"
+   ],
+   "key": "92b24cbbfd5e",
+   "last_seen": "2026-10-30",
+   "title": "'The Phantom of the Opera' haunts French cinemas again",
+   "tokens": [
+    "again",
+    "cinema",
+    "french",
+    "haunt",
+    "opera",
+    "phantom"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "8490e3bdfa1d6b63"
+   ],
+   "key": "93b24cdf7f42",
+   "last_seen": "2026-10-30",
+   "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+   "tokens": [
+    "6.3",
+    "billion",
+    "binance",
+    "compromis",
+    "crypto",
+    "devop",
+    "laptop",
+    "links",
+    "theft"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "b71aa1fed472ca92"
+   ],
+   "key": "93d2d491cf4a",
+   "last_seen": "2026-10-30",
+   "title": "Ethnic cleansing fears rise as Israel squeezes space in Gaza: UN",
+   "tokens": [
+    "cleans",
+    "ethnic",
+    "fears",
+    "gaza",
+    "israel",
+    "rise",
+    "space",
+    "squeez",
+    "un"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "cb5c05df70d12dc0"
+   ],
+   "key": "93ff56789158",
+   "last_seen": "2026-10-30",
+   "title": "Activists urge Eisenkot to form new Israeli gov\u2019t with Arab parties",
+   "tokens": [
+    "activist",
+    "arab",
+    "eisenkot",
+    "form",
+    "gov",
+    "israeli",
+    "parti",
+    "urge"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "a5cd5711a39686d8"
+   ],
+   "key": "9508dbb3c604",
+   "last_seen": "2026-10-30",
+   "title": "Pentagon urges Baltic NATO allies to tone down rhetoric about Russia, citing remarks likening Putin to a \u2018rat in a corner\u2019",
+   "tokens": [
+    "about",
+    "alli",
+    "baltic",
+    "cit",
+    "corner",
+    "down",
+    "liken",
+    "nato",
+    "pentagon",
+    "putin",
+    "rat",
+    "remark",
+    "rhetoric",
+    "russia",
+    "tone",
+    "urges"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "bbbedcbc2dcf2618"
+   ],
+   "key": "9512a280422f",
+   "last_seen": "2026-10-30",
+   "title": "Senegal gears up for historic 2026 Youth Olympic Games in Dakar",
+   "tokens": [
+    "2026",
+    "dakar",
+    "games",
+    "gears",
+    "historic",
+    "olympic",
+    "seneg",
+    "youth"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6bafb4c7e646f35d"
+   ],
+   "key": "97619862af61",
+   "last_seen": "2026-10-30",
+   "title": "Russian, Ukrainian humanitarian officials enter Oleshky",
+   "tokens": [
+    "enter",
+    "humanitarian",
+    "official",
+    "oleshky",
+    "russian",
+    "ukrainian"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "53d2b9361d26a074"
+   ],
+   "key": "9ccf08ae2212",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+   "tokens": [
+    "defence",
+    "gulf",
+    "light",
+    "must",
+    "report",
+    "rethink",
+    "stat",
+    "trillion-dollar",
+    "us-iran",
+    "war"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "9fe40952054da175"
+   ],
+   "key": "9e3b9d26e652",
+   "last_seen": "2026-10-30",
+   "title": "North Korea's Kim urges drone dominance, greater military AI use amid border tensions",
+   "tokens": [
+    "ai",
+    "border",
+    "dominance",
+    "drone",
+    "greater",
+    "kim",
+    "korea",
+    "military",
+    "north",
+    "tension",
+    "urges",
+    "use"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "1789b6a10f00548b"
+   ],
+   "key": "a1f21fc010f8",
+   "last_seen": "2026-10-30",
+   "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+   "tokens": [
+    "6.3bn",
+    "binance",
+    "crypto",
+    "giant",
+    "hack",
+    "history",
+    "hit",
+    "largest",
+    "suspect"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "026636c4d055123d"
+   ],
+   "key": "a6193b8e42df",
+   "last_seen": "2026-10-30",
+   "title": "Russian popular home goods chain faces days of disruption following cyberattack",
+   "tokens": [
+    "chain",
+    "cyberattack",
+    "days",
+    "disruption",
+    "faces",
+    "follow",
+    "goods",
+    "home",
+    "popular",
+    "russian"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "15200fa48ace098d"
+   ],
+   "key": "a630915945e2",
+   "last_seen": "2026-10-30",
+   "title": "How Kenyans got caught in $130m US ghost student scam",
+   "tokens": [
+    "130m",
+    "caught",
+    "ghost",
+    "got",
+    "how",
+    "kenyan",
+    "scam",
+    "student",
+    "us"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "d1605a56e92fe22a"
+   ],
+   "key": "a8ac8edcb081",
+   "last_seen": "2026-10-30",
+   "title": "Swedish academic says he has been barred from UK over event with Palestine Action founder",
+   "tokens": [
+    "academic",
+    "action",
+    "barr",
+    "been",
+    "event",
+    "founder",
+    "he",
+    "palestine",
+    "swedish",
+    "uk"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "e0560c89dba7252f"
+   ],
+   "key": "aaedec037ed8",
+   "last_seen": "2026-10-30",
+   "title": "US tech stocks see sharp falls over AI cost concerns",
+   "tokens": [
+    "ai",
+    "concern",
+    "cost",
+    "falls",
+    "see",
+    "sharp",
+    "stock",
+    "tech",
+    "us"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "0508d22cbda1d641"
+   ],
+   "key": "aec34c97b2f8",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "CISA says max severity GitLab flaw now exploited in the wild",
+   "tokens": [
+    "cisa",
+    "exploit",
+    "flaw",
+    "gitlab",
+    "max",
+    "now",
+    "severity",
+    "wild"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "cce938c6f56b06b9"
+   ],
+   "key": "b10aed03e18d",
+   "last_seen": "2026-10-30",
+   "title": "Six dead after helicopter crashes in northern Indian state",
+   "tokens": [
+    "crash",
+    "dead",
+    "helicopter",
+    "indian",
+    "northern",
+    "six",
+    "state"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "649e1731fac76ffb"
+   ],
+   "key": "b2313fc68edf",
+   "last_seen": "2026-10-30",
+   "title": "Russia's bastion of free press Novaya Gazeta shuts down under Kremlin pressure",
+   "tokens": [
+    "bastion",
+    "down",
+    "free",
+    "gazeta",
+    "kremlin",
+    "novaya",
+    "press",
+    "pressure",
+    "russia",
+    "shuts",
+    "under"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "849c2d78759f7721"
+   ],
+   "key": "b86fb8fb7883",
+   "last_seen": "2026-10-30",
+   "title": "Mapletree eyes Singapore IPO in 2027, Business Times reports, Money News",
+   "tokens": [
+    "2027",
+    "busines",
+    "eyes",
+    "ipo",
+    "mapletree",
+    "money",
+    "news",
+    "report",
+    "singapore",
+    "times"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "f09ddeb5f7437c80"
+   ],
+   "key": "bb3c6a7bbe22",
+   "last_seen": "2026-10-30",
+   "title": "\u2018Swift justice\u2019: Student List supporters focus on cleaning up Serbia\u2019s rotten institutions",
+   "tokens": [
+    "clean",
+    "focus",
+    "institution",
+    "justice",
+    "list",
+    "rotten",
+    "serbia",
+    "student",
+    "supporter",
+    "swift"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "b94c862a2864c293"
+   ],
+   "key": "bd891c4de4e4",
+   "last_seen": "2026-10-30",
+   "title": "Indians turn to start-ups to care for ageing parents as young become more mobile",
+   "tokens": [
+    "age",
+    "become",
+    "care",
+    "indian",
+    "mobile",
+    "parent",
+    "start-up",
+    "turn",
+    "young"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "23b97d7329e99166"
+   ],
+   "key": "c27b5befa0f6",
+   "last_seen": "2026-10-30",
+   "title": "\u2018Scared of crossing the border\u2019: The Arizona farmers who rely on Mexican workers",
+   "tokens": [
+    "arizona",
+    "border",
+    "cross",
+    "farmer",
+    "mexican",
+    "rely",
+    "scar",
+    "worker"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "cb95c58f9f12fb6e"
+   ],
+   "key": "c32cf44cce7c",
+   "last_seen": "2026-10-30",
+   "title": "Student-backed election winners demand sweeping resignations in Serbia",
+   "tokens": [
+    "demand",
+    "election",
+    "resignation",
+    "serbia",
+    "student-back",
+    "sweep",
+    "winner"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "fbd641f10747e15c"
+   ],
+   "key": "c8b60e5dcd7e",
+   "last_seen": "2026-10-30",
+   "title": "Russia \u2018forces\u2019 closure of investigative newspaper Novaya Gazeta",
+   "tokens": [
+    "closure",
+    "forc",
+    "gazeta",
+    "investigative",
+    "newspaper",
+    "novaya",
+    "russia"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "a5f1f655d182aa0c"
+   ],
+   "key": "c94b925ec521",
+   "last_seen": "2026-10-30",
+   "title": "Bollywood and the underworld \u2014 together in the spotlight?",
+   "tokens": [
+    "bollywood",
+    "spotlight",
+    "together",
+    "underworld"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "40ff617129d24da8"
+   ],
+   "key": "ca80da7b7442",
+   "last_seen": "2026-10-30",
+   "title": "Meet the AI-powered robot assistant helping Germans shop",
+   "tokens": [
+    "ai-power",
+    "assistant",
+    "german",
+    "help",
+    "meet",
+    "robot",
+    "shop"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "3e4b5bf138582fb7"
+   ],
+   "key": "cb60ee4037ca",
+   "last_seen": "2026-10-30",
+   "title": "Pentagon probes base freezer failures as suspected cyberattack, sources say",
+   "tokens": [
+    "base",
+    "cyberattack",
+    "failur",
+    "freezer",
+    "pentagon",
+    "prob",
+    "sourc",
+    "suspect"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "3871bb25ff93dffb"
+   ],
+   "key": "cd07f1adf8da",
+   "last_seen": "2026-10-30",
+   "title": "Microsoft finally fixes VPN issues caused by September updates",
+   "tokens": [
+    "caus",
+    "finally",
+    "fixes",
+    "issu",
+    "microsoft",
+    "september",
+    "updat",
+    "vpn"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "31ccd274be759690"
+   ],
+   "key": "cd7f7007be4b",
+   "last_seen": "2026-10-30",
+   "title": "Georgia midterm elections: Why this is a key US battleground",
+   "tokens": [
+    "battleground",
+    "election",
+    "georgia",
+    "key",
+    "midterm",
+    "us",
+    "why"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "5be22b5e89496b9c",
+    "65d3b2cec8cb6e22"
+   ],
+   "key": "d1c019c1e6c5",
+   "last_seen": "2026-10-30",
+   "title": "Trump not planning to back Bolsonaro\u2019s claim to be Brazil\u2019s leader, sources say",
+   "tokens": [
+    "back",
+    "bolsonaro",
+    "brazil",
+    "claim",
+    "leader",
+    "plann",
+    "sourc",
+    "trump"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6980acdb97099b37"
+   ],
+   "key": "d34cdb0e1132",
+   "last_seen": "2026-10-30",
+   "title": "World number one Rybakina withdraws from Pan Pacific Open with neck injury",
+   "tokens": [
+    "injury",
+    "neck",
+    "number",
+    "one",
+    "open",
+    "pacific",
+    "pan",
+    "rybakina",
+    "withdraw",
+    "world"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "70d537023b6c1846"
+   ],
+   "key": "d3950edbda27",
+   "last_seen": "2026-10-30",
+   "title": "Houthis sending Taiz \u2018back to the stone age\u2019, governor of besieged Yemen city says",
+   "tokens": [
+    "age",
+    "back",
+    "besieg",
+    "city",
+    "governor",
+    "houthi",
+    "send",
+    "stone",
+    "taiz",
+    "yemen"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "0e8dad8d08882a31"
+   ],
+   "key": "d54352b6c552",
+   "last_seen": "2026-10-30",
+   "title": "Wall Street's AI bet: Own the infrastructure, collect the rent",
+   "tokens": [
+    "ai",
+    "bet",
+    "collect",
+    "infrastructure",
+    "own",
+    "rent",
+    "street",
+    "wall"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "00f267ce044f93d4"
+   ],
+   "key": "da652bb7b780",
+   "last_seen": "2026-10-30",
+   "title": "Christa Pike makes first public comments since failed execution: \u2018There is pain in my mind and in my soul\u2019",
+   "tokens": [
+    "christa",
+    "comment",
+    "execution",
+    "fail",
+    "first",
+    "makes",
+    "mind",
+    "my",
+    "pain",
+    "pike",
+    "public",
+    "since",
+    "soul",
+    "there"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "c419000773e4529d"
+   ],
+   "key": "db9f2b6defc8",
+   "last_seen": "2026-10-30",
+   "title": "Crypto exchange HTX ordered to stop doing business in UK",
+   "tokens": [
+    "busines",
+    "crypto",
+    "doing",
+    "exchange",
+    "htx",
+    "order",
+    "stop",
+    "uk"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "4719ee2ddd076582"
+   ],
+   "key": "dc416ff64b4a",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "Human rights lawyer couple sentenced to 10 years' prison in Pakistan",
+   "tokens": [
+    "10",
+    "couple",
+    "human",
+    "lawyer",
+    "pakistan",
+    "prison",
+    "right",
+    "sentenc",
+    "years"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "245f94be60eddb74"
+   ],
+   "key": "dd9abae6d8cb",
+   "last_seen": "2026-10-30",
+   "title": "Kalshi raises $1 billion at $40 billion valuation as it expands beyond prediction markets",
+   "tokens": [
+    "40",
+    "beyond",
+    "billion",
+    "expand",
+    "kalshi",
+    "market",
+    "prediction",
+    "rais",
+    "valuation"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "e9c3791f9f317b78"
+   ],
+   "key": "df014e844aa4",
+   "last_seen": "2026-10-30",
+   "title": "Palestinian child survives Israeli gunshot to the head",
+   "tokens": [
+    "child",
+    "gunshot",
+    "head",
+    "israeli",
+    "palestinian",
+    "surviv"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "68216d7dff670c9a",
+    "e229ce84f2e6ecfa"
+   ],
+   "key": "dfc08e5e483b",
+   "last_seen": "2026-10-30",
+   "title": "Green flood alert in Syria",
+   "tokens": [
+    "alert",
+    "egypt",
+    "flood",
+    "green",
+    "syria"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "e93bcbaa0ee1cae4"
+   ],
+   "key": "e434eff7a830",
+   "last_seen": "2026-10-30",
+   "title": "Bukele's gang offensive goes abroad as El Salvador rushes troops to Haiti",
+   "tokens": [
+    "abroad",
+    "bukele",
+    "el",
+    "gang",
+    "goes",
+    "haiti",
+    "offensive",
+    "rush",
+    "salvador",
+    "troop"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "7deb81787035d512"
+   ],
+   "key": "e6299eea7543",
+   "last_seen": "2026-10-30",
+   "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+   "tokens": [
+    "cost",
+    "france",
+    "germany",
+    "halloween",
+    "liv",
+    "protest",
+    "reignite",
+    "spread"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6a05b4f64af98eed"
+   ],
+   "key": "e7aa47db470b",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "At least 60 Christians killed in Ethiopia amid rising religious violence",
+   "tokens": [
+    "60",
+    "christian",
+    "ethiopia",
+    "kill",
+    "least",
+    "religiou",
+    "ris",
+    "violence"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "e05b245c10448d58"
+   ],
+   "key": "e9d50ad0452d",
+   "last_seen": "2026-10-30",
+   "title": "US weighs new Iran strikes as Vance reaches out: Is war or a deal closer?",
+   "tokens": [
+    "closer",
+    "deal",
+    "iran",
+    "reach",
+    "strik",
+    "us",
+    "vance",
+    "war",
+    "weigh"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "317d4db428ac5d3e"
+   ],
+   "key": "eb610e33ba49",
+   "last_seen": "2026-10-30",
+   "title": "Iran Deal Includes $300 Billion Fund, More Than Half of Which Already Committed, Source Says",
+   "tokens": [
+    "300",
+    "already",
+    "billion",
+    "committ",
+    "deal",
+    "fund",
+    "half",
+    "includ",
+    "iran",
+    "source",
+    "which"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "d6f81071163954cb"
+   ],
+   "key": "f0231543c1c9",
+   "last_seen": "2026-10-30",
+   "title": "Spain demands answers as train disaster toll rises",
+   "tokens": [
+    "answer",
+    "demand",
+    "disaster",
+    "rises",
+    "spain",
+    "toll",
+    "train"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "cefaf221105701a2"
+   ],
+   "key": "f1ac6b5c3025",
+   "last_seen": "2026-10-30",
+   "title": "South Africa's Absa opens first Gulf office in Dubai",
+   "tokens": [
+    "absa",
+    "africa",
+    "dubai",
+    "first",
+    "gulf",
+    "office",
+    "opens",
+    "south"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "a48dc21d2e851440"
+   ],
+   "key": "f4fb20ef51db",
+   "last_seen": "2026-10-30",
+   "title": "Irish government to assess potential for united Ireland",
+   "tokens": [
+    "asses",
+    "government",
+    "ireland",
+    "irish",
+    "potenti",
+    "unit"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6cbb410fe6c2ffc8"
+   ],
+   "key": "f528688a56e7",
+   "last_seen": "2026-10-30",
+   "title": "People of 27 nationalities may be among those killed or injured in Spain train crash, S\u00e1nchez says \u2013 Europe live",
+   "tokens": [
+    "27",
+    "among",
+    "crash",
+    "europe",
+    "injur",
+    "kill",
+    "live",
+    "nationaliti",
+    "nchez",
+    "people",
+    "spain",
+    "those",
+    "train"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "ee311c886bc18d74"
+   ],
+   "key": "f58c0fdef3aa",
+   "last_seen": "2026-10-30",
+   "title": "Three dead after two helicopters collide midair near Oregon airport",
+   "tokens": [
+    "airport",
+    "collide",
+    "dead",
+    "helicopter",
+    "midair",
+    "near",
+    "oregon",
+    "three",
+    "two"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "b6a40924935fe90e"
+   ],
+   "key": "f640c181b7e8",
+   "last_seen": "2026-10-30",
+   "title": "MLB World Series: Why did baseball\u2019s biggest stage struggle for viewership?",
+   "tokens": [
+    "baseball",
+    "biggest",
+    "did",
+    "mlb",
+    "seri",
+    "stage",
+    "struggle",
+    "viewership",
+    "why",
+    "world"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "8da184237ab3318d"
+   ],
+   "key": "f7686f52888d",
+   "last_seen": "2026-10-30",
+   "title": "Trump on Iran war: It's going to get wrapped up soon, World News",
+   "tokens": [
+    "get",
+    "going",
+    "iran",
+    "news",
+    "soon",
+    "trump",
+    "war",
+    "world",
+    "wrapp"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "6a96f9a531519793"
+   ],
+   "key": "fb1a0d78c44b",
+   "last_seen": "2026-10-30",
+   "title": "Ukraine invests in firepower as it inflicts a new Russian casualty record",
+   "tokens": [
+    "casualty",
+    "firepower",
+    "inflict",
+    "invest",
+    "record",
+    "russian",
+    "ukraine"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "da19525ad27f1a67"
+   ],
+   "key": "fc1d0a615440",
+   "last_seen": "2026-10-30",
+   "title": "'I made the wrong decision,' Hyrox athlete who soiled herself in race tells BBC",
+   "tokens": [
+    "athlete",
+    "bbc",
+    "decision",
+    "herself",
+    "hyrox",
+    "made",
+    "race",
+    "soil",
+    "tells",
+    "wrong"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "5f2d980ac8dcc208"
+   ],
+   "key": "fcb0ef47b5af",
+   "last_seen": "2026-10-30",
+   "title": "Sudan RSF commander defects from Hemedti\u2019s forces",
+   "tokens": [
+    "commander",
+    "defect",
+    "forc",
+    "hemedti",
+    "rsf",
+    "sudan"
+   ]
   }
  ],
  "http": {
   "aljazeera": {
-   "etag": "W/\"aff1a04577805a09d55c8f3df8715629\"",
-   "last_modified": "Fri, 30 Oct 2026 04:22:52 GMT"
+   "etag": "W/\"d5dad05c815974117caf70c09adfbb66\"",
+   "last_modified": "Fri, 30 Oct 2026 15:02:17 GMT"
   },
   "bbc_world": {
    "etag": null,
@@ -2949,7 +5706,7 @@
   },
   "bleepingcomputer": {
    "etag": null,
-   "last_modified": "Fri, 30 Oct 2026 04:36:02 GMT"
+   "last_modified": "Fri, 30 Oct 2026 15:22:57 GMT"
   },
   "cccs": {
    "etag": null,
@@ -2964,11 +5721,11 @@
    "last_modified": null
   },
   "gdacs": {
-   "etag": "\"949b9a1f2868dd1:0\"",
-   "last_modified": "Fri, 30 Oct 2026 04:35:42 GMT"
+   "etag": "\"3583b8a8168dd1:0\"",
+   "last_modified": "Fri, 30 Oct 2026 15:15:46 GMT"
   },
   "guardian_world": {
-   "etag": "W/\"hash3916192550763790682\"",
+   "etag": "W/\"hash94485652654477683\"",
    "last_modified": null
   },
   "reuters_gn": {
@@ -2976,8 +5733,8 @@
    "last_modified": null
   },
   "sans_isc": {
-   "etag": "\"18ef-65f074defc488\"",
-   "last_modified": "Fri, 30 Oct 2026 04:33:57 GMT"
+   "etag": "\"18ef-65f1050a8e809\"",
+   "last_modified": "Fri, 30 Oct 2026 15:18:57 GMT"
   },
   "therecord": {
    "etag": null,
@@ -2985,10 +5742,11 @@
   },
   "usgs_sig": {
    "etag": null,
-   "last_modified": "Fri, 30 Oct 2026 04:38:24 GMT"
+   "last_modified": "Fri, 30 Oct 2026 15:23:50 GMT"
   }
  },
  "spend": {
-  "2026-10-29": 0.0
+  "2026-10-29": 0.0,
+  "2026-10-30": 0.0
  }
 }

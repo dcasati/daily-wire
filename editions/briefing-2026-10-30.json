@@ -1,0 +1,269 @@
+{
+ "bluf": "Highest-ranked development: Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report. Further items follow by region.",
+ "changes": [],
+ "changes_summary": "8 new and 0 updated development(s) reported.",
+ "collection": {
+  "clusters": 180,
+  "items": 237,
+  "quarantined": 0,
+  "sources_ok": 12,
+  "sources_total": 12
+ },
+ "cyber": [
+  {
+   "event_id": "E3",
+   "kind": "attributed",
+   "refs": [
+    3
+   ],
+   "section": "Cyber and Infrastructure",
+   "text": "According to BleepingComputer: Drupal warns of critical Commerce Core flaw exploited in attacks"
+  },
+  {
+   "event_id": "E4",
+   "kind": "attributed",
+   "refs": [
+    4
+   ],
+   "section": "Cyber and Infrastructure",
+   "text": "According to BleepingComputer: CISA says max severity GitLab flaw now exploited in the wild"
+  }
+ ],
+ "disasters": [],
+ "edition": "2026-10-30",
+ "events": [
+  {
+   "confidence": "low",
+   "event_id": "E1",
+   "score": 8.6,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E2",
+   "score": 7.8,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E3",
+   "score": 7.75,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E4",
+   "score": 7.75,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E5",
+   "score": 7.6,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E6",
+   "score": 6.8,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E7",
+   "score": 6.6,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E8",
+   "score": 6.6,
+   "status": "new"
+  }
+ ],
+ "generated_at": "2026-10-30T15:23:49.386418+00:00",
+ "label": null,
+ "mode": "evidence-only",
+ "sections": [
+  {
+   "items": [
+    {
+     "event_id": "E5",
+     "kind": "attributed",
+     "refs": [
+      5
+     ],
+     "section": "Europe / Russia",
+     "text": "According to France 24: At least 60 Christians killed in Ethiopia amid rising religious violence"
+    },
+    {
+     "event_id": "E7",
+     "kind": "attributed",
+     "refs": [
+      7
+     ],
+     "section": "Europe / Russia",
+     "text": "According to The Guardian World: Severe rainfall and flood warnings issued for central Greece and western Turkey"
+    },
+    {
+     "event_id": "E8",
+     "kind": "attributed",
+     "refs": [
+      8
+     ],
+     "section": "Europe / Russia",
+     "text": "According to France 24: 🔴 Ukraine war live: Russian strikes leave 200,000 without power in Ukraine's Dnipropetrovsk region"
+    }
+   ],
+   "name": "Europe / Russia"
+  },
+  {
+   "items": [
+    {
+     "event_id": "E1",
+     "kind": "attributed",
+     "refs": [
+      1
+     ],
+     "section": "Middle East",
+     "text": "According to The Guardian World: Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report"
+    }
+   ],
+   "name": "Middle East"
+  },
+  {
+   "items": [
+    {
+     "event_id": "E2",
+     "kind": "attributed",
+     "refs": [
+      2
+     ],
+     "section": "Indo-Pacific",
+     "text": "According to BBC News World: Human rights lawyer couple sentenced to 10 years' prison in Pakistan"
+    }
+   ],
+   "name": "Indo-Pacific"
+  },
+  {
+   "items": [],
+   "name": "North America"
+  },
+  {
+   "items": [
+    {
+     "event_id": "E6",
+     "kind": "attributed",
+     "refs": [
+      6
+     ],
+     "section": "Other Regions",
+     "text": "According to Reuters (via Google News): DoorDash strikes $17 billion deal for US rival Instacart in mega grocery delivery bet"
+    }
+   ],
+   "name": "Other Regions"
+  }
+ ],
+ "sources": [
+  {
+   "id": "53d2b9361d26a074",
+   "n": 1,
+   "name": "The Guardian World",
+   "published": "2026-10-30T12:49:56+00:00",
+   "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+   "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report"
+  },
+  {
+   "id": "4719ee2ddd076582",
+   "n": 2,
+   "name": "BBC News World",
+   "published": "2026-10-30T07:53:38+00:00",
+   "title": "Human rights lawyer couple sentenced to 10 years' prison in Pakistan",
+   "url": "https://www.bbc.co.uk/news/articles/crq5nplyvlg8o"
+  },
+  {
+   "id": "642f147345e48ec8",
+   "n": 3,
+   "name": "BleepingComputer",
+   "published": "2026-10-30T10:16:07+00:00",
+   "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks"
+  },
+  {
+   "id": "0508d22cbda1d641",
+   "n": 4,
+   "name": "BleepingComputer",
+   "published": "2026-10-30T13:00:32+00:00",
+   "title": "CISA says max severity GitLab flaw now exploited in the wild",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks"
+  },
+  {
+   "id": "6a05b4f64af98eed",
+   "n": 5,
+   "name": "France 24",
+   "published": "2026-10-30T11:01:16+00:00",
+   "title": "At least 60 Christians killed in Ethiopia amid rising religious violence",
+   "url": "https://www.france24.com/en/video/20261030-at-least-60-christians-killed-in-ethiopia-amid-rising-religious-violence"
+  },
+  {
+   "id": "58d22734f88cfddd",
+   "n": 6,
+   "name": "Reuters (via Google News)",
+   "published": "2026-10-29T17:38:19+00:00",
+   "title": "DoorDash strikes $17 billion deal for US rival Instacart in mega grocery delivery bet",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaFF2UlNzdTJTaDVHVmh3NmQ4eUNpcFJ3QzJyY1BDeFZRTW1XcGJCNzhZcUpBX0FhbUl6R1pMaWczcGNxejFrTUtBUDZld3JlVjhJajc4ZzlZM3V2U3BWLUF5RnpvVjhObXczaGVIT1Y3MHJSTkFtSXczQkFleEhxSUNCQ3ZNVl9VbTRjMnNjUG5xWUZCcFNmaGtGZ2VxWHpuVnpBRmZvNWdJRzhyT1ZQTDk4ZUFWMmVzV2E5MW1OQlFrS0NFajdtRDhJTW84VWlpOHcxbw?oc=5"
+  },
+  {
+   "id": "71e927c2efd319e2",
+   "n": 7,
+   "name": "The Guardian World",
+   "published": "2026-10-30T10:07:16+00:00",
+   "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+   "url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey"
+  },
+  {
+   "id": "d650042d9ed78ca0",
+   "n": 8,
+   "name": "France 24",
+   "published": "2026-10-30T12:59:30+00:00",
+   "title": "🔴 Ukraine war live: Russian strikes leave 200,000 without power in Ukraine's Dnipropetrovsk region",
+   "url": "https://www.france24.com/en/europe/20261030-live-russia-strikes-energy-facilities-kyiv-aid-convoy-heads-besieged-town-oleshky-ukraine"
+  }
+ ],
+ "title": "The Daily Brief",
+ "usage": {
+  "calls": 0,
+  "estimated_cost_usd": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ "warnings": [
+  "Automated summary failed verification; evidence-only edition. llm error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+ ],
+ "watch": [
+  {
+   "indicator": "Independent reporting on: Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+   "refs": [
+    1
+   ],
+   "significance": "Would confirm or contradict the current account."
+  },
+  {
+   "indicator": "Independent reporting on: Human rights lawyer couple sentenced to 10 years' prison in Pakistan",
+   "refs": [
+    2
+   ],
+   "significance": "Would confirm or contradict the current account."
+  },
+  {
+   "indicator": "Independent reporting on: Drupal warns of critical Commerce Core flaw exploited in attacks",
+   "refs": [
+    3
+   ],
+   "significance": "Would confirm or contradict the current account."
+  }
+ ],
+ "window_end": "2026-10-30T15:23:49.386418+00:00",
+ "window_start": "2026-10-29T15:23:49.386418+00:00",
+ "words": 222
+}
