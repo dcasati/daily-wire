@@ -18,6 +18,16 @@ from .summarize import Budget, BudgetExceeded, Provider, evidence_only_write, ll
 from .verify import verify
 
 
+def _rejected(errs: list[str], writer: dict) -> dict:
+    """Texts of drafted statements named in verification errors, for diagnosing false positives."""
+    ids = {e.split(":", 1)[0] for e in errs}
+    stmts = writer.get("statements", []) if isinstance(writer, dict) else []
+    out = {s["event_id"]: s.get("text", "")[:300] for s in stmts if isinstance(s, dict) and s.get("event_id") in ids}
+    if "bluf" in ids and isinstance(writer, dict):
+        out["bluf"] = str(writer.get("bluf", ""))[:300]
+    return out
+
+
 def run(cfg: dict, sources: list[dict], fetcher, now: datetime, site: Path, provider: Provider | None = None,
         label: str | None = None, do_publish: bool = True) -> dict:
     now = now.astimezone(timezone.utc)
@@ -65,7 +75,7 @@ def run(cfg: dict, sources: list[dict], fetcher, now: datetime, site: Path, prov
                 feedback = errs
                 continue
             errs, briefing = verify(writer, packets, src_list, head, cfg)
-            log_event("verification", attempt=attempt + 1, errors=errs[:10])
+            log_event("verification", attempt=attempt + 1, errors=errs[:10], rejected=_rejected(errs, writer))
             if briefing:
                 break
             feedback = errs
@@ -76,11 +86,12 @@ def run(cfg: dict, sources: list[dict], fetcher, now: datetime, site: Path, prov
         # Deterministic fallback: omit any event whose copied headline fails verification rather than losing the edition.
         usable = list(packets)
         for _ in range(len(packets) + 1):
-            errs, briefing = verify(evidence_only_write(usable, cfg["max_words"]), usable, src_list, head, cfg)
+            draft = evidence_only_write(usable, cfg["max_words"])
+            errs, briefing = verify(draft, usable, src_list, head, cfg)
             bad = {e.split(":", 1)[0] for e in errs if re.match(r"E\d+:", e)}
             if briefing is not None or not bad or not any(p["event_id"] in bad for p in usable):
                 break
-            log_event("fallback_dropped", events=sorted(bad), errors=errs[:5])
+            log_event("fallback_dropped", events=sorted(bad), errors=errs[:5], rejected=_rejected(errs, draft))
             usable = [p for p in usable if p["event_id"] not in bad]
         if briefing is None:
             result.update(status="stale", reason=f"fallback failed verification: {errs[:3]}")
