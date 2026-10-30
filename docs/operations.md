@@ -7,7 +7,7 @@ Pages URL: `https://<user>.github.io/<repo>/`; OPDS: `…/opds.xml`; editions: `
 A custom domain later: add it in Pages settings and set `site.base_url`; nothing else changes.
 
 ## Using GitHub Copilot instead of an API key (untested live)
-Set repository variable `DAILY_WIRE_PROVIDER=copilot_cli` (optionally `DAILY_WIRE_MODEL`, default `auto`) and secret `COPILOT_GITHUB_TOKEN` (fine-grained PAT from a Copilot-enabled account with the "Copilot Requests" permission; `GITHUB_TOKEN` cannot be used). The workflow installs `@github/copilot` and the pipeline calls `copilot -p` with no tools granted in an empty scratch directory. Set `llm.price_*_per_mtok` to 0 in `config/briefing.yaml`: usage is billed as Copilot premium requests (at most `llm.max_attempts` per day), and the CLI reports no token counts, so recorded usage is an estimate. If the CLI fails or its output fails verification, the evidence-only edition is published. Not tested here: the sandbox cannot reach the Copilot API.
+Set repository variables `DAILY_WIRE_PROVIDER=copilot_cli` and `DAILY_WIRE_MODEL=auto`, and secret `COPILOT_GITHUB_TOKEN` (fine-grained PAT from a Copilot-enabled account with the "Copilot Requests" permission; `GITHUB_TOKEN` cannot be used). Set the model explicitly: when the variable is unset, the CLI provider inherits `llm.model` from the configuration, currently `gpt-4o-mini`. The workflow installs `@github/copilot` and the pipeline calls `copilot -p` with no tools granted in an empty scratch directory. Token prices in `config/briefing.yaml` are zero because Copilot bills premium requests rather than tokens. `llm.max_attempts` limits generations per run, not per day; manual reruns can make additional requests. Recorded token usage is estimated, and `usage.calls` is not a measured premium-request count (failed CLI calls are not recorded, and billing can depend on the selected model). If the CLI fails or its output fails verification, the evidence-only edition is published. Live CLI authentication, tool restrictions, output format, and billing remain unverified.
 
 ## KOReader
 1. Open the top menu → search/OPDS icon (*OPDS catalog*; menu names vary slightly by version).
@@ -23,7 +23,8 @@ Set repository variable `DAILY_WIRE_PROVIDER=copilot_cli` (optionally `DAILY_WIR
 
 ## Costs (estimates; assumptions stated)
 - GitHub Actions/Pages: ~2 short runs/day (one exits immediately); well inside free tiers for a public repo.
-- LLM: configured placeholder prices $0.15 / $0.60 per 1M input/output tokens (verify against your provider's current list). Worst case per call = 6,000 in + 1,200 out ≈ $0.0016; two attempts/day ≈ $0.003/day ≈ $0.10/month. Real usage is usually lower, and `max_daily_usd` (default $0.25) hard-stops spending. Real-run cost has **not** been measured; the per-edition `usage` block in the JSON/`status.json` records provider-reported tokens once you run it.
+- Copilot: token prices are zero, so `estimated_cost_usd` is zero and does not measure premium-request charges. There are at most two generation attempts per run by default; consult Copilot usage for actual billing.
+- OpenAI-compatible providers: before switching back, set both token prices to the provider's current rates. The zero Copilot prices disable the USD budget guard; `max_daily_usd` (default $0.25) only constrains spending when prices are configured. Token usage in the edition/status JSON is provider-reported when available, otherwise estimated.
 
 ## Risks
 - Feed URLs/terms change or block bots (unverified list). RSS summaries are short, so evidence is thin; the system prefers omission to inference.

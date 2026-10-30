@@ -344,3 +344,11 @@ def test_grounding_handles_hyphenated_names():
     corpus = "coup attempt reported in guinea-bissau, officials say"
     assert check_grounding("Officials report a coup attempt in Guinea-Bissau", corpus) == []
     assert check_grounding("Officials report a coup attempt in Chad", corpus)
+
+
+def test_parse_writer_output_tolerates_wrapping_and_reports_garbage():
+    from daily_wire.summarize import parse_writer_output
+    assert parse_writer_output('Here you go:\n```json\n{"bluf": "x"}\n```') == {"bluf": "x"}
+    assert parse_writer_output('Sure. {"bluf": "x"} Done.') == {"bluf": "x"}
+    with pytest.raises(ValueError, match="not JSON"):
+        parse_writer_output("OK")
