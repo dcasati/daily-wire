@@ -15,8 +15,8 @@ site:
 
 llm:
   provider: openai_compat # openai_compat | copilot_cli | dry-run (override with env DAILY_WIRE_PROVIDER)
-  base_url: https://models.github.ai/inference # GitHub Models; any OpenAI-compatible endpoint works
-  model: openai/gpt-4o-mini # override in the workflow with DAILY_WIRE_MODEL
+  base_url: https://api.openai.com/v1
+  model: gpt-4o-mini      # override in the workflow with DAILY_WIRE_MODEL
   api_key_env: DAILY_WIRE_API_KEY
   max_input_tokens: 6000
   max_output_tokens: 1200
