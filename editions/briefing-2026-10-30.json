@@ -1,135 +1,71 @@
 {
- "bluf": "Highest-ranked development: Polymarket confirms cyberattack on third-party provider after outages. Further items follow by region.",
+ "bluf": "The packets describe political allegations, official scrutiny, a fatal train crash and other developments, but most do not specify when the events occurred. Each item has one source; E7 provides no substantive details, and the reported allegations and claims are not independently corroborated in these packets.",
  "changes": [],
- "changes_summary": "8 new and 0 updated development(s) reported.",
+ "changes_summary": "7 new and 0 updated development(s) reported.",
  "collection": {
-  "clusters": 159,
-  "items": 167,
+  "clusters": 118,
+  "items": 119,
   "quarantined": 0,
   "sources_ok": 12,
   "sources_total": 12
  },
- "cyber": [
-  {
-   "event_id": "E1",
-   "kind": "attributed",
-   "refs": [
-    1
-   ],
-   "section": "Cyber and Infrastructure",
-   "text": "According to The Record: Polymarket confirms cyberattack on third-party provider after outages"
-  },
-  {
-   "event_id": "E2",
-   "kind": "attributed",
-   "refs": [
-    2
-   ],
-   "section": "Cyber and Infrastructure",
-   "text": "According to The Record: Syrian Electronic Army hacker gets prison time for attacks on Western targets"
-  }
- ],
+ "cyber": [],
  "disasters": [],
  "edition": "2026-10-30",
  "events": [
   {
    "confidence": "low",
    "event_id": "E1",
-   "score": 5.85,
+   "score": 5.6,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E2",
-   "score": 5.85,
+   "score": 5.6,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E3",
-   "score": 5.8,
+   "score": 5.6,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E4",
-   "score": 5.8,
+   "score": 5.6,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E5",
-   "score": 5.8,
+   "score": 5.6,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E6",
-   "score": 5.8,
+   "score": 5.6,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E7",
-   "score": 5.6,
+   "score": 4.95,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E8",
-   "score": 5.6,
+   "score": 4.8,
    "status": "new"
   }
  ],
- "generated_at": "2026-10-30T15:24:51.396253+00:00",
+ "generated_at": "2026-10-30T15:29:07.710812+00:00",
  "label": null,
- "mode": "evidence-only",
+ "mode": "llm",
  "sections": [
-  {
-   "items": [
-    {
-     "event_id": "E3",
-     "kind": "attributed",
-     "refs": [
-      3
-     ],
-     "section": "Europe / Russia",
-     "text": "According to BBC News World: Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens"
-    },
-    {
-     "event_id": "E4",
-     "kind": "attributed",
-     "refs": [
-      4
-     ],
-     "section": "Europe / Russia",
-     "text": "According to Reuters (via Google News): Uganda reported that 27 of its citizens were killed in the war against Ukraine — Reuters"
-    },
-    {
-     "event_id": "E7",
-     "kind": "attributed",
-     "refs": [
-      7
-     ],
-     "section": "Europe / Russia",
-     "text": "According to France 24: Black Sea shipping under growing threats as drones hit container ships"
-    },
-    {
-     "event_id": "E8",
-     "kind": "attributed",
-     "refs": [
-      8
-     ],
-     "section": "Europe / Russia",
-     "text": "According to France 24: Who is Kevin T., the main suspect behind the racist Trappes attack?"
-    }
-   ],
-   "name": "Europe / Russia"
-  },
-  {
-   "items": [],
-   "name": "Middle East"
-  },
   {
    "items": [
     {
@@ -138,10 +74,28 @@
      "refs": [
       6
      ],
-     "section": "Indo-Pacific",
-     "text": "According to Reuters (via Google News): North Korea's Kim urges drone dominance, greater military AI use amid border tensions"
+     "section": "Europe / Russia",
+     "text": "The Guardian reported that 69 people were confirmed dead in a train crash in Spain, with at least 70 reported missing; Sánchez said people of 27 nationalities may be among the dead or injured. The crash date was not stated."
     }
    ],
+   "name": "Europe / Russia"
+  },
+  {
+   "items": [
+    {
+     "event_id": "E1",
+     "kind": "attributed",
+     "refs": [
+      1
+     ],
+     "section": "Middle East",
+     "text": "According to France 24, Likud alleged without providing evidence that voter fraud partly drove Arab parties’ record gains in Israel’s election this week; the parties could become kingmakers."
+    }
+   ],
+   "name": "Middle East"
+  },
+  {
+   "items": [],
    "name": "Indo-Pacific"
   },
   {
@@ -151,13 +105,49 @@
   {
    "items": [
     {
+     "event_id": "E2",
+     "kind": "attributed",
+     "refs": [
+      2
+     ],
+     "section": "Other Regions",
+     "text": "The Guardian reported that members of Congress sent federal immigration officials a letter this week seeking answers about conditions at a Texas detention facility, where hunger-striking immigrants said they faced threats of force-feeding."
+    },
+    {
+     "event_id": "E3",
+     "kind": "attributed",
+     "refs": [
+      3
+     ],
+     "section": "Other Regions",
+     "text": "The Guardian reported that Sudanese diaspora members and human-rights monitors denounced an Emirati diplomat’s candidacy for a top UN job, citing allegations that the UAE supports Sudan’s paramilitary RSF and her denial of those accusations."
+    },
+    {
+     "event_id": "E4",
+     "kind": "attributed",
+     "refs": [
+      4
+     ],
+     "section": "Other Regions",
+     "text": "The Guardian reported that Swedish climate academic Andreas Malm criticized a UK travel ban after the government revoked his travel authorization; he said he had been kept in the dark about the decision."
+    },
+    {
      "event_id": "E5",
      "kind": "attributed",
      "refs": [
       5
      ],
      "section": "Other Regions",
-     "text": "According to Reuters (via Google News): Greece Proposes a Global Maritime Cease-Fire in Response to Attacks on Ships – Reuters"
+     "text": "The Guardian reported that Hong Kong’s leader apologized for government shortcomings that contributed to a residential fire last year that killed 168 people; some survivors and bereaved families said justice remained unserved."
+    },
+    {
+     "event_id": "E8",
+     "kind": "attributed",
+     "refs": [
+      7
+     ],
+     "section": "Other Regions",
+     "text": "Reuters, citing sources, reported that Microsoft expects to raise $25 billion in a US bond sale; the timing was not stated."
     }
    ],
    "name": "Other Regions"
@@ -165,104 +155,87 @@
  ],
  "sources": [
   {
-   "id": "6f01fab6c69abc2b",
+   "id": "b576905d5458c052",
    "n": 1,
-   "name": "The Record",
-   "published": "2026-10-30T11:33:00+00:00",
-   "title": "Polymarket confirms cyberattack on third-party provider after outages",
-   "url": "https://therecord.media/polymarket-confirms-cyberattack-third-party"
+   "name": "France 24",
+   "published": "2026-10-30T10:10:41+00:00",
+   "title": "Israel elections: Netanyahu attacks Arab parties as they emerge as potential kingmakers",
+   "url": "https://www.france24.com/en/video/20261030-israel-elections-netanyahu-attacks-arab-parties-as-they-emerge-as-potential-kingmakers"
   },
   {
-   "id": "44a164a04c9943b2",
+   "id": "d3b7afa43a3b7fe2",
    "n": 2,
-   "name": "The Record",
-   "published": "2026-10-30T14:24:00+00:00",
-   "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
-   "url": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years"
+   "name": "The Guardian World",
+   "published": "2026-10-30T14:13:13+00:00",
+   "title": "Congressional Democrats demand answers over ICE treatment of hunger strikers",
+   "url": "https://www.theguardian.com/us-news/2026/oct/30/congressional-democrats-letter-ice-dhs-hunger-strikers"
   },
   {
-   "id": "c9149c60242688fd",
+   "id": "1b177d530b43c046",
    "n": 3,
-   "name": "BBC News World",
-   "published": "2026-10-30T12:25:53+00:00",
-   "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
-   "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo"
+   "name": "The Guardian World",
+   "published": "2026-10-30T05:00:45+00:00",
+   "title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+   "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job"
   },
   {
-   "id": "dffc57f76b7cfab3",
+   "id": "cde148a35df29c3f",
    "n": 4,
-   "name": "Reuters (via Google News)",
-   "published": "2026-10-29T15:54:05+00:00",
-   "title": "Uganda reported that 27 of its citizens were killed in the war against Ukraine — Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYkp3X2dCdnY1dTQweDZ3Ti1wZ3JTTTcwMUlaVzZyNF9DcnptR0YyUnpyOW03d21LQV9rNWRiZHJPTGxKY1J3eUZDRWgyQk1NaDBzVDJ2UmFJV0xnc2dCbWItb1ZXaHZEekhVYUhUNmgwUFZVT3h2X3hNcDYwZHBFdTItX1JvOGdaMzdkb0NWUFFrY09EY2RBdXRxLUNQbVMwUFR3YUZ0dFE5ZVl3?oc=5"
+   "name": "The Guardian World",
+   "published": "2026-10-30T14:58:20+00:00",
+   "title": "Andreas Malm condemns UK travel ban as ‘drift into authoritarianism’",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/30/andreas-malm-uk-travel-ban-drift-authoritarianism"
   },
   {
-   "id": "98535fe2a53ca81f",
+   "id": "90d3326b6e442304",
    "n": 5,
-   "name": "Reuters (via Google News)",
-   "published": "2026-10-29T17:52:22+00:00",
-   "title": "Greece Proposes a Global Maritime Cease-Fire in Response to Attacks on Ships – Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNVlnMkJHOWxwVlZJak9YV29qMDd0LUk1R1liUlNiZlBHUzFkOUVrNUpYcHIyYXJPR3VrTnd4Y0ttSlJKUUcteEZDUUZXbGwydlpoaTNvN2VadDREcklYNnRVTnpiOXdacXUtbmllQlRaX2VFaTJYYzFwV0JHREdmam5BODNETVg1N0lQSDZiUTd6QU0zUDNfZC1fVmEyb1h5UlJwVnphMTJDU2NuUlE?oc=5"
+   "name": "The Guardian World",
+   "published": "2026-10-29T18:14:21+00:00",
+   "title": "Hong Kong’s leader apologises for residential fire that killed 168 people",
+   "url": "https://www.theguardian.com/world/2026/oct/29/hong-kong-john-lee-apologises-wang-fuk-court-fire-killed-168-people"
   },
   {
-   "id": "9fe40952054da175",
+   "id": "6cbb410fe6c2ffc8",
    "n": 6,
-   "name": "Reuters (via Google News)",
-   "published": "2026-10-29T21:20:00+00:00",
-   "title": "North Korea's Kim urges drone dominance, greater military AI use amid border tensions",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORWU5b29ORTE3WWZYbERuYjMxbkVwRlBVT051WmttWFdfMG1MN0RZSTU1cHB2YTFsT0RHbGFQRklydURTSWlxd1RheEp4VGxlbzlrY0NCUDhoQ0s5VWw1WG5vTjktaWhjZ2VkdFNZcFMtMjRVbDNUcFR1RXpFTC1ncG94OW1pMGJZYkh6ME8wM2dndGJkeGsxYVF1RXJwaDVrdm4yVzhzRk4zN0lxNEIwZHF0MmtsNlQwLW4yaE1uZmZRN1ozc1NHcTloX0ZOTVFQYWM2bmdlbGxQdw?oc=5"
+   "name": "The Guardian World",
+   "published": "2026-10-30T15:09:51+00:00",
+   "title": "People of 27 nationalities may be among those killed or injured in Spain train crash, Sánchez says – Europe live",
+   "url": "https://www.theguardian.com/world/live/2026/oct/30/spain-investigates-toledo-crash-pedro-sanchez-france-italy-protests-latest-news-updates"
   },
   {
-   "id": "cfebd1c5305ba7fc",
+   "id": "a31a5c0f12a07002",
    "n": 7,
-   "name": "France 24",
-   "published": "2026-10-30T14:27:51+00:00",
-   "title": "Black Sea shipping under growing threats as drones hit container ships",
-   "url": "https://www.france24.com/en/black-sea-shipping-under-growing-threats-as-drones-hit-container-ships"
-  },
-  {
-   "id": "33783e54c60aa485",
-   "n": 8,
-   "name": "France 24",
-   "published": "2026-10-30T14:06:25+00:00",
-   "title": "Who is Kevin T., the main suspect behind the racist Trappes attack?",
-   "url": "https://www.france24.com/en/who-is-kevin-t-the-main-suspect-behind-the-racist-trappes-attack"
+   "name": "Reuters (via Google News)",
+   "published": "2026-10-29T18:01:00+00:00",
+   "title": "Microsoft expects to raise $25 billion in US bond sale, sources say",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNakliRm9KY3R6ekRkaEl2SzZaUWtUdzczRlRyYmJNd2V2MDBLdkVVZjZQSmtVd3pzYk5JREM4M29hVHREdHBLWGljQ19rTWV5LVJMcmM0UW1OME9EY2MtTGcyRUpCcjVaYmcyVk1ZMEY5aWdvRmRpdy0tMGRfSWF2anVwQlBEOFNtaklfNDdsQURObDVXOERYejh6U3hTYzh0RGpJUDk4cU1KOE01N1FDdl9R?oc=5"
   }
  ],
  "title": "The Daily Brief",
  "usage": {
-  "calls": 0,
+  "calls": 1,
   "estimated_cost_usd": 0.0,
-  "tokens_in": 0,
-  "tokens_out": 0
+  "tokens_in": 1889,
+  "tokens_out": 670
  },
- "warnings": [
-  "Automated summary failed verification; evidence-only edition. llm error: RuntimeError: non-JSON API response: 'OK\\r\\n'"
- ],
+ "warnings": [],
  "watch": [
   {
-   "indicator": "Independent reporting on: Polymarket confirms cyberattack on third-party provider after outages",
+   "indicator": "Updates to the confirmed death toll or number of missing people after the Spain train crash.",
    "refs": [
-    1
+    6
    ],
-   "significance": "Would confirm or contradict the current account."
+   "significance": "Would show whether the reported casualty figures have changed."
   },
   {
-   "indicator": "Independent reporting on: Syrian Electronic Army hacker gets prison time for attacks on Western targets",
+   "indicator": "A response from federal immigration officials to the congressional letter about the Texas detention facility.",
    "refs": [
     2
    ],
-   "significance": "Would confirm or contradict the current account."
-  },
-  {
-   "indicator": "Independent reporting on: Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
-   "refs": [
-    3
-   ],
-   "significance": "Would confirm or contradict the current account."
+   "significance": "Would show whether officials have addressed the requested information about conditions and hunger strikers’ claims."
   }
  ],
- "window_end": "2026-10-30T15:24:51.396253+00:00",
- "window_start": "2026-10-29T15:24:51.396253+00:00",
- "words": 215
+ "window_end": "2026-10-30T15:29:07.710812+00:00",
+ "window_start": "2026-10-29T15:29:07.710812+00:00",
+ "words": 330
 }

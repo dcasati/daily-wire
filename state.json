@@ -139,6 +139,7 @@
     "a31a5c0f12a07002"
    ],
    "key": "0489539042b0",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Microsoft expects to raise $25 billion in US bond sale, sources say",
    "tokens": [
@@ -1630,6 +1631,7 @@
     "90d3326b6e442304"
    ],
    "key": "7cdf65db8398",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Hong Kong\u2019s leader apologises for residential fire that killed 168 people",
    "tokens": [
@@ -2785,6 +2787,7 @@
     "e9617db7e12b7f4a"
    ],
    "key": "eabed04e2b61",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Netanyahu attacks Israel\u2019s Arab parties as he falls short of majority",
    "tokens": [
@@ -3970,6 +3973,7 @@
     "d3b7afa43a3b7fe2"
    ],
    "key": "5cc0139b8b2b",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Congressional Democrats demand answers over ICE treatment of hunger strikers",
    "tokens": [
@@ -4008,6 +4012,7 @@
     "1b177d530b43c046"
    ],
    "key": "5d2ad7c256e0",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
    "tokens": [
@@ -4267,6 +4272,7 @@
     "cde148a35df29c3f"
    ],
    "key": "70da22704f55",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Andreas Malm condemns UK travel ban as \u2018drift into authoritarianism\u2019",
    "tokens": [
@@ -5573,6 +5579,7 @@
     "6cbb410fe6c2ffc8"
    ],
    "key": "f528688a56e7",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "People of 27 nationalities may be among those killed or injured in Spain train crash, S\u00e1nchez says \u2013 Europe live",
    "tokens": [
@@ -5786,6 +5793,45 @@
     "palestinian",
     "soldier"
    ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "027289976df0cba7"
+   ],
+   "key": "5c3bf7a1e805",
+   "last_seen": "2026-10-30",
+   "title": "ExxonMobil and Chevron top estimates for Q3 as Americans feel gas price pain",
+   "tokens": [
+    "american",
+    "chevron",
+    "estimat",
+    "exxonmobil",
+    "feel",
+    "gas",
+    "pain",
+    "price",
+    "q3",
+    "top"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "96d549850ef2f105"
+   ],
+   "key": "828bda53af75",
+   "last_seen": "2026-10-30",
+   "title": "ECB policymakers bring rate hike debate into the open",
+   "tokens": [
+    "bring",
+    "debate",
+    "ecb",
+    "hike",
+    "open",
+    "policymaker",
+    "rate"
+   ]
   }
  ],
  "http": {
@@ -5818,7 +5864,7 @@
    "last_modified": "Fri, 30 Oct 2026 15:15:46 GMT"
   },
   "guardian_world": {
-   "etag": "W/\"hash-2788556554016536735\"",
+   "etag": "W/\"hash1471265175595900880\"",
    "last_modified": null
   },
   "reuters_gn": {
@@ -5826,8 +5872,8 @@
    "last_modified": null
   },
   "sans_isc": {
-   "etag": "\"18ef-65f1050a8e809\"",
-   "last_modified": "Fri, 30 Oct 2026 15:18:57 GMT"
+   "etag": "\"18ef-65f1062893f05\"",
+   "last_modified": "Fri, 30 Oct 2026 15:23:57 GMT"
   },
   "therecord": {
    "etag": null,
@@ -5835,7 +5881,7 @@
   },
   "usgs_sig": {
    "etag": null,
-   "last_modified": "Fri, 30 Oct 2026 15:24:10 GMT"
+   "last_modified": "Fri, 30 Oct 2026 15:28:19 GMT"
   }
  },
  "spend": {

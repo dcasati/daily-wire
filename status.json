@@ -1,16 +1,14 @@
 {
- "last_success": "2026-10-30T15:24:51.396253+00:00",
+ "last_success": "2026-10-30T15:29:07.710812+00:00",
  "edition": "2026-10-30",
- "mode": "evidence-only",
- "words": 215,
+ "mode": "llm",
+ "words": 330,
  "usage": {
-  "calls": 0,
-  "tokens_in": 0,
-  "tokens_out": 0,
+  "calls": 1,
+  "tokens_in": 1889,
+  "tokens_out": 670,
   "estimated_cost_usd": 0.0
  },
  "label": null,
- "warnings": [
-  "Automated summary failed verification; evidence-only edition. llm error: RuntimeError: non-JSON API response: 'OK\\r\\n'"
- ]
+ "warnings": []
 }
