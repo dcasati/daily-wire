@@ -10,6 +10,7 @@ from pathlib import Path
 import pytest
 import yaml
 
+from daily_wire.atomfeed import build_atom
 from daily_wire.changes import annotate, update_history
 from daily_wire.cluster import cluster, tokens
 from daily_wire.epub import render_epub
@@ -266,6 +267,19 @@ def test_opds_catalog_koreader_shape(result):
     assert acq.get("type") == "application/epub+zip" and (site / acq.get("href")).exists()
     absolute = ET.fromstring(build_feed([{"edition": "2026-10-30", "generated_at": "2026-10-30T12:00:00+00:00", "mode": "llm", "words": 500}], "T", "https://u.github.io/dw/"))
     assert absolute.find("a:entry/a:link", ns).get("href") == "https://u.github.io/dw/editions/briefing-2026-10-30.epub"
+
+
+def test_atom_feed_has_escaped_full_text_and_safe_links(result):
+    _, site = result
+    ns = {"a": "http://www.w3.org/2005/Atom"}
+    root = ET.parse(site / "feed.xml").getroot()
+    entry = root.find("a:entry", ns)
+    assert entry.find("a:id", ns).text.startswith("urn:daily-wire:") and entry.find("a:content", ns).get("type") == "html"
+    b = json.loads(next((site / "editions").glob("briefing-*.json")).read_text())
+    b["sources"][0].update(url="javascript:alert(1)", title="<script>x</script>")
+    xml = build_atom([b], "T")
+    assert "javascript:" not in xml and "<script>" not in xml
+    ET.fromstring(xml)
 
 
 def test_publish_confined_to_output_dir(tmp_path):
