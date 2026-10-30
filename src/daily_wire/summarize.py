@@ -24,6 +24,7 @@ Rules:
 - If packets list disagreements or gaps, say so. No speculation, no adjectives of alarm, no advocacy.
 - One statement per event at most (event_id must match). Skip events not worth including. Never pad.
 - Total length of bluf + statements + watch must stay under {max_words} words.
+- "bluf": 2-3 sentences leading with the most significant events (what happened, where, who is reported to be involved), in order of importance. Do not describe the packets, the data, or what they lack (no "the packets describe", "each item has one source"); express uncertainty by attributing ("X reported ...") instead. Every claim in it must be supported by the packets.
 - "watch": up to 3 concrete observable indicators and what each would signify; each cites refs. Omit if none are supported.
 Return ONLY JSON: {{"bluf": "<=3 sentences", "statements": [{{"event_id": "E1", "text": "...", "kind": "observed|attributed|assessment", "refs": [1]}}], "watch": [{{"indicator": "...", "significance": "...", "refs": [1]}}]}}"""
 
