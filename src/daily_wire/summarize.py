@@ -49,7 +49,11 @@ class OpenAICompat:
         req = urllib.request.Request(self.cfg["base_url"].rstrip("/") + "/chat/completions", body,
                                      {"Authorization": f"Bearer {self.key}", "Content-Type": "application/json"})
         with urllib.request.urlopen(req, timeout=90) as r:  # noqa: S310 - base_url is operator config
-            data = json.load(r)
+            raw = r.read().decode("utf-8", "replace")
+        try:
+            data = json.loads(raw)
+        except ValueError as exc:
+            raise RuntimeError(f"non-JSON API response: {raw[:120]!r}") from exc
         u = data.get("usage", {})
         return data["choices"][0]["message"]["content"], int(u.get("prompt_tokens", 0)), int(u.get("completion_tokens", 0))
 
@@ -111,7 +115,12 @@ def fit_packets(packets: list[dict], max_tokens: int) -> list[dict]:
 
 def parse_writer_output(text: str) -> dict:
     text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
-    return json.loads(text)
+    if not text.startswith("{") and "{" in text and "}" in text:
+        text = text[text.index("{"): text.rindex("}") + 1]  # tolerate prose around the JSON object
+    try:
+        return json.loads(text)
+    except ValueError as exc:
+        raise ValueError(f"writer output is not JSON: {text[:120]!r}") from exc
 
 
 def llm_write(packets: list[dict], provider: Provider, budget: Budget, cfg: dict, max_words: int, feedback: list[str] | None = None) -> dict:
