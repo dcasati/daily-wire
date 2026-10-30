@@ -3007,6 +3007,7 @@
     "c9149c60242688fd"
    ],
    "key": "02989c8e4aac",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
    "tokens": [
@@ -3026,6 +3027,7 @@
     "cfebd1c5305ba7fc"
    ],
    "key": "029a3e9031f6",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Black Sea shipping under growing threats as drones hit container ships",
    "tokens": [
@@ -3109,6 +3111,7 @@
     "33783e54c60aa485"
    ],
    "key": "047c05baa923",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Who is Kevin T., the main suspect behind the racist Trappes attack?",
    "tokens": [
@@ -3426,6 +3429,7 @@
     "6f01fab6c69abc2b"
    ],
    "key": "2fbe2aa5ab8c",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Polymarket confirms cyberattack on third-party provider after outages",
    "tokens": [
@@ -3722,6 +3726,7 @@
     "dffc57f76b7cfab3"
    ],
    "key": "47698bdecc54",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Uganda reported that 27 of its citizens were killed in the war against Ukraine \u2014 Reuters",
    "tokens": [
@@ -4159,6 +4164,7 @@
     "98535fe2a53ca81f"
    ],
    "key": "678a3ffa5402",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Greece Proposes a Global Maritime Cease-Fire in Response to Attacks on Ships \u2013 Reuters",
    "tokens": [
@@ -4200,6 +4206,7 @@
     "44a164a04c9943b2"
    ],
    "key": "6ade3cf5f3d1",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
    "tokens": [
@@ -4724,6 +4731,8 @@
   {
    "first_seen": "2026-10-30",
    "item_ids": [
+    "090f898742dd80f9",
+    "38bfc1bfbb0d3236",
     "a5cd5711a39686d8"
    ],
    "key": "9508dbb3c604",
@@ -4737,13 +4746,17 @@
     "corner",
     "down",
     "liken",
+    "media",
     "nato",
     "pentagon",
     "putin",
     "rat",
     "remark",
+    "report",
+    "reuter",
     "rhetoric",
     "russia",
+    "stat",
     "tone",
     "urges"
    ]
@@ -4812,6 +4825,7 @@
     "9fe40952054da175"
    ],
    "key": "9e3b9d26e652",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "North Korea's Kim urges drone dominance, greater military AI use amid border tensions",
    "tokens": [
@@ -5693,12 +5707,91 @@
     "rsf",
     "sudan"
    ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "363571a466caa1af"
+   ],
+   "key": "2132cbf5c0cd",
+   "last_seen": "2026-10-30",
+   "title": "Perfume bottle and child\u2019s necklace among treasures found in Pompeii wardrobe",
+   "tokens": [
+    "among",
+    "bottle",
+    "child",
+    "found",
+    "necklace",
+    "perfume",
+    "pompeii",
+    "treasur",
+    "wardrobe"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "bbd86d5501753508"
+   ],
+   "key": "97b5982a87d4",
+   "last_seen": "2026-10-30",
+   "title": "Man who ran over cyclist and dragged him under car for a mile convicted of murder",
+   "tokens": [
+    "car",
+    "convict",
+    "cyclist",
+    "dragg",
+    "him",
+    "man",
+    "mile",
+    "murder",
+    "ran",
+    "under"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "afaa3ab525b216cb"
+   ],
+   "key": "9b0a7e58594a",
+   "last_seen": "2026-10-30",
+   "title": "Amazon reportedly cutting hundreds more jobs: What we know",
+   "tokens": [
+    "amazon",
+    "cutt",
+    "hundred",
+    "jobs",
+    "know",
+    "reportedly",
+    "we",
+    "what"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "e19cf41dd441d2ff"
+   ],
+   "key": "e2fe3c78738c",
+   "last_seen": "2026-10-30",
+   "title": "Israeli forces blow up homes of Palestinians accused of killing soldiers",
+   "tokens": [
+    "accus",
+    "blow",
+    "forc",
+    "homes",
+    "israeli",
+    "kill",
+    "palestinian",
+    "soldier"
+   ]
   }
  ],
  "http": {
   "aljazeera": {
-   "etag": "W/\"d5dad05c815974117caf70c09adfbb66\"",
-   "last_modified": "Fri, 30 Oct 2026 15:02:17 GMT"
+   "etag": "W/\"b6358eade68ad9dd886bab518064bcd0\"",
+   "last_modified": "Fri, 30 Oct 2026 15:09:32 GMT"
   },
   "bbc_world": {
    "etag": null,
@@ -5725,7 +5818,7 @@
    "last_modified": "Fri, 30 Oct 2026 15:15:46 GMT"
   },
   "guardian_world": {
-   "etag": "W/\"hash94485652654477683\"",
+   "etag": "W/\"hash-2788556554016536735\"",
    "last_modified": null
   },
   "reuters_gn": {
@@ -5742,7 +5835,7 @@
   },
   "usgs_sig": {
    "etag": null,
-   "last_modified": "Fri, 30 Oct 2026 15:23:50 GMT"
+   "last_modified": "Fri, 30 Oct 2026 15:24:10 GMT"
   }
  },
  "spend": {

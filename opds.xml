@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
 <id>urn:daily-wire:catalog</id>
 <title>The Daily Brief</title>
-<updated>2026-10-30T15:23:49.386418+00:00</updated>
+<updated>2026-10-30T15:24:51.396253+00:00</updated>
 <author><name>Daily Wire (automated)</name></author>
 <link rel="self" href="opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
 <link rel="start" href="opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
-<entry><id>urn:daily-wire:2026-10-30</id><title>The Daily Brief 2026-10-30</title><updated>2026-10-30T15:23:49.386418+00:00</updated><dc:language>en</dc:language><dc:issued>2026-10-30</dc:issued><summary>evidence-only edition, 222 words</summary><link rel="http://opds-spec.org/acquisition" href="editions/briefing-2026-10-30.epub" type="application/epub+zip" length="4428"/></entry>
+<entry><id>urn:daily-wire:2026-10-30</id><title>The Daily Brief 2026-10-30</title><updated>2026-10-30T15:24:51.396253+00:00</updated><dc:language>en</dc:language><dc:issued>2026-10-30</dc:issued><summary>evidence-only edition, 215 words</summary><link rel="http://opds-spec.org/acquisition" href="editions/briefing-2026-10-30.epub" type="application/epub+zip" length="4636"/></entry>
 <entry><id>urn:daily-wire:2026-10-29</id><title>The Daily Brief 2026-10-29</title><updated>2026-10-30T04:39:17.801047+00:00</updated><dc:language>en</dc:language><dc:issued>2026-10-29</dc:issued><summary>dry-run edition, 208 words</summary><link rel="http://opds-spec.org/acquisition" href="editions/briefing-2026-10-29.epub" type="application/epub+zip" length="4414"/></entry>
 </feed>
