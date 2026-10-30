@@ -6,6 +6,9 @@
 Pages URL: `https://<user>.github.io/<repo>/`; OPDS: `…/opds.xml`; editions: `…/editions/briefing-YYYY-MM-DD.{epub,md,json}`; status: `…/status.json` (last success, mode, words, usage, warnings).
 A custom domain later: add it in Pages settings and set `site.base_url`; nothing else changes.
 
+## Using GitHub Copilot instead of an API key (untested live)
+Set repository variable `DAILY_WIRE_PROVIDER=copilot_cli` (optionally `DAILY_WIRE_MODEL`, default `auto`) and secret `COPILOT_GITHUB_TOKEN` (fine-grained PAT from a Copilot-enabled account with the "Copilot Requests" permission; `GITHUB_TOKEN` cannot be used). The workflow installs `@github/copilot` and the pipeline calls `copilot -p` with no tools granted in an empty scratch directory. Set `llm.price_*_per_mtok` to 0 in `config/briefing.yaml`: usage is billed as Copilot premium requests (at most `llm.max_attempts` per day), and the CLI reports no token counts, so recorded usage is an estimate. If the CLI fails or its output fails verification, the evidence-only edition is published. Not tested here: the sandbox cannot reach the Copilot API.
+
 ## KOReader
 1. Open the top menu → search/OPDS icon (*OPDS catalog*; menu names vary slightly by version).
 2. **+** (add) → Name `Daily Wire`, URL = OPDS URL above (no credentials needed).

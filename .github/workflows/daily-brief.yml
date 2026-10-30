@@ -65,14 +65,22 @@ jobs:
           pytest -q
           daily-wire eval
 
+      - name: Install Copilot CLI (only when using it)
+        if: ${{ vars.DAILY_WIRE_PROVIDER == 'copilot_cli' }}
+        run: npm install -g @github/copilot
+
       - name: Generate briefing
         env:
           DAILY_WIRE_API_KEY: ${{ secrets.DAILY_WIRE_API_KEY }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+          DAILY_WIRE_PROVIDER: ${{ vars.DAILY_WIRE_PROVIDER }}
           DAILY_WIRE_MODEL: ${{ vars.DAILY_WIRE_MODEL }}
         run: |
           args=""
+          have_key="$DAILY_WIRE_API_KEY"
+          if [ "$DAILY_WIRE_PROVIDER" = "copilot_cli" ]; then have_key="$COPILOT_GITHUB_TOKEN"; fi
           if [ "${{ github.event_name }}" = "schedule" ]; then args="--require-hour"; fi
-          if [ "${{ inputs.no_llm }}" = "true" ] || [ -z "$DAILY_WIRE_API_KEY" ]; then args="$args --no-llm"; fi
+          if [ "${{ inputs.no_llm }}" = "true" ] || [ -z "$have_key" ]; then args="$args --no-llm"; fi
           daily-wire run --site site $args | tee run-summary.json
 
       - name: Publication health check

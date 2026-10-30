@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,7 +13,7 @@ from .fetch import FixtureFetcher, check_url, fetch, live_fetcher
 from .models import load_yaml, log_event
 from .pipeline import run
 from .publish import health
-from .summarize import OpenAICompat
+from .summarize import CopilotCLI, OpenAICompat
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -44,7 +45,8 @@ def main(argv: list[str] | None = None) -> int:
             return 0
         sources = load_yaml(a.fixtures + "/sources.yaml" if a.fixtures else a.sources)["sources"]
         fetcher = FixtureFetcher(a.fixtures) if a.fixtures else live_fetcher
-        provider = None if (a.no_llm or cfg["llm"]["provider"] == "dry-run") else OpenAICompat(cfg["llm"])
+        kind = os.environ.get("DAILY_WIRE_PROVIDER") or cfg["llm"]["provider"]
+        provider = None if (a.no_llm or kind == "dry-run") else {"openai_compat": OpenAICompat, "copilot_cli": CopilotCLI}[kind](cfg["llm"])
         res = run(cfg, sources, fetcher, now, Path(a.site), provider, a.label)
         summary = {k: res.get(k) for k in ("status", "reason", "edition", "sources_ok", "sources_total", "items")}
         if res["status"] == "published":

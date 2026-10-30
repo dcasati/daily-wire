@@ -14,7 +14,7 @@ site:
   opds_recent: 30
 
 llm:
-  provider: openai_compat # openai_compat | dry-run (dry-run needs no key)
+  provider: openai_compat # openai_compat | copilot_cli | dry-run (override with env DAILY_WIRE_PROVIDER)
   base_url: https://api.openai.com/v1
   model: gpt-4o-mini      # override in the workflow with DAILY_WIRE_MODEL
   api_key_env: DAILY_WIRE_API_KEY
@@ -22,6 +22,7 @@ llm:
   max_output_tokens: 1200
   max_attempts: 2         # total generations, including retries after failed verification
   max_daily_usd: 0.25     # hard stop; checked before every call using worst-case output
+  # copilot_cli: set prices to 0 (billed as Copilot premium requests; max_attempts bounds the request count).
   price_in_per_mtok: 0.15 # USD per 1M tokens: ASSUMPTION, update to your provider's price list
   price_out_per_mtok: 0.60
 

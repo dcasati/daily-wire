@@ -4,6 +4,8 @@ from __future__ import annotations
 import json
 import os
 import re
+import subprocess
+import tempfile
 import urllib.request
 from datetime import datetime
 from typing import Protocol
@@ -50,6 +52,27 @@ class OpenAICompat:
             data = json.load(r)
         u = data.get("usage", {})
         return data["choices"][0]["message"]["content"], int(u.get("prompt_tokens", 0)), int(u.get("completion_tokens", 0))
+
+
+class CopilotCLI:
+    """Calls `copilot -p` non-interactively. Auth: COPILOT_GITHUB_TOKEN (or an existing `copilot login`).
+
+    Tools are not granted (no --allow-* flags, a nonexistent tool whitelist, empty scratch cwd), so feed text cannot
+    trigger actions. The CLI reports no token counts, so usage is estimated; billing is Copilot premium requests, not USD.
+    """
+
+    def __init__(self, cfg: dict):
+        self.model = os.environ.get("DAILY_WIRE_MODEL") or cfg.get("model") or "auto"
+
+    def complete(self, system: str, user: str, max_out: int) -> tuple[str, int, int]:
+        prompt = system + "\n\n" + user
+        cmd = ["copilot", "-p", prompt, "-s", "--no-ask-user", "--no-custom-instructions", "--no-auto-update", "--disable-builtin-mcps",
+               "--available-tools", "no_tools", "--model", self.model]
+        with tempfile.TemporaryDirectory() as scratch:
+            out = subprocess.run(cmd, cwd=scratch, capture_output=True, text=True, timeout=240, check=False)  # noqa: S603
+        if out.returncode != 0 or not out.stdout.strip():
+            raise RuntimeError(f"copilot cli failed rc={out.returncode}: {out.stderr.strip()[:150]}")
+        return out.stdout, 0, 0
 
 
 class Budget:

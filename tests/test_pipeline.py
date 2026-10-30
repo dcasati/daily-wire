@@ -317,3 +317,20 @@ def test_cli_hour_guard_and_dry_run(tmp_path, capsys):
     capsys.readouterr()
     assert main(base + ["--now", "2026-12-15T13:00:00Z", "--require-hour"]) == 0  # 06:00 MST: runs (fixtures are out of window -> stale)
     assert '"edition": "2026-12-15"' in capsys.readouterr().out
+
+
+def test_copilot_cli_provider_command_and_failure(monkeypatch):
+    import subprocess
+    from daily_wire.summarize import CopilotCLI
+    seen = {}
+
+    def fake(cmd, **kw):
+        seen["cmd"], seen["kw"] = cmd, kw
+        return subprocess.CompletedProcess(cmd, 0, stdout='{"bluf": "x", "statements": []}', stderr="")
+
+    monkeypatch.setattr(subprocess, "run", fake)
+    text, tin, tout = CopilotCLI({"model": "m"}).complete("sys", "<evidence>\n[]\n</evidence>", 100)
+    assert json.loads(text)["bluf"] == "x" and "--available-tools" in seen["cmd"] and not any(a.startswith("--allow") for a in seen["cmd"])
+    monkeypatch.setattr(subprocess, "run", lambda cmd, **kw: subprocess.CompletedProcess(cmd, 1, stdout="", stderr="auth"))
+    with pytest.raises(RuntimeError):
+        CopilotCLI({}).complete("s", "u", 1)
