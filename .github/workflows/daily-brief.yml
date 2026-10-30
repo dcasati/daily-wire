@@ -27,6 +27,7 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write # only to push the generated site to the gh-pages branch
+      models: read # GitHub Models inference with the built-in GITHUB_TOKEN
     steps:
       - uses: actions/checkout@v4
         with:
@@ -69,7 +70,7 @@ jobs:
 
       - name: Generate briefing
         env:
-          DAILY_WIRE_API_KEY: ${{ secrets.DAILY_WIRE_API_KEY }}
+          DAILY_WIRE_API_KEY: ${{ secrets.DAILY_WIRE_API_KEY || github.token }}
           COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
           DAILY_WIRE_PROVIDER: ${{ vars.DAILY_WIRE_PROVIDER }}
           DAILY_WIRE_MODEL: ${{ vars.DAILY_WIRE_MODEL }}
