@@ -1,28 +1,48 @@
 {
- "bluf": "The packets describe political allegations, official scrutiny, a fatal train crash and other developments, but most do not specify when the events occurred. Each item has one source; E7 provides no substantive details, and the reported allegations and claims are not independently corroborated in these packets.",
+ "bluf": "Highest-ranked development: Yemenis in Aden prepare for another war as missiles fall. Further items follow by region.",
  "changes": [],
  "changes_summary": "7 new and 0 updated development(s) reported.",
  "collection": {
-  "clusters": 118,
-  "items": 119,
+  "clusters": 178,
+  "items": 237,
   "quarantined": 0,
   "sources_ok": 12,
   "sources_total": 12
  },
- "cyber": [],
- "disasters": [],
+ "cyber": [
+  {
+   "event_id": "E2",
+   "kind": "attributed",
+   "refs": [
+    2
+   ],
+   "section": "Cyber and Infrastructure",
+   "text": "According to BleepingComputer: SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone"
+  }
+ ],
+ "disasters": [
+  {
+   "event_id": "E7",
+   "kind": "observed",
+   "refs": [
+    7
+   ],
+   "section": "Significant Disasters",
+   "text": "Green flood alert in Syria"
+  }
+ ],
  "edition": "2026-10-30",
  "events": [
   {
    "confidence": "low",
    "event_id": "E1",
-   "score": 5.6,
+   "score": 8.6,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E2",
-   "score": 5.6,
+   "score": 5.75,
    "status": "new"
   },
   {
@@ -50,32 +70,26 @@
    "status": "new"
   },
   {
-   "confidence": "low",
+   "confidence": "moderate",
    "event_id": "E7",
-   "score": 4.95,
-   "status": "new"
-  },
-  {
-   "confidence": "low",
-   "event_id": "E8",
-   "score": 4.8,
+   "score": 5.05,
    "status": "new"
   }
  ],
- "generated_at": "2026-10-30T15:29:07.710812+00:00",
+ "generated_at": "2026-10-30T15:59:22.298308+00:00",
  "label": null,
- "mode": "llm",
+ "mode": "evidence-only",
  "sections": [
   {
    "items": [
     {
-     "event_id": "E6",
+     "event_id": "E5",
      "kind": "attributed",
      "refs": [
-      6
+      5
      ],
      "section": "Europe / Russia",
-     "text": "The Guardian reported that 69 people were confirmed dead in a train crash in Spain, with at least 70 reported missing; Sánchez said people of 27 nationalities may be among the dead or injured. The crash date was not stated."
+     "text": "According to France 24: Israeli election: 'Netanyahu did not win, he lost dramatically,' former PM Barak says"
     }
    ],
    "name": "Europe / Russia"
@@ -89,13 +103,32 @@
       1
      ],
      "section": "Middle East",
-     "text": "According to France 24, Likud alleged without providing evidence that voter fraud partly drove Arab parties’ record gains in Israel’s election this week; the parties could become kingmakers."
+     "text": "According to Al Jazeera: ‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall"
+    },
+    {
+     "event_id": "E4",
+     "kind": "attributed",
+     "refs": [
+      4
+     ],
+     "section": "Middle East",
+     "text": "According to Al Jazeera: Qatari officials in Iran in bid to revive ceasefire deal with US"
     }
    ],
    "name": "Middle East"
   },
   {
-   "items": [],
+   "items": [
+    {
+     "event_id": "E3",
+     "kind": "attributed",
+     "refs": [
+      3
+     ],
+     "section": "Indo-Pacific",
+     "text": "According to France 24: Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion"
+    }
+   ],
    "name": "Indo-Pacific"
   },
   {
@@ -105,49 +138,13 @@
   {
    "items": [
     {
-     "event_id": "E2",
+     "event_id": "E6",
      "kind": "attributed",
      "refs": [
-      2
+      6
      ],
      "section": "Other Regions",
-     "text": "The Guardian reported that members of Congress sent federal immigration officials a letter this week seeking answers about conditions at a Texas detention facility, where hunger-striking immigrants said they faced threats of force-feeding."
-    },
-    {
-     "event_id": "E3",
-     "kind": "attributed",
-     "refs": [
-      3
-     ],
-     "section": "Other Regions",
-     "text": "The Guardian reported that Sudanese diaspora members and human-rights monitors denounced an Emirati diplomat’s candidacy for a top UN job, citing allegations that the UAE supports Sudan’s paramilitary RSF and her denial of those accusations."
-    },
-    {
-     "event_id": "E4",
-     "kind": "attributed",
-     "refs": [
-      4
-     ],
-     "section": "Other Regions",
-     "text": "The Guardian reported that Swedish climate academic Andreas Malm criticized a UK travel ban after the government revoked his travel authorization; he said he had been kept in the dark about the decision."
-    },
-    {
-     "event_id": "E5",
-     "kind": "attributed",
-     "refs": [
-      5
-     ],
-     "section": "Other Regions",
-     "text": "The Guardian reported that Hong Kong’s leader apologized for government shortcomings that contributed to a residential fire last year that killed 168 people; some survivors and bereaved families said justice remained unserved."
-    },
-    {
-     "event_id": "E8",
-     "kind": "attributed",
-     "refs": [
-      7
-     ],
-     "section": "Other Regions",
-     "text": "Reuters, citing sources, reported that Microsoft expects to raise $25 billion in a US bond sale; the timing was not stated."
+     "text": "According to France 24: Spain working to identify train crash dead as relatives' anguish grows"
     }
    ],
    "name": "Other Regions"
@@ -155,87 +152,96 @@
  ],
  "sources": [
   {
-   "id": "b576905d5458c052",
+   "id": "e4e77d766e81a5b4",
    "n": 1,
-   "name": "France 24",
-   "published": "2026-10-30T10:10:41+00:00",
-   "title": "Israel elections: Netanyahu attacks Arab parties as they emerge as potential kingmakers",
-   "url": "https://www.france24.com/en/video/20261030-israel-elections-netanyahu-attacks-arab-parties-as-they-emerge-as-potential-kingmakers"
+   "name": "Al Jazeera",
+   "published": "2026-10-30T15:26:00+00:00",
+   "title": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
+   "url": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss"
   },
   {
-   "id": "d3b7afa43a3b7fe2",
+   "id": "504569e0ffffdf59",
    "n": 2,
-   "name": "The Guardian World",
-   "published": "2026-10-30T14:13:13+00:00",
-   "title": "Congressional Democrats demand answers over ICE treatment of hunger strikers",
-   "url": "https://www.theguardian.com/us-news/2026/oct/30/congressional-democrats-letter-ice-dhs-hunger-strikers"
+   "name": "BleepingComputer",
+   "published": "2026-10-30T14:00:10+00:00",
+   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone"
   },
   {
-   "id": "1b177d530b43c046",
+   "id": "2e93aa554566e767",
    "n": 3,
-   "name": "The Guardian World",
-   "published": "2026-10-30T05:00:45+00:00",
-   "title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
-   "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job"
+   "name": "France 24",
+   "published": "2026-10-30T15:34:46+00:00",
+   "title": "Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion",
+   "url": "https://www.france24.com/en/video/20261030-biggest-hack-in-history-cryptocurrency-giant-binance-loses-6-3-billion"
   },
   {
-   "id": "cde148a35df29c3f",
+   "id": "fb1430c3f4c9db1f",
    "n": 4,
-   "name": "The Guardian World",
-   "published": "2026-10-30T14:58:20+00:00",
-   "title": "Andreas Malm condemns UK travel ban as ‘drift into authoritarianism’",
-   "url": "https://www.theguardian.com/uk-news/2026/oct/30/andreas-malm-uk-travel-ban-drift-authoritarianism"
+   "name": "Al Jazeera",
+   "published": "2026-10-30T12:26:56+00:00",
+   "title": "Qatari officials in Iran in bid to revive ceasefire deal with US",
+   "url": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us?traffic_source=rss"
   },
   {
-   "id": "90d3326b6e442304",
+   "id": "bd0fe6fcb613b36c",
    "n": 5,
-   "name": "The Guardian World",
-   "published": "2026-10-29T18:14:21+00:00",
-   "title": "Hong Kong’s leader apologises for residential fire that killed 168 people",
-   "url": "https://www.theguardian.com/world/2026/oct/29/hong-kong-john-lee-apologises-wang-fuk-court-fire-killed-168-people"
+   "name": "France 24",
+   "published": "2026-10-30T15:34:03+00:00",
+   "title": "Israeli election: 'Netanyahu did not win, he lost dramatically,' former PM Barak says",
+   "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261030-israeli-election-netanyahu-did-not-win-he-lost-dramatically-former-pm-barak-says"
   },
   {
-   "id": "6cbb410fe6c2ffc8",
+   "id": "fb8e5225b2b886d4",
    "n": 6,
-   "name": "The Guardian World",
-   "published": "2026-10-30T15:09:51+00:00",
-   "title": "People of 27 nationalities may be among those killed or injured in Spain train crash, Sánchez says – Europe live",
-   "url": "https://www.theguardian.com/world/live/2026/oct/30/spain-investigates-toledo-crash-pedro-sanchez-france-italy-protests-latest-news-updates"
+   "name": "France 24",
+   "published": "2026-10-30T15:34:20+00:00",
+   "title": "Spain working to identify train crash dead as relatives' anguish grows",
+   "url": "https://www.france24.com/en/video/20261030-spain-working-to-identify-train-crash-dead-as-relatives-anguish-grows"
   },
   {
-   "id": "a31a5c0f12a07002",
+   "id": "e229ce84f2e6ecfa",
    "n": 7,
-   "name": "Reuters (via Google News)",
-   "published": "2026-10-29T18:01:00+00:00",
-   "title": "Microsoft expects to raise $25 billion in US bond sale, sources say",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNakliRm9KY3R6ekRkaEl2SzZaUWtUdzczRlRyYmJNd2V2MDBLdkVVZjZQSmtVd3pzYk5JREM4M29hVHREdHBLWGljQ19rTWV5LVJMcmM0UW1OME9EY2MtTGcyRUpCcjVaYmcyVk1ZMEY5aWdvRmRpdy0tMGRfSWF2anVwQlBEOFNtaklfNDdsQURObDVXOERYejh6U3hTYzh0RGpJUDk4cU1KOE01N1FDdl9R?oc=5"
+   "name": "GDACS",
+   "published": "2026-10-30T09:34:20+00:00",
+   "title": "Green flood alert in Syria",
+   "url": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104263"
   }
  ],
  "title": "The Daily Brief",
  "usage": {
-  "calls": 1,
+  "calls": 2,
   "estimated_cost_usd": 0.0,
-  "tokens_in": 1889,
-  "tokens_out": 670
+  "tokens_in": 3786,
+  "tokens_out": 718
  },
- "warnings": [],
+ "warnings": [
+  "Automated summary failed verification; evidence-only edition. E1: assertive term 'struck' not in cited evidence"
+ ],
  "watch": [
   {
-   "indicator": "Updates to the confirmed death toll or number of missing people after the Spain train crash.",
+   "indicator": "Independent reporting on: ‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
    "refs": [
-    6
+    1
    ],
-   "significance": "Would show whether the reported casualty figures have changed."
+   "significance": "Would confirm or contradict the current account."
   },
   {
-   "indicator": "A response from federal immigration officials to the congressional letter about the Texas detention facility.",
+   "indicator": "Independent reporting on: SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
    "refs": [
     2
    ],
-   "significance": "Would show whether officials have addressed the requested information about conditions and hunger strikers’ claims."
+   "significance": "Would confirm or contradict the current account."
+  },
+  {
+   "indicator": "Independent reporting on: Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion",
+   "refs": [
+    3
+   ],
+   "significance": "Would confirm or contradict the current account."
   }
  ],
- "window_end": "2026-10-30T15:29:07.710812+00:00",
- "window_start": "2026-10-29T15:29:07.710812+00:00",
- "words": 330
+ "window_end": "2026-10-30T15:59:22.298308+00:00",
+ "window_start": "2026-10-29T15:59:22.298308+00:00",
+ "words": 186
 }

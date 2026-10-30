@@ -1531,18 +1531,23 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
-    "2f1e0a7fd942a3ef"
+    "2f1e0a7fd942a3ef",
+    "fc76defcb27c5371"
    ],
    "key": "747d16b0a9fd",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "title": "Trump cancels Iowa, Kansas midterm events, opts for \u2018tele-rallies\u2019",
    "tokens": [
+    "before",
     "cancel",
+    "decision",
     "event",
     "iowa",
     "kansa",
     "midterm",
     "opts",
+    "ralli",
+    "revers",
     "tele-ralli",
     "trump"
    ]
@@ -3954,6 +3959,7 @@
     "fb1430c3f4c9db1f"
    ],
    "key": "59d3fd3eb0a8",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Qatari officials in Iran in bid to revive ceasefire deal with US",
    "tokens": [
@@ -4233,6 +4239,7 @@
     "504569e0ffffdf59"
    ],
    "key": "6b56a8163d9f",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
    "tokens": [
@@ -4634,7 +4641,8 @@
     "military",
     "press",
     "senator",
-    "trump"
+    "trump",
+    "us"
    ]
   },
   {
@@ -4944,6 +4952,7 @@
     "concern",
     "cost",
     "falls",
+    "fears",
     "see",
     "sharp",
     "stock",
@@ -5407,6 +5416,7 @@
     "e229ce84f2e6ecfa"
    ],
    "key": "dfc08e5e483b",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Green flood alert in Syria",
    "tokens": [
@@ -5832,12 +5842,215 @@
     "policymaker",
     "rate"
    ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "2e93aa554566e767"
+   ],
+   "key": "1410f59cd356",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion",
+   "tokens": [
+    "6.3",
+    "biggest",
+    "billion",
+    "binance",
+    "cryptocurrency",
+    "giant",
+    "hack",
+    "history",
+    "loses"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "18db19d9d4fb0a8e"
+   ],
+   "key": "1ee4467a465a",
+   "last_seen": "2026-10-30",
+   "title": "Swiss foreign minister talks political ties on rare visit to North Korea",
+   "tokens": [
+    "foreign",
+    "korea",
+    "minister",
+    "north",
+    "politic",
+    "rare",
+    "swiss",
+    "talks",
+    "ties",
+    "visit"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "df6f861239b8067d"
+   ],
+   "key": "47577b254f08",
+   "last_seen": "2026-10-30",
+   "title": "Midterms 2026: The former neo-Nazi pastor speaking out against Trump",
+   "tokens": [
+    "2026",
+    "against",
+    "former",
+    "midterm",
+    "neo-nazi",
+    "pastor",
+    "speak",
+    "trump"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "bd0fe6fcb613b36c"
+   ],
+   "key": "6fe88f87a67c",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "Israeli election: 'Netanyahu did not win, he lost dramatically,' former PM Barak says",
+   "tokens": [
+    "barak",
+    "did",
+    "dramatically",
+    "election",
+    "former",
+    "he",
+    "israeli",
+    "lost",
+    "netanyahu",
+    "pm",
+    "win"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "c20d513e9db6436d"
+   ],
+   "key": "71c5fb808da2",
+   "last_seen": "2026-10-30",
+   "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+   "tokens": [
+    "crypto-theft",
+    "hardware",
+    "implant",
+    "suspect",
+    "trezor",
+    "wallet",
+    "warns"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "b341639223e12211"
+   ],
+   "key": "9c5bca8d61fc",
+   "last_seen": "2026-10-30",
+   "title": "Trump reverses course, reinstates cancelled campaign rallies",
+   "tokens": [
+    "campaign",
+    "cancell",
+    "course",
+    "ralli",
+    "reinstat",
+    "revers",
+    "trump"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "e4e77d766e81a5b4"
+   ],
+   "key": "b10c9862fa62",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "\u2018Need a Plan B\u2019: Yemenis in Aden prepare for another war as missiles fall",
+   "tokens": [
+    "aden",
+    "another",
+    "fall",
+    "missil",
+    "need",
+    "plan",
+    "prepare",
+    "war",
+    "yemeni"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "fb8e5225b2b886d4"
+   ],
+   "key": "beb6bcfcb743",
+   "last_published": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "title": "Spain working to identify train crash dead as relatives' anguish grows",
+   "tokens": [
+    "anguish",
+    "crash",
+    "dead",
+    "grows",
+    "identify",
+    "relativ",
+    "spain",
+    "train",
+    "work"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "404f6286105454d6"
+   ],
+   "key": "c359995bfc5c",
+   "last_seen": "2026-10-30",
+   "title": "Israel's election ends in deadlock as final results show no clear winner",
+   "tokens": [
+    "clear",
+    "deadlock",
+    "election",
+    "ends",
+    "final",
+    "israel",
+    "no",
+    "result",
+    "show",
+    "winner"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "142643fa6707aa32"
+   ],
+   "key": "e2267d1b1d94",
+   "last_seen": "2026-10-30",
+   "title": "'Deeply hurt': Convicted murderer Christa Pike speaks out after botched execution",
+   "tokens": [
+    "botch",
+    "christa",
+    "convict",
+    "deeply",
+    "execution",
+    "hurt",
+    "murderer",
+    "pike",
+    "speak"
+   ]
   }
  ],
  "http": {
   "aljazeera": {
-   "etag": "W/\"b6358eade68ad9dd886bab518064bcd0\"",
-   "last_modified": "Fri, 30 Oct 2026 15:09:32 GMT"
+   "etag": "W/\"4cc668703ffaff3c591741f3c2f6448b\"",
+   "last_modified": "Fri, 30 Oct 2026 15:39:50 GMT"
   },
   "bbc_world": {
    "etag": null,
@@ -5845,7 +6058,7 @@
   },
   "bleepingcomputer": {
    "etag": null,
-   "last_modified": "Fri, 30 Oct 2026 15:22:57 GMT"
+   "last_modified": "Fri, 30 Oct 2026 15:58:21 GMT"
   },
   "cccs": {
    "etag": null,
@@ -5860,11 +6073,11 @@
    "last_modified": null
   },
   "gdacs": {
-   "etag": "\"3583b8a8168dd1:0\"",
-   "last_modified": "Fri, 30 Oct 2026 15:15:46 GMT"
+   "etag": "\"c6a7631f8768dd1:0\"",
+   "last_modified": "Fri, 30 Oct 2026 15:55:44 GMT"
   },
   "guardian_world": {
-   "etag": "W/\"hash1471265175595900880\"",
+   "etag": "W/\"hash-5395158825421777960\"",
    "last_modified": null
   },
   "reuters_gn": {
@@ -5872,8 +6085,8 @@
    "last_modified": null
   },
   "sans_isc": {
-   "etag": "\"18ef-65f1062893f05\"",
-   "last_modified": "Fri, 30 Oct 2026 15:23:57 GMT"
+   "etag": "\"18ef-65f10cdcbc14a\"",
+   "last_modified": "Fri, 30 Oct 2026 15:53:57 GMT"
   },
   "therecord": {
    "etag": null,
@@ -5881,7 +6094,7 @@
   },
   "usgs_sig": {
    "etag": null,
-   "last_modified": "Fri, 30 Oct 2026 15:28:19 GMT"
+   "last_modified": "Fri, 30 Oct 2026 15:58:24 GMT"
   }
  },
  "spend": {
