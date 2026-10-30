@@ -1,110 +1,109 @@
 {
- "bluf": "Highest-ranked development: Russian drone attack on Ukrainian train station kills at least 14, officials say. Further items follow by region.",
+ "bluf": "Highest-ranked development: Patrick Stewart, star of 'Star Trek' and 'X men', dies at 86. Further items follow by region.",
  "changes": [],
  "changes_summary": "8 new and 0 updated development(s) reported.",
  "collection": {
   "clusters": 138,
-  "items": 200,
+  "items": 199,
   "quarantined": 0,
   "sources_ok": 12,
-  "sources_total": 14
+  "sources_total": 12
  },
  "cyber": [
   {
-   "event_id": "E2",
+   "event_id": "E3",
    "kind": "attributed",
    "refs": [
-    2
+    5
    ],
    "section": "Cyber and Infrastructure",
-   "text": "According to BleepingComputer: New Cisco firewall zero-day exploited to crash SSL VPN devices"
-  }
- ],
- "disasters": [
-  {
-   "event_id": "E6",
-   "kind": "observed",
-   "refs": [
-    6
-   ],
-   "section": "Significant Disasters",
-   "text": "Green earthquake (Magnitude 6.2M, Depth:142.833km) in Vanuatu 29/10/2026 21:46 UTC, 120 thousand in MMI IV."
+   "text": "According to The Record: Cyberattack disrupts Belgian tax services before filing deadline"
   },
   {
    "event_id": "E7",
-   "kind": "observed",
+   "kind": "attributed",
    "refs": [
-    7
+    9
    ],
-   "section": "Significant Disasters",
-   "text": "Green earthquake (Magnitude 6.4M, Depth:10km) in Southeast Of Easter Island 29/10/2026 07:49 UTC, [unknown]."
+   "section": "Cyber and Infrastructure",
+   "text": "According to BleepingComputer: Polymarket halts trading after crypto-draining script breach, $2.5M traced"
+  },
+  {
+   "event_id": "E8",
+   "kind": "attributed",
+   "refs": [
+    10
+   ],
+   "section": "Cyber and Infrastructure",
+   "text": "According to BleepingComputer: CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks"
   }
  ],
+ "disasters": [],
  "edition": "2026-10-29",
  "events": [
   {
-   "confidence": "low",
+   "confidence": "high",
    "event_id": "E1",
-   "score": 8.8,
+   "score": 6.6,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E2",
-   "score": 8.75,
+   "score": 6.6,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E3",
-   "score": 8.6,
+   "score": 5.85,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E4",
-   "score": 8.6,
+   "score": 5.8,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E5",
-   "score": 7.6,
+   "score": 5.8,
    "status": "new"
   },
   {
-   "confidence": "moderate",
+   "confidence": "low",
    "event_id": "E6",
-   "score": 7.05,
+   "score": 5.8,
    "status": "new"
   },
   {
-   "confidence": "moderate",
+   "confidence": "low",
    "event_id": "E7",
-   "score": 7.05,
+   "score": 5.75,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E8",
-   "score": 6.8,
+   "score": 5.75,
    "status": "new"
   }
  ],
- "generated_at": "2026-10-30T04:06:53.825718+00:00",
+ "generated_at": "2026-10-30T04:39:17.801047+00:00",
  "label": null,
  "mode": "dry-run",
  "sections": [
   {
    "items": [
     {
-     "event_id": "E1",
+     "event_id": "E2",
      "kind": "attributed",
      "refs": [
-      1
+      4
      ],
      "section": "Europe / Russia",
-     "text": "According to BBC News World: Russian drone attack on Ukrainian train station kills at least 14, officials say"
+     "text": "According to The Guardian World: Seven oil tankers carrying 288,000 tonnes of Russian diesel sail towards US"
     }
    ],
    "name": "Europe / Russia"
@@ -115,35 +114,16 @@
      "event_id": "E4",
      "kind": "attributed",
      "refs": [
-      4
+      6
      ],
      "section": "Middle East",
-     "text": "According to The Guardian World: JD Vance letter may offer last chance to avert fresh conflict between US and Iran"
+     "text": "According to Reuters (via Google News): Iran’s hidden web of military agencies is slipping hardware past the US blockade"
     }
    ],
    "name": "Middle East"
   },
   {
-   "items": [
-    {
-     "event_id": "E3",
-     "kind": "attributed",
-     "refs": [
-      3
-     ],
-     "section": "Indo-Pacific",
-     "text": "According to France 24: North Korea tests attack drones as Kim calls for 'absolute superiority'"
-    },
-    {
-     "event_id": "E8",
-     "kind": "attributed",
-     "refs": [
-      8
-     ],
-     "section": "Indo-Pacific",
-     "text": "According to BBC News World: Audacious Indian jailbreak saga ends with 17 prisoners recaptured"
-    }
-   ],
+   "items": [],
    "name": "Indo-Pacific"
   },
   {
@@ -153,13 +133,33 @@
   {
    "items": [
     {
+     "event_id": "E1",
+     "kind": "observed",
+     "refs": [
+      1,
+      2,
+      3
+     ],
+     "section": "Other Regions",
+     "text": "Patrick Stewart, star of 'Star Trek' and 'X men', dies at 86"
+    },
+    {
      "event_id": "E5",
      "kind": "attributed",
      "refs": [
-      5
+      7
      ],
      "section": "Other Regions",
-     "text": "According to The Guardian World: Spain begins mourning period as search continues for train crash victims"
+     "text": "According to BBC News World: US sanctions Rwanda's defence ministry over DR Congo conflict"
+    },
+    {
+     "event_id": "E6",
+     "kind": "attributed",
+     "refs": [
+      8
+     ],
+     "section": "Other Regions",
+     "text": "According to BBC News World: 'The city is alive': A brief peace in Kherson, but residents fear what comes next"
     }
    ],
    "name": "Other Regions"
@@ -167,68 +167,84 @@
  ],
  "sources": [
   {
-   "id": "0330742375c9f206",
+   "id": "964c226012909909",
    "n": 1,
-   "name": "BBC News World",
-   "published": "2026-10-29T14:17:35+00:00",
-   "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-   "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko"
-  },
-  {
-   "id": "645f7bdeecdfe91e",
-   "n": 2,
-   "name": "BleepingComputer",
-   "published": "2026-10-29T11:10:13+00:00",
-   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices"
-  },
-  {
-   "id": "e838605aa02a0454",
-   "n": 3,
    "name": "France 24",
-   "published": "2026-10-30T00:22:55+00:00",
-   "title": "North Korea tests attack drones as Kim calls for 'absolute superiority'",
-   "url": "https://www.france24.com/en/asia-pacific/20261030-north-korea-tests-attack-drones-as-kim-calls-for-absolute-superiority"
+   "published": "2026-10-29T20:21:52+00:00",
+   "title": "Patrick Stewart, star of 'Star Trek' and 'X men', dies at 86",
+   "url": "https://www.france24.com/en/culture/20261029-patrick-stewart-star-of-star-trek-and-x-men-dies-age-86"
   },
   {
-   "id": "8b1d66e51bb1e5c3",
+   "id": "7b6b9e40fd473cd9",
+   "n": 2,
+   "name": "The Guardian World",
+   "published": "2026-10-29T21:02:36+00:00",
+   "title": "Patrick Stewart, Star Trek actor and acclaimed thespian, dies aged 86",
+   "url": "https://www.theguardian.com/culture/2026/oct/29/patrick-stewart-dead"
+  },
+  {
+   "id": "91b92ab6ffee9efb",
+   "n": 3,
+   "name": "Al Jazeera",
+   "published": "2026-10-29T22:36:06+00:00",
+   "title": "Patrick Stewart, ‘Star Trek’ Captain Picard and ‘X-Men’ actor, dies at 86",
+   "url": "https://www.aljazeera.com/editorial/2026/10/29/patrick-stewart-star-trek-captain-picard-and-x-men-actor-dies-at-86?traffic_source=rss"
+  },
+  {
+   "id": "f72c54a73a7d4876",
    "n": 4,
    "name": "The Guardian World",
-   "published": "2026-10-29T19:32:24+00:00",
-   "title": "JD Vance letter may offer last chance to avert fresh conflict between US and Iran",
-   "url": "https://www.theguardian.com/world/2026/oct/29/jd-vance-letter-may-offer-last-chance-to-avert-fresh-conflict-between-us-and-iran"
+   "published": "2026-10-29T19:04:17+00:00",
+   "title": "Seven oil tankers carrying 288,000 tonnes of Russian diesel sail towards US",
+   "url": "https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump"
   },
   {
-   "id": "4dd579edd050ef39",
+   "id": "a50ecc8b0dddafe4",
    "n": 5,
-   "name": "The Guardian World",
-   "published": "2026-10-29T17:59:03+00:00",
-   "title": "Spain begins mourning period as search continues for train crash victims",
-   "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash"
+   "name": "The Record",
+   "published": "2026-10-29T13:31:00+00:00",
+   "title": "Cyberattack disrupts Belgian tax services before filing deadline",
+   "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline"
   },
   {
-   "id": "114fb510d90e9fd6",
+   "id": "52d58dfde60749ea",
    "n": 6,
-   "name": "GDACS",
-   "published": "2026-10-29T22:07:35+00:00",
-   "title": "Green earthquake (Magnitude 6.2M, Depth:142.833km) in Vanuatu 29/10/2026 21:46 UTC, 120 thousand in MMI IV.",
-   "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1574623"
+   "name": "Reuters (via Google News)",
+   "published": "2026-10-29T15:04:32+00:00",
+   "title": "Iran’s hidden web of military agencies is slipping hardware past the US blockade",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWDdNT2d1X203WGstY0tRd0xFeXFhWlBQVmlXM2hRRXdzZHQ3UmszXzNXcVE3LTB5TWhUcXJwWUVlSi15cGFUNVFqd2xTNllBQm9PdlphUVQ3bU1pOTI5dUtGb3pZYUstMmpaa2hzbk5RXzd2bVp5YmlhR19nYkNJTjdfTG11amxxZ0dOWXBveEowTC1wRHozRWxPYUx5OXo2TWpjdHRnOXc5eTRQWXN6S2RyWVUxVF8wMGk0?oc=5"
   },
   {
-   "id": "fcd341b0b89dab49",
+   "id": "b924cd2a5bafb62b",
    "n": 7,
-   "name": "GDACS",
-   "published": "2026-10-29T08:08:55+00:00",
-   "title": "Green earthquake (Magnitude 6.4M, Depth:10km) in Southeast Of Easter Island 29/10/2026 07:49 UTC, [unknown].",
-   "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1574517"
+   "name": "BBC News World",
+   "published": "2026-10-29T11:25:16+00:00",
+   "title": "US sanctions Rwanda's defence ministry over DR Congo conflict",
+   "url": "https://www.bbc.co.uk/news/articles/cm87zw51qw0jo"
   },
   {
-   "id": "f16d322e8caf4b7c",
+   "id": "d98e57021b2c5113",
    "n": 8,
    "name": "BBC News World",
-   "published": "2026-10-29T09:17:05+00:00",
-   "title": "Audacious Indian jailbreak saga ends with 17 prisoners recaptured",
-   "url": "https://www.bbc.co.uk/news/articles/cmx2qrgy591ro"
+   "published": "2026-10-29T20:05:57+00:00",
+   "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+   "url": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo"
+  },
+  {
+   "id": "26a82e600f1f2c64",
+   "n": 9,
+   "name": "BleepingComputer",
+   "published": "2026-10-29T21:47:25+00:00",
+   "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
+   "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced"
+  },
+  {
+   "id": "207ac6ae9c2086a2",
+   "n": 10,
+   "name": "BleepingComputer",
+   "published": "2026-10-29T13:59:48+00:00",
+   "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks"
   }
  ],
  "title": "The Daily Brief",
@@ -238,33 +254,31 @@
   "tokens_in": 0,
   "tokens_out": 0
  },
- "warnings": [
-  "Partial coverage: 2 of 14 sources unavailable."
- ],
+ "warnings": [],
  "watch": [
   {
-   "indicator": "Independent reporting on: Russian drone attack on Ukrainian train station kills at least 14, officials say",
+   "indicator": "Independent reporting on: Seven oil tankers carrying 288,000 tonnes of Russian diesel sail towards US",
    "refs": [
-    1
+    4
    ],
    "significance": "Would confirm or contradict the current account."
   },
   {
-   "indicator": "Independent reporting on: New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "indicator": "Independent reporting on: Cyberattack disrupts Belgian tax services before filing deadline",
    "refs": [
-    2
+    5
    ],
    "significance": "Would confirm or contradict the current account."
   },
   {
-   "indicator": "Independent reporting on: North Korea tests attack drones as Kim calls for 'absolute superiority'",
+   "indicator": "Independent reporting on: Iran’s hidden web of military agencies is slipping hardware past the US blockade",
    "refs": [
-    3
+    6
    ],
    "significance": "Would confirm or contradict the current account."
   }
  ],
- "window_end": "2026-10-30T04:06:53.825718+00:00",
- "window_start": "2026-10-29T04:06:53.825718+00:00",
- "words": 216
+ "window_end": "2026-10-30T04:39:17.801047+00:00",
+ "window_start": "2026-10-29T04:39:17.801047+00:00",
+ "words": 208
 }

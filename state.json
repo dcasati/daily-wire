@@ -378,6 +378,7 @@
     "26a82e600f1f2c64"
    ],
    "key": "1941cc072c44",
+   "last_published": "2026-10-29",
    "last_seen": "2026-10-29",
    "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
    "tokens": [
@@ -757,6 +758,7 @@
     "52d58dfde60749ea"
    ],
    "key": "3c570fcac62b",
+   "last_published": "2026-10-29",
    "last_seen": "2026-10-29",
    "title": "Iran\u2019s hidden web of military agencies is slipping hardware past the US blockade",
    "tokens": [
@@ -998,6 +1000,7 @@
     "b924cd2a5bafb62b"
    ],
    "key": "4ce78d9a7fb9",
+   "last_published": "2026-10-29",
    "last_seen": "2026-10-29",
    "title": "US sanctions Rwanda's defence ministry over DR Congo conflict",
    "tokens": [
@@ -1865,6 +1868,7 @@
     "964c226012909909"
    ],
    "key": "91f2c84f9d80",
+   "last_published": "2026-10-29",
    "last_seen": "2026-10-29",
    "title": "Patrick Stewart, star of 'Star Trek' and 'X men', dies at 86",
    "tokens": [
@@ -2236,6 +2240,7 @@
     "f72c54a73a7d4876"
    ],
    "key": "b95b34c5f351",
+   "last_published": "2026-10-29",
    "last_seen": "2026-10-29",
    "title": "Seven oil tankers carrying 288,000 tonnes of Russian diesel sail towards US",
    "tokens": [
@@ -2282,6 +2287,7 @@
     "207ac6ae9c2086a2"
    ],
    "key": "bf844b3a8c6a",
+   "last_published": "2026-10-29",
    "last_seen": "2026-10-29",
    "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
    "tokens": [
@@ -2637,6 +2643,7 @@
     "a50ecc8b0dddafe4"
    ],
    "key": "defb047963a5",
+   "last_published": "2026-10-29",
    "last_seen": "2026-10-29",
    "title": "Cyberattack disrupts Belgian tax services before filing deadline",
    "tokens": [
@@ -2656,6 +2663,7 @@
     "d98e57021b2c5113"
    ],
    "key": "dffc003dab7d",
+   "last_published": "2026-10-29",
    "last_seen": "2026-10-29",
    "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
    "tokens": [
@@ -2888,12 +2896,52 @@
     "palestinian",
     "tighten"
    ]
+  },
+  {
+   "first_seen": "2026-10-29",
+   "item_ids": [
+    "081cb1193601f50a"
+   ],
+   "key": "1cef67c4db40",
+   "last_seen": "2026-10-29",
+   "title": "Tether, Circle freeze $2.38 billion after Binance reports security incident By Reuters",
+   "tokens": [
+    "2.38",
+    "billion",
+    "binance",
+    "circle",
+    "freeze",
+    "incident",
+    "report",
+    "reuter",
+    "security",
+    "tether"
+   ]
+  },
+  {
+   "first_seen": "2026-10-29",
+   "item_ids": [
+    "7d6a4441b39e979b"
+   ],
+   "key": "e6b00b59c62a",
+   "last_seen": "2026-10-29",
+   "title": "Israeli actress slams occupation in accidental \u2018hot mic\u2019 moment",
+   "tokens": [
+    "accident",
+    "actres",
+    "hot",
+    "israeli",
+    "mic",
+    "moment",
+    "occupation",
+    "slams"
+   ]
   }
  ],
  "http": {
   "aljazeera": {
-   "etag": "W/\"cf9dcd527c55b92eb758e564ed7acf47\"",
-   "last_modified": "Fri, 30 Oct 2026 04:00:00 GMT"
+   "etag": "W/\"aff1a04577805a09d55c8f3df8715629\"",
+   "last_modified": "Fri, 30 Oct 2026 04:22:52 GMT"
   },
   "bbc_world": {
    "etag": null,
@@ -2901,7 +2949,7 @@
   },
   "bleepingcomputer": {
    "etag": null,
-   "last_modified": "Fri, 30 Oct 2026 04:06:01 GMT"
+   "last_modified": "Fri, 30 Oct 2026 04:36:02 GMT"
   },
   "cccs": {
    "etag": null,
@@ -2916,11 +2964,11 @@
    "last_modified": null
   },
   "gdacs": {
-   "etag": "\"7e95c1ee2368dd1:0\"",
-   "last_modified": "Fri, 30 Oct 2026 04:05:42 GMT"
+   "etag": "\"949b9a1f2868dd1:0\"",
+   "last_modified": "Fri, 30 Oct 2026 04:35:42 GMT"
   },
   "guardian_world": {
-   "etag": "W/\"hash1033099056462576726\"",
+   "etag": "W/\"hash3916192550763790682\"",
    "last_modified": null
   },
   "reuters_gn": {
@@ -2928,8 +2976,8 @@
    "last_modified": null
   },
   "sans_isc": {
-   "etag": "\"18ef-65f06e2b2cc44\"",
-   "last_modified": "Fri, 30 Oct 2026 04:03:58 GMT"
+   "etag": "\"18ef-65f074defc488\"",
+   "last_modified": "Fri, 30 Oct 2026 04:33:57 GMT"
   },
   "therecord": {
    "etag": null,
@@ -2937,7 +2985,7 @@
   },
   "usgs_sig": {
    "etag": null,
-   "last_modified": "Fri, 30 Oct 2026 04:06:54 GMT"
+   "last_modified": "Fri, 30 Oct 2026 04:38:24 GMT"
   }
  },
  "spend": {
