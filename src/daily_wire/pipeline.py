@@ -1,6 +1,7 @@
 """Orchestrates stages A-G. Deterministic given (config, fetched data, now)."""
 from __future__ import annotations
 
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -72,7 +73,15 @@ def run(cfg: dict, sources: list[dict], fetcher, now: datetime, site: Path, prov
             mode = "evidence-only"
             head["warnings"].append("Automated summary failed verification; evidence-only edition. " + "; ".join(errs[:3])[:300])
     if briefing is None:
-        errs, briefing = verify(evidence_only_write(packets, cfg["max_words"]), packets, src_list, head, cfg)
+        # Deterministic fallback: omit any event whose copied headline fails verification rather than losing the edition.
+        usable = list(packets)
+        for _ in range(len(packets) + 1):
+            errs, briefing = verify(evidence_only_write(usable, cfg["max_words"]), usable, src_list, head, cfg)
+            bad = {e.split(":", 1)[0] for e in errs if re.match(r"E\d+:", e)}
+            if briefing is not None or not bad or not any(p["event_id"] in bad for p in usable):
+                break
+            log_event("fallback_dropped", events=sorted(bad), errors=errs[:5])
+            usable = [p for p in usable if p["event_id"] not in bad]
         if briefing is None:
             result.update(status="stale", reason=f"fallback failed verification: {errs[:3]}")
             return result
