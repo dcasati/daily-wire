@@ -28,7 +28,7 @@ jobs:
     permissions:
       contents: write # only to push the generated site to the gh-pages branch
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           persist-credentials: true
 
@@ -44,7 +44,7 @@ jobs:
             git push origin FETCH_HEAD:refs/heads/gh-pages
           fi
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: gh-pages
           path: site
