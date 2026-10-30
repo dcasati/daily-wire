@@ -35,15 +35,13 @@ jobs:
       - name: Ensure gh-pages branch exists
         run: |
           if ! git ls-remote --exit-code --heads origin gh-pages >/dev/null; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git checkout --orphan gh-pages
-            git rm -rf . -q
-            touch .nojekyll
-            git add .nojekyll
-            git commit -q -m "Initialize site"
-            git push origin gh-pages
-            git checkout -q -
+            tmp=$(mktemp -d)
+            git -C "$tmp" init -q -b gh-pages
+            touch "$tmp/.nojekyll"
+            git -C "$tmp" add .nojekyll
+            git -C "$tmp" -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "Initialize site"
+            git fetch -q "$tmp" gh-pages
+            git push origin FETCH_HEAD:refs/heads/gh-pages
           fi
 
       - uses: actions/checkout@v4
