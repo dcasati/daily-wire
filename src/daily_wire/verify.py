@@ -16,7 +16,9 @@ KINDS = {"observed", "attributed", "assessment"}
 
 
 def _words(s: str) -> set[str]:
-    return set(re.findall(r"[a-z0-9][a-z0-9\-]*", s.lower()))
+    """Words plus the parts of hyphenated compounds ("Guinea-Bissau" also yields "guinea" and "bissau")."""
+    whole = re.findall(r"[a-z0-9][a-z0-9\-]*", s.lower())
+    return set(whole) | {part for w in whole for part in w.split("-") if part}
 
 
 def _corpus(entries: list[dict]) -> str:

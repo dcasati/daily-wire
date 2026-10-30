@@ -337,3 +337,10 @@ def test_copilot_cli_provider_command_and_failure(monkeypatch):
     monkeypatch.setattr(subprocess, "run", lambda cmd, **kw: subprocess.CompletedProcess(cmd, 1, stdout="", stderr="auth"))
     with pytest.raises(RuntimeError):
         CopilotCLI({}).complete("s", "u", 1)
+
+
+def test_grounding_handles_hyphenated_names():
+    from daily_wire.verify import check_grounding
+    corpus = "coup attempt reported in guinea-bissau, officials say"
+    assert check_grounding("Officials report a coup attempt in Guinea-Bissau", corpus) == []
+    assert check_grounding("Officials report a coup attempt in Chad", corpus)
