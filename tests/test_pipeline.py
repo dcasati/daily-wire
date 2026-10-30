@@ -315,7 +315,10 @@ def test_cli_hour_guard_and_dry_run(tmp_path, capsys):
     assert main(base + ["--now", "2026-10-30T14:00:00Z", "--require-hour"]) == 0 and not (tmp_path / "opds.xml").exists()  # 08:00 MDT
     assert main(base + ["--now", "2026-10-30T12:00:00Z", "--require-hour"]) == 0 and (tmp_path / "opds.xml").exists()  # 06:00 MDT
     capsys.readouterr()
-    assert main(base + ["--now", "2026-12-15T13:00:00Z", "--require-hour"]) == 0  # 06:00 MST: runs (fixtures are out of window -> stale)
+    from zoneinfo import ZoneInfo
+    # Winter 06:00 local, derived from the tz database so the test does not hard-code Alberta's offset.
+    winter = datetime(2026, 12, 15, 6, tzinfo=ZoneInfo("America/Edmonton")).astimezone(timezone.utc).isoformat()
+    assert main(base + ["--now", winter, "--require-hour"]) == 0
     assert '"edition": "2026-12-15"' in capsys.readouterr().out
 
 
