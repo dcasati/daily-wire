@@ -20,6 +20,7 @@ Rules:
 - Cite with source numbers from the packet ("refs": [n,...]); cite only sources inside that event's packet.
 - kind: "observed" (stated as fact by a primary/official source or >=2 independent origins), "attributed"
   (single-origin or contested: must say who reported it, e.g. "according to ..."), "assessment" (analysis; label it).
+- Stay close to the packet wording. Do not write month names, dates, or weekdays unless that exact word is in the cited packet text (never derive them from publication timestamps); do not upgrade verbs (e.g. "struck", "killed", "attacked") beyond what the packet says; if a number or name is not in the packet, leave it out.
 - State what happened, where, when (publication time is not event time), and why it matters, in neutral wording.
 - If packets list disagreements or gaps, say so. No speculation, no adjectives of alarm, no advocacy.
 - One statement per event at most (event_id must match). Skip events not worth including. Never pad.
