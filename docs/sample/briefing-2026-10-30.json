@@ -1,0 +1,244 @@
+{
+ "bluf": "Highest-ranked development: M 7.1 - 45 km SW of Example Bay. Further items follow by region.",
+ "changes": [],
+ "changes_summary": "6 new and 0 updated development(s) reported.",
+ "collection": {
+  "clusters": 8,
+  "items": 12,
+  "quarantined": 1,
+  "sources_ok": 7,
+  "sources_total": 8
+ },
+ "cyber": [
+  {
+   "event_id": "E5",
+   "kind": "observed",
+   "refs": [
+    6,
+    7
+   ],
+   "section": "Cyber and Infrastructure",
+   "text": "CISA warns of actively exploited vulnerability in industrial gateway software"
+  }
+ ],
+ "disasters": [
+  {
+   "event_id": "E1",
+   "kind": "observed",
+   "refs": [
+    1
+   ],
+   "section": "Significant Disasters",
+   "text": "M 7.1 - 45 km SW of Example Bay"
+  }
+ ],
+ "edition": "2026-10-30",
+ "events": [
+  {
+   "confidence": "moderate",
+   "event_id": "E1",
+   "score": 10.21,
+   "status": "new"
+  },
+  {
+   "confidence": "moderate",
+   "event_id": "E2",
+   "score": 9.15,
+   "status": "new"
+  },
+  {
+   "confidence": "high",
+   "event_id": "E3",
+   "score": 8.733,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E4",
+   "score": 7.6,
+   "status": "new"
+  },
+  {
+   "confidence": "high",
+   "event_id": "E5",
+   "score": 7.0,
+   "status": "new"
+  },
+  {
+   "confidence": "high",
+   "event_id": "E6",
+   "score": 6.7,
+   "status": "new"
+  }
+ ],
+ "generated_at": "2026-10-30T12:00:00+00:00",
+ "label": "TEST EDITION: generated from synthetic fixtures. Events are invented.",
+ "mode": "dry-run",
+ "sections": [
+  {
+   "items": [
+    {
+     "event_id": "E3",
+     "kind": "observed",
+     "refs": [
+      3,
+      4
+     ],
+     "section": "Europe / Russia",
+     "text": "Naval drones strike port facility in Baltic coastal city, officials say"
+    }
+   ],
+   "name": "Europe / Russia"
+  },
+  {
+   "items": [
+    {
+     "event_id": "E4",
+     "kind": "attributed",
+     "refs": [
+      5
+     ],
+     "section": "Middle East",
+     "text": "According to Al Jazeera: Unconfirmed reports of Gulf shipping seizure by armed group"
+    }
+   ],
+   "name": "Middle East"
+  },
+  {
+   "items": [],
+   "name": "Indo-Pacific"
+  },
+  {
+   "items": [
+    {
+     "event_id": "E2",
+     "kind": "observed",
+     "refs": [
+      2
+     ],
+     "section": "North America",
+     "text": "Wildfire evacuation order issued for northern Alberta community of 1,200"
+    }
+   ],
+   "name": "North America"
+  },
+  {
+   "items": [
+    {
+     "event_id": "E6",
+     "kind": "attributed",
+     "refs": [
+      8,
+      9
+     ],
+     "section": "Other Regions",
+     "text": "Flooding on East African coast kills 12, officials say (Reported figures differ: 40 (aljazeera); 12 (bbc_world))"
+    }
+   ],
+   "name": "Other Regions"
+  }
+ ],
+ "sources": [
+  {
+   "id": "611b567541a4208a",
+   "n": 1,
+   "name": "USGS Significant Earthquakes",
+   "published": "2026-10-30T03:20:00+00:00",
+   "title": "M 7.1 - 45 km SW of Example Bay",
+   "url": "https://earthquake.example.test/event/test1"
+  },
+  {
+   "id": "c858770ed66e28b8",
+   "n": 2,
+   "name": "Alberta Emergency Alert",
+   "published": "2026-10-30T10:30:00+00:00",
+   "title": "Wildfire evacuation order issued for northern Alberta community of 1,200",
+   "url": "https://www.example.test/alberta/wildfire-evac"
+  },
+  {
+   "id": "28e87704aec54780",
+   "n": 3,
+   "name": "BBC News World",
+   "published": "2026-10-29T22:30:00+00:00",
+   "title": "Naval drones strike port facility in Baltic coastal city, officials say",
+   "url": "https://news.example.test/bbc/baltic-port-drones"
+  },
+  {
+   "id": "f10830eeae7278fb",
+   "n": 4,
+   "name": "Reuters (via Google News)",
+   "published": "2026-10-29T23:05:00+00:00",
+   "title": "Naval drones strike Baltic port facility, officials say",
+   "url": "https://news.example.test/reuters/baltic-port"
+  },
+  {
+   "id": "e2c0e45a7821c6a5",
+   "n": 5,
+   "name": "Al Jazeera",
+   "published": "2026-10-30T06:15:00+00:00",
+   "title": "Unconfirmed reports of Gulf shipping seizure by armed group",
+   "url": "https://news.example.test/aj/gulf-seizure"
+  },
+  {
+   "id": "fae4ce9bb6d4ad09",
+   "n": 6,
+   "name": "CISA Advisories",
+   "published": "2026-10-30T09:00:00+00:00",
+   "title": "CISA warns of actively exploited vulnerability in industrial gateway software",
+   "url": "https://www.example.test/cisa/gateway-kev"
+  },
+  {
+   "id": "9e91564674502b6a",
+   "n": 7,
+   "name": "The Record",
+   "published": "2026-10-30T09:40:00+00:00",
+   "title": "Actively exploited industrial gateway flaw prompts CISA warning",
+   "url": "https://news.example.test/record/gateway"
+  },
+  {
+   "id": "02d273d84f559d4b",
+   "n": 8,
+   "name": "BBC News World",
+   "published": "2026-10-30T04:10:00+00:00",
+   "title": "Flooding on East African coast kills 12, officials say",
+   "url": "https://news.example.test/bbc/east-africa-flood"
+  },
+  {
+   "id": "f90f8c4584f65cd8",
+   "n": 9,
+   "name": "Al Jazeera",
+   "published": "2026-10-30T05:00:00+00:00",
+   "title": "East African coastal flooding kills 40, local media report",
+   "url": "https://news.example.test/aj/east-africa-flood"
+  }
+ ],
+ "title": "The Daily Brief",
+ "usage": {
+  "calls": 0,
+  "estimated_cost_usd": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ "warnings": [
+  "Partial coverage: 1 of 8 sources unavailable."
+ ],
+ "watch": [
+  {
+   "indicator": "Independent reporting on: Unconfirmed reports of Gulf shipping seizure by armed group",
+   "refs": [
+    5
+   ],
+   "significance": "Would confirm or contradict the current account."
+  },
+  {
+   "indicator": "Independent reporting on: Flooding on East African coast kills 12, officials say",
+   "refs": [
+    8
+   ],
+   "significance": "Would confirm or contradict the current account."
+  }
+ ],
+ "window_end": "2026-10-30T12:00:00+00:00",
+ "window_start": "2026-10-29T12:00:00+00:00",
+ "words": 130
+}

@@ -1,0 +1,11 @@
+# Ground truth for the SYNTHETIC fixture set. Each group = event the editor should include (URL substrings).
+now: "2026-10-30T12:00:00Z"
+significant:
+  baltic_drone_strike: [baltic-port]
+  gulf_seizure_unconfirmed: [gulf-seizure]
+  east_africa_flood: [east-africa-flood]
+  gateway_exploitation: [gateway]
+  m71_earthquake: [test1]
+  alberta_wildfire_evacuation: [wildfire-evac]
+# Must never appear: chef/budget (not significant), injection, future/old/undated items.
+noise: [chef, budget, hospital-injection, future, old, nodate]

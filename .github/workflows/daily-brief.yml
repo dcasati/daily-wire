@@ -1,0 +1,105 @@
+name: daily-brief
+
+on:
+  schedule:
+    # 06:00 America/Edmonton is 12:00 UTC (MDT) or 13:00 UTC (MST). Both are scheduled; the
+    # --require-hour guard lets only the run that is actually 06:xx local time proceed.
+    - cron: "0 12 * * *"
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      no_llm:
+        description: "Deterministic evidence-only run (no API key, no cost)"
+        type: boolean
+        default: false
+
+# One run at a time; never cancel a run that is publishing.
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write # only to push the generated site to the gh-pages branch
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Ensure gh-pages branch exists
+        run: |
+          if ! git ls-remote --exit-code --heads origin gh-pages >/dev/null; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git checkout --orphan gh-pages
+            git rm -rf . -q
+            touch .nojekyll
+            git add .nojekyll
+            git commit -q -m "Initialize site"
+            git push origin gh-pages
+            git checkout -q -
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Install (pinned dependencies)
+        run: pip install ".[dev]"
+
+      - name: Offline tests and fixture evaluation
+        run: |
+          pytest -q
+          daily-wire eval
+
+      - name: Install Copilot CLI (only when using it)
+        if: ${{ vars.DAILY_WIRE_PROVIDER == 'copilot_cli' }}
+        run: npm install -g @github/copilot
+
+      - name: Generate briefing
+        env:
+          DAILY_WIRE_API_KEY: ${{ secrets.DAILY_WIRE_API_KEY }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+          DAILY_WIRE_PROVIDER: ${{ vars.DAILY_WIRE_PROVIDER }}
+          DAILY_WIRE_MODEL: ${{ vars.DAILY_WIRE_MODEL }}
+        run: |
+          args=""
+          have_key="$DAILY_WIRE_API_KEY"
+          if [ "$DAILY_WIRE_PROVIDER" = "copilot_cli" ]; then have_key="$COPILOT_GITHUB_TOKEN"; fi
+          if [ "${{ github.event_name }}" = "schedule" ]; then args="--require-hour"; fi
+          if [ "${{ inputs.no_llm }}" = "true" ] || [ -z "$have_key" ]; then args="$args --no-llm"; fi
+          daily-wire run --site site $args | tee run-summary.json
+
+      - name: Publication health check
+        run: daily-wire health --site site
+
+      - name: Publish to GitHub Pages branch
+        run: |
+          cd site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "nothing to publish"; exit 0; fi
+          git commit -q -m "Edition $(date -u +%F)"
+          git push origin HEAD:gh-pages
+
+      - name: Job summary
+        if: always()
+        run: |
+          echo '### Daily brief' >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat run-summary.json >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"

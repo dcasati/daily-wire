@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>[TEST FIXTURE] BBC World</title>
+<item><title>Naval drones strike port facility in Baltic coastal city, officials say</title>
+<link>https://news.example.test/bbc/baltic-port-drones?utm_source=rss</link>
+<description>Officials said naval drones struck a port facility in a Baltic coastal city on Thursday. No casualty figures were released.</description>
+<pubDate>Thu, 29 Oct 2026 22:30:00 GMT</pubDate></item>
+<item><title>Flooding on East African coast kills 12, officials say</title>
+<link>https://news.example.test/bbc/east-africa-flood</link>
+<description>Local authorities said 12 people died after flooding on the East African coast.</description>
+<pubDate>Fri, 30 Oct 2026 04:10:00 GMT</pubDate></item>
+<item><title>Celebrity chef opens new restaurant in city centre</title>
+<link>https://news.example.test/bbc/chef</link>
+<description>A well-known chef opened a restaurant on Friday.</description>
+<pubDate>Fri, 30 Oct 2026 08:00:00 GMT</pubDate></item>
+<item><title>Misdated item claims missile launch next year</title>
+<link>https://news.example.test/bbc/future</link>
+<description>Timestamp is in the future and must be rejected.</description>
+<pubDate>Sat, 31 Oct 2026 20:00:00 GMT</pubDate></item>
+<item><title>Old missile test story from last week</title>
+<link>https://news.example.test/bbc/old</link>
+<description>Outside the coverage window.</description>
+<pubDate>Mon, 26 Oct 2026 09:00:00 GMT</pubDate></item>
+<item><title>No timestamp item about a strike</title>
+<link>https://news.example.test/bbc/nodate</link>
+<description>Missing pubDate; must be rejected.</description></item>
+</channel></rss>

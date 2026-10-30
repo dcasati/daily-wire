@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>[TEST FIXTURE] Google News: Reuters</title>
+<item><title>Naval drones strike Baltic port facility, officials say - Reuters</title>
+<link>https://news.example.test/reuters/baltic-port?ocid=x</link>
+<description>Naval drones struck a Baltic port facility, officials said. (Reuters)</description>
+<pubDate>Thu, 29 Oct 2026 23:05:00 GMT</pubDate></item>
+<item><title>Parliament approves budget amendment after lengthy debate - Reuters</title>
+<link>https://news.example.test/reuters/budget</link>
+<description>Domestic politics item without security significance.</description>
+<pubDate>Fri, 30 Oct 2026 02:00:00 GMT</pubDate></item>
+</channel></rss>
