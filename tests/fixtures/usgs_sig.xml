@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>[TEST FIXTURE] USGS Significant Earthquakes</title>
+<entry><title>M 7.1 - 45 km SW of Example Bay</title><id>urn:test:usgs1</id>
+<link rel="alternate" href="https://earthquake.example.test/event/test1"/>
+<updated>2026-10-30T03:20:00Z</updated><summary>Magnitude 7.1 earthquake at depth 10 km. Tsunami evaluation in progress.</summary></entry>
+</feed>

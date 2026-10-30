@@ -1,0 +1,69 @@
+timezone: America/Edmonton
+publish_hour_local: 6
+window_hours: 24          # coverage window ending at the cutoff (run time)
+max_words: 600            # editorial words (excludes header and source list)
+max_events: 8
+min_score: 4.0            # explainable score threshold (see docs/architecture.md)
+cluster_threshold: 0.4    # Jaccard similarity of title tokens
+state_retention_days: 14
+max_age_hours_health: 36  # health check: freshness limit
+
+site:
+  title: The Daily Brief
+  base_url: ""            # e.g. https://USER.github.io/daily-wire/ (optional; relative links used if empty)
+  opds_recent: 30
+
+llm:
+  provider: openai_compat # openai_compat | dry-run (dry-run needs no key)
+  base_url: https://api.openai.com/v1
+  model: gpt-4o-mini      # override in the workflow with DAILY_WIRE_MODEL
+  api_key_env: DAILY_WIRE_API_KEY
+  max_input_tokens: 6000
+  max_output_tokens: 1200
+  max_attempts: 2         # total generations, including retries after failed verification
+  max_daily_usd: 0.25     # hard stop; checked before every call using worst-case output
+  price_in_per_mtok: 0.15 # USD per 1M tokens: ASSUMPTION, update to your provider's price list
+  price_out_per_mtok: 0.60
+
+# Section routing for sources whose region is "global".
+region_keywords:
+  Europe / Russia: [russia, ukraine, baltic, europe, nato, kremlin, poland, germany, france, moscow, kyiv]
+  Middle East: [gaza, israel, iran, iraq, syria, yemen, red sea, gulf, lebanon, saudi, houthi]
+  Indo-Pacific: [china, taiwan, pacific, japan, korea, india, pakistan, philippines, south china sea, indo-pacific, australia]
+  North America: [canada, alberta, united states, u.s., mexico, washington, ottawa]
+
+canada_keywords: [canada, canadian, alberta, ottawa, british columbia, saskatchewan]
+
+# Significance scoring (all weights are visible in each event's score breakdown).
+impact_terms:
+  nuclear: 3
+  missile: 3
+  airstrike: 3
+  strike: 2
+  drone: 2
+  attack: 2
+  invasion: 3
+  ceasefire: 2
+  sanctions: 2
+  coup: 3
+  hostage: 2
+  mobilization: 2
+  blockade: 2
+  seize: 2
+  seizure: 2
+  ransomware: 2
+  exploited: 2
+  zero-day: 2
+  outage: 2
+  grid: 2
+  pipeline: 2
+  evacuation: 2
+  earthquake: 2
+  flood: 1
+  wildfire: 1
+  tsunami: 3
+  killed: 1
+  casualties: 1
+category_weight: {conflict: 2.0, world: 1.0, cyber: 1.5, disaster: 1.5, canada: 1.5}
+scale_numbers_min: 10      # a number >= this in the title adds scale points
+weights: {impact_cap: 5.0, scale: 1.0, category: 1.0, source_quality: 2.0, corroboration: 1.0, novelty: 1.5, canada: 1.0}

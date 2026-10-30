@@ -1,0 +1,23 @@
+# Source registry. "verified: false" = URL taken from the publisher's documentation/knowledge but NOT
+# yet confirmed from a networked machine. Run `daily-wire check-sources` before relying on a feed.
+# reliability: 0..1 editorial prior. official: primary/government source (single-source OK at "moderate").
+# origin: set when the feed is a wire aggregator, so syndicated copies are not counted as independent.
+# enabled: false disables a source without deleting it. Conditional GET (ETag/Last-Modified) is used automatically.
+sources:
+  - {id: bbc_world, name: BBC News World, url: "https://feeds.bbci.co.uk/news/world/rss.xml", category: world, region: global, reliability: 0.9, enabled: true, verified: false}
+  - {id: reuters_gn, name: Reuters (via Google News), url: "https://news.google.com/rss/search?q=when:1d+source:Reuters&hl=en-CA&gl=CA&ceid=CA:en", category: world, region: global, reliability: 0.9, origin: reuters, enabled: true, verified: false}
+  - {id: aljazeera, name: Al Jazeera, url: "https://www.aljazeera.com/xml/rss/all.xml", category: world, region: global, reliability: 0.8, enabled: true, verified: false}
+  - {id: dw_world, name: Deutsche Welle, url: "https://rss.dw.com/rdf/rss-en-world", category: world, region: global, reliability: 0.85, enabled: true, verified: false}
+  - {id: france24, name: France 24, url: "https://www.france24.com/en/rss", category: world, region: global, reliability: 0.8, enabled: true, verified: false}
+  - {id: guardian_world, name: The Guardian World, url: "https://www.theguardian.com/world/rss", category: world, region: global, reliability: 0.8, enabled: true, verified: false}
+  - {id: crisisgroup, name: International Crisis Group, url: "https://www.crisisgroup.org/rss.xml", category: conflict, region: global, reliability: 0.9, enabled: false, verified: false, note: "feed URL unconfirmed; enable after check-sources"}
+  - {id: reliefweb, name: ReliefWeb, url: "https://reliefweb.int/updates/rss.xml", category: disaster, region: global, reliability: 0.85, enabled: true, verified: false}
+  - {id: cisa, name: CISA Advisories, url: "https://www.cisa.gov/cybersecurity-advisories/all.xml", category: cyber, region: North America, reliability: 0.95, official: true, enabled: true, verified: false}
+  - {id: cccs, name: Canadian Centre for Cyber Security, url: "https://www.cyber.gc.ca/api/cccs/atom/v1/get?feed=atom_alerts_advisories&lang=en", category: cyber, region: North America, reliability: 0.95, official: true, enabled: true, verified: false}
+  - {id: sans_isc, name: SANS Internet Storm Center, url: "https://isc.sans.edu/rssfeed.xml", category: cyber, region: global, reliability: 0.85, enabled: true, verified: false}
+  - {id: therecord, name: The Record, url: "https://therecord.media/feed", category: cyber, region: global, reliability: 0.8, enabled: true, verified: false}
+  - {id: bleepingcomputer, name: BleepingComputer, url: "https://www.bleepingcomputer.com/feed/", category: cyber, region: global, reliability: 0.75, enabled: true, verified: false}
+  - {id: gdacs, name: GDACS, url: "https://www.gdacs.org/xml/rss.xml", category: disaster, region: global, reliability: 0.9, official: true, enabled: true, verified: false}
+  - {id: usgs_sig, name: USGS Significant Earthquakes, url: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_day.atom", category: disaster, region: global, reliability: 0.98, official: true, enabled: true, verified: false}
+  - {id: gc_news, name: Government of Canada News, url: "https://api.io.canada.ca/io-server/gc/news/en/v2?sort=publishedDate&orderBy=desc&publishedDate%3E=2020-08-09&pick=50&format=atom&atomtitle=Canada%20News", category: canada, region: North America, reliability: 0.9, official: true, enabled: false, verified: false, note: "URL unconfirmed"}
+  # ISW and ACLED: no confirmed public RSS; ACLED needs an API key/adapter (not implemented in the MVP).

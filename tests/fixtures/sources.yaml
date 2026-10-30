@@ -1,0 +1,11 @@
+# SYNTHETIC test fixtures: every event in tests/fixtures/*.xml is invented.
+sources:
+  - {id: bbc_world, name: BBC News World, category: world, region: global, reliability: 0.9}
+  - {id: reuters_gn, name: Reuters (via Google News), category: world, region: global, reliability: 0.9, origin: reuters}
+  - {id: aljazeera, name: Al Jazeera, category: world, region: global, reliability: 0.8}
+  - {id: cisa, name: CISA Advisories, category: cyber, region: North America, reliability: 0.95, official: true}
+  - {id: therecord, name: The Record, category: cyber, region: global, reliability: 0.8}
+  - {id: usgs_sig, name: USGS Significant Earthquakes, category: disaster, region: global, reliability: 0.98, official: true}
+  - {id: alberta, name: Alberta Emergency Alert, category: canada, region: North America, reliability: 0.95, official: true}
+  - {id: broken_feed, name: Always Failing Feed, category: world, region: global, reliability: 0.5}
+  - {id: disabled_feed, name: Disabled Feed, category: world, region: global, reliability: 0.5, enabled: false}

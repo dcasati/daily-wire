@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>[TEST FIXTURE] Al Jazeera</title>
+<item><title>Naval drones hit Baltic port facility, officials report</title>
+<link>https://news.example.test/aj/baltic-port</link>
+<description>Reuters - Naval drones hit a Baltic port facility, officials reported. Syndicated copy of the same original report.</description>
+<pubDate>Thu, 29 Oct 2026 23:40:00 GMT</pubDate></item>
+<item><title>Unconfirmed reports of Gulf shipping seizure by armed group</title>
+<link>https://news.example.test/aj/gulf-seizure</link>
+<description>Unconfirmed reports said an armed group seized a commercial vessel in the Gulf. No official confirmation.</description>
+<pubDate>Fri, 30 Oct 2026 06:15:00 GMT</pubDate></item>
+<item><title>East African coastal flooding kills 40, local media report</title>
+<link>https://news.example.test/aj/east-africa-flood</link>
+<description>Local media reported that 40 people died in coastal flooding in East Africa.</description>
+<pubDate>Fri, 30 Oct 2026 05:00:00 GMT</pubDate></item>
+</channel></rss>

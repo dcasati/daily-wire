@@ -1,0 +1,6 @@
+.venv/
+site/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+run-summary.json
