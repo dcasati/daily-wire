@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .epub import render_epub, render_md
+from .atomfeed import build_atom
 from .opds import build_feed
 
 EDITION_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -57,6 +58,9 @@ def _safe(site: Path, rel: str) -> Path:
     return p
 
 
+ATOM_RECENT = 14
+
+
 def list_editions(site: Path, recent: int) -> list[dict]:
     eds = []
     for f in sorted((site / "editions").glob("briefing-*.json"), reverse=True):
@@ -87,11 +91,13 @@ def publish(site: Path, briefing: dict, cfg: dict) -> dict:
     (site / ".nojekyll").write_text("")
     eds = list_editions(site, cfg["site"]["opds_recent"])
     _safe(site, "opds.xml").write_text(build_feed(eds, cfg["site"]["title"], cfg["site"]["base_url"]), encoding="utf-8")
+    recent = [json.loads((site / "editions" / f"briefing-{e['edition']}.json").read_text(encoding="utf-8")) for e in eds[:ATOM_RECENT]]
+    _safe(site, "feed.xml").write_text(build_atom(recent, cfg["site"]["title"], cfg["site"].get("feed_base_url", "")), encoding="utf-8")
     status = {"last_success": briefing["generated_at"], "edition": ed, "mode": briefing["mode"], "words": briefing.get("words"),
               "usage": briefing.get("usage"), "label": briefing.get("label"), "warnings": briefing.get("warnings", [])}
     _safe(site, "status.json").write_text(json.dumps(status, indent=1), encoding="utf-8")
     index = ("<!doctype html><meta charset=utf-8><title>Daily Wire</title><h1>Daily Wire</h1>"
-             f'<p>Latest: <a href="editions/briefing-{ed}.epub">{ed}</a> ({briefing["mode"]}). OPDS catalog: <a href="opds.xml">opds.xml</a>. '
+             f'<p>Latest: <a href="editions/briefing-{ed}.epub">{ed}</a> ({briefing["mode"]}). OPDS catalog: <a href="opds.xml">opds.xml</a>. Feed: <a href="feed.xml">feed.xml</a>. '
              '<a href="status.json">status</a></p>')
     _safe(site, "index.html").write_text(index, encoding="utf-8")
     return status
@@ -115,6 +121,10 @@ def health(site: Path, now: datetime, max_age_h: float) -> list[str]:
             probs.append("catalog has no editions")
     except (FileNotFoundError, ET.ParseError):
         probs.append("opds.xml missing or invalid")
+    try:
+        ET.parse(site / "feed.xml")
+    except (FileNotFoundError, ET.ParseError):
+        probs.append("feed.xml missing or invalid")
     epub = site / "editions" / f"briefing-{st['edition']}.epub"
     if not epub.exists():
         probs.append("latest EPUB missing")

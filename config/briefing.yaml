@@ -10,7 +10,8 @@ max_age_hours_health: 36  # health check: freshness limit
 
 site:
   title: The Daily Brief
-  base_url: ""            # e.g. https://USER.github.io/daily-wire/ (optional; relative links used if empty)
+  base_url: ""            # OPDS links stay relative (KOReader resolves them)
+  feed_base_url: https://dcasati.github.io/daily-wire/ # feed readers need absolute URLs
   opds_recent: 30
 
 llm:
