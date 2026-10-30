@@ -21,6 +21,7 @@
     "4f74943bf9358b17",
     "4fe3ffb15a5377dc",
     "51b4fd6e944ebc9c",
+    "59728600e3748f7b",
     "5aa39dee64e3b4a4",
     "6027876fbec6a836",
     "68e793d25ad312d9",
@@ -1158,6 +1159,7 @@
     "d4cd844bb7b24063"
    ],
    "key": "54f62ce4584c",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "EU force helicopter crash kills four in Bosnia",
    "tokens": [
@@ -1703,6 +1705,7 @@
     "92f9a6802cbb503a"
    ],
    "key": "83c56b11b403",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
    "tokens": [
@@ -1906,6 +1909,7 @@
   {
    "first_seen": "2026-10-29",
    "item_ids": [
+    "691ccf1058c740fb",
     "7b6b9e40fd473cd9",
     "8af6b1fa3d514aa5",
     "91b92ab6ffee9efb",
@@ -1925,6 +1929,7 @@
     "men",
     "patrick",
     "picard",
+    "reuter",
     "shakespearean",
     "star",
     "stewart",
@@ -3655,15 +3660,21 @@
    "last_seen": "2026-10-30",
    "title": "Russian newspaper Novaya Gazeta to close, citing pressure from \u2018special services\u2019",
    "tokens": [
+    "announc",
+    "being",
     "cit",
     "close",
+    "closure",
+    "crush",
     "gazeta",
     "newspaper",
     "novaya",
     "pressure",
     "russian",
     "servic",
-    "speci"
+    "society",
+    "speci",
+    "systematically"
    ]
   },
   {
@@ -4196,6 +4207,7 @@
     "cbe94cc3f26c0216"
    ],
    "key": "6a453f7ad761",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "More than 43 million ballots cast so far in midterms early voting surge",
    "tokens": [
@@ -5026,6 +5038,7 @@
     "849c2d78759f7721"
    ],
    "key": "b86fb8fb7883",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Mapletree eyes Singapore IPO in 2027, Business Times reports, Money News",
    "tokens": [
@@ -5378,6 +5391,7 @@
     "245f94be60eddb74"
    ],
    "key": "dd9abae6d8cb",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Kalshi raises $1 billion at $40 billion valuation as it expands beyond prediction markets",
    "tokens": [
@@ -5513,6 +5527,7 @@
     "317d4db428ac5d3e"
    ],
    "key": "eb610e33ba49",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Iran Deal Includes $300 Billion Fund, More Than Half of Which Already Committed, Source Says",
    "tokens": [
@@ -5597,6 +5612,7 @@
     "among",
     "crash",
     "europe",
+    "happen",
     "injur",
     "kill",
     "live",
@@ -5891,6 +5907,7 @@
     "df6f861239b8067d"
    ],
    "key": "47577b254f08",
+   "last_published": "2026-10-30",
    "last_seen": "2026-10-30",
    "title": "Midterms 2026: The former neo-Nazi pastor speaking out against Trump",
    "tokens": [
@@ -6045,12 +6062,159 @@
     "pike",
     "speak"
    ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "065b905d703c8a75"
+   ],
+   "key": "0491329728f2",
+   "last_seen": "2026-10-30",
+   "title": "Pope Leo votes in US midterms in first known political ballot for any pontiff",
+   "tokens": [
+    "any",
+    "ballot",
+    "first",
+    "known",
+    "leo",
+    "midterm",
+    "politic",
+    "pontiff",
+    "pope",
+    "us",
+    "votes"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "d327dc1f3bfb8a94"
+   ],
+   "key": "42375e771795",
+   "last_seen": "2026-10-30",
+   "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach",
+   "tokens": [
+    "4.9",
+    "aid",
+    "breach",
+    "financi",
+    "florida",
+    "leak",
+    "million",
+    "number",
+    "people",
+    "security",
+    "site",
+    "soci",
+    "warns"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "36c98c709dcb488e"
+   ],
+   "key": "4a00a78fd763",
+   "last_seen": "2026-10-30",
+   "title": "Tech giants\u2019 spending spooks investors and drives bonds rally By Reuters",
+   "tokens": [
+    "bonds",
+    "driv",
+    "giant",
+    "investor",
+    "rally",
+    "reuter",
+    "spend",
+    "spook",
+    "tech"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "04189a0cd044ffd8"
+   ],
+   "key": "541ac0814331",
+   "last_seen": "2026-10-30",
+   "title": "A working-class Alaskan Native takes on a \u2018multimillionaire\u2019 Republican for seat in Congress",
+   "tokens": [
+    "alaskan",
+    "congres",
+    "multimillionaire",
+    "native",
+    "republican",
+    "seat",
+    "takes",
+    "working-clas"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "95c61155cae123bd"
+   ],
+   "key": "6c16cd787f67",
+   "last_seen": "2026-10-30",
+   "title": "Jerusalem Daily: Israel\u2019s siege on Hebron displaces thousands",
+   "tokens": [
+    "daily",
+    "displac",
+    "hebron",
+    "israel",
+    "jerusalem",
+    "siege",
+    "thousand"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "2d5daa1f03725436"
+   ],
+   "key": "adf8bed49189",
+   "last_seen": "2026-10-30",
+   "title": "Son in custody after Oberlin professor dad and stepmother shot dead in Ohio",
+   "tokens": [
+    "custody",
+    "dad",
+    "dead",
+    "oberlin",
+    "ohio",
+    "professor",
+    "shot",
+    "son",
+    "stepmother"
+   ]
+  },
+  {
+   "first_seen": "2026-10-30",
+   "item_ids": [
+    "2366d18e07d8d46d"
+   ],
+   "key": "de7f04db6629",
+   "last_seen": "2026-10-30",
+   "title": "Freight rates for Russian oil stay at record highs amid tanker shortage, Black Sea risks, sources say",
+   "tokens": [
+    "black",
+    "freight",
+    "highs",
+    "oil",
+    "rates",
+    "record",
+    "risks",
+    "russian",
+    "sea",
+    "shortage",
+    "sourc",
+    "stay",
+    "tanker"
+   ]
   }
  ],
  "http": {
   "aljazeera": {
-   "etag": "W/\"4cc668703ffaff3c591741f3c2f6448b\"",
-   "last_modified": "Fri, 30 Oct 2026 15:39:50 GMT"
+   "etag": "W/\"24491c17b080be55bbe451faa50a4e40\"",
+   "last_modified": "Fri, 30 Oct 2026 15:52:45 GMT"
   },
   "bbc_world": {
    "etag": null,
@@ -6058,7 +6222,7 @@
   },
   "bleepingcomputer": {
    "etag": null,
-   "last_modified": "Fri, 30 Oct 2026 15:58:21 GMT"
+   "last_modified": "Fri, 30 Oct 2026 16:08:21 GMT"
   },
   "cccs": {
    "etag": null,
@@ -6073,11 +6237,11 @@
    "last_modified": null
   },
   "gdacs": {
-   "etag": "\"c6a7631f8768dd1:0\"",
-   "last_modified": "Fri, 30 Oct 2026 15:55:44 GMT"
+   "etag": "\"78d681858868dd1:0\"",
+   "last_modified": "Fri, 30 Oct 2026 16:05:45 GMT"
   },
   "guardian_world": {
-   "etag": "W/\"hash-5395158825421777960\"",
+   "etag": "W/\"hash8352004286050908904\"",
    "last_modified": null
   },
   "reuters_gn": {
@@ -6085,8 +6249,8 @@
    "last_modified": null
   },
   "sans_isc": {
-   "etag": "\"18ef-65f10cdcbc14a\"",
-   "last_modified": "Fri, 30 Oct 2026 15:53:57 GMT"
+   "etag": "\"18ef-65f110372e088\"",
+   "last_modified": "Fri, 30 Oct 2026 16:08:57 GMT"
   },
   "therecord": {
    "etag": null,
@@ -6094,7 +6258,7 @@
   },
   "usgs_sig": {
    "etag": null,
-   "last_modified": "Fri, 30 Oct 2026 15:58:24 GMT"
+   "last_modified": "Fri, 30 Oct 2026 16:14:11 GMT"
   }
  },
  "spend": {

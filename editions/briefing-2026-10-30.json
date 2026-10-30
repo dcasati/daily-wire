@@ -1,9 +1,9 @@
 {
- "bluf": "Highest-ranked development: Yemenis in Aden prepare for another war as missiles fall. Further items follow by region.",
+ "bluf": "Highest-ranked development: More than 43 million ballots cast so far in midterms early voting surge. Further items follow by region.",
  "changes": [],
  "changes_summary": "7 new and 0 updated development(s) reported.",
  "collection": {
-  "clusters": 178,
+  "clusters": 180,
   "items": 237,
   "quarantined": 0,
   "sources_ok": 12,
@@ -11,124 +11,85 @@
  },
  "cyber": [
   {
-   "event_id": "E2",
+   "event_id": "E7",
    "kind": "attributed",
    "refs": [
-    2
+    6
    ],
    "section": "Cyber and Infrastructure",
-   "text": "According to BleepingComputer: SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone"
+   "text": "According to BleepingComputer: OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut"
   }
  ],
- "disasters": [
-  {
-   "event_id": "E7",
-   "kind": "observed",
-   "refs": [
-    7
-   ],
-   "section": "Significant Disasters",
-   "text": "Green flood alert in Syria"
-  }
- ],
+ "disasters": [],
  "edition": "2026-10-30",
  "events": [
   {
    "confidence": "low",
-   "event_id": "E1",
-   "score": 8.6,
-   "status": "new"
-  },
-  {
-   "confidence": "low",
    "event_id": "E2",
-   "score": 5.75,
+   "score": 4.8,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E3",
-   "score": 5.6,
+   "score": 4.8,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E4",
-   "score": 5.6,
+   "score": 4.8,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E5",
-   "score": 5.6,
+   "score": 4.8,
    "status": "new"
   },
   {
    "confidence": "low",
    "event_id": "E6",
-   "score": 5.6,
+   "score": 4.8,
    "status": "new"
   },
   {
-   "confidence": "moderate",
+   "confidence": "low",
    "event_id": "E7",
-   "score": 5.05,
+   "score": 4.75,
+   "status": "new"
+  },
+  {
+   "confidence": "low",
+   "event_id": "E8",
+   "score": 4.6,
    "status": "new"
   }
  ],
- "generated_at": "2026-10-30T15:59:22.298308+00:00",
+ "generated_at": "2026-10-30T16:14:11.016532+00:00",
  "label": null,
  "mode": "evidence-only",
  "sections": [
   {
-   "items": [
-    {
-     "event_id": "E5",
-     "kind": "attributed",
-     "refs": [
-      5
-     ],
-     "section": "Europe / Russia",
-     "text": "According to France 24: Israeli election: 'Netanyahu did not win, he lost dramatically,' former PM Barak says"
-    }
-   ],
+   "items": [],
    "name": "Europe / Russia"
   },
   {
    "items": [
     {
-     "event_id": "E1",
+     "event_id": "E6",
      "kind": "attributed",
      "refs": [
-      1
+      5
      ],
      "section": "Middle East",
-     "text": "According to Al Jazeera: ‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall"
-    },
-    {
-     "event_id": "E4",
-     "kind": "attributed",
-     "refs": [
-      4
-     ],
-     "section": "Middle East",
-     "text": "According to Al Jazeera: Qatari officials in Iran in bid to revive ceasefire deal with US"
+     "text": "According to Reuters (via Google News): Iran Deal Includes $300 Billion Fund, More Than Half of Which Already Committed, Source Says"
     }
    ],
    "name": "Middle East"
   },
   {
-   "items": [
-    {
-     "event_id": "E3",
-     "kind": "attributed",
-     "refs": [
-      3
-     ],
-     "section": "Indo-Pacific",
-     "text": "According to France 24: Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion"
-    }
-   ],
+   "items": [],
    "name": "Indo-Pacific"
   },
   {
@@ -138,13 +99,49 @@
   {
    "items": [
     {
-     "event_id": "E6",
+     "event_id": "E2",
      "kind": "attributed",
      "refs": [
-      6
+      1
      ],
      "section": "Other Regions",
-     "text": "According to France 24: Spain working to identify train crash dead as relatives' anguish grows"
+     "text": "According to BBC News World: More than 43 million ballots cast so far in midterms early voting surge"
+    },
+    {
+     "event_id": "E3",
+     "kind": "attributed",
+     "refs": [
+      2
+     ],
+     "section": "Other Regions",
+     "text": "According to Reuters (via Google News): Mapletree eyes Singapore IPO in 2027, Business Times reports, Money News"
+    },
+    {
+     "event_id": "E4",
+     "kind": "attributed",
+     "refs": [
+      3
+     ],
+     "section": "Other Regions",
+     "text": "According to Reuters (via Google News): EU military helicopter crash kills 4, injures 11 - PHOTO"
+    },
+    {
+     "event_id": "E5",
+     "kind": "attributed",
+     "refs": [
+      4
+     ],
+     "section": "Other Regions",
+     "text": "According to Reuters (via Google News): Kalshi raises $1 billion at $40 billion valuation as it expands beyond prediction markets"
+    },
+    {
+     "event_id": "E8",
+     "kind": "attributed",
+     "refs": [
+      7
+     ],
+     "section": "Other Regions",
+     "text": "According to France 24: Midterms 2026: The former neo-Nazi pastor speaking out against Trump"
     }
    ],
    "name": "Other Regions"
@@ -152,96 +149,96 @@
  ],
  "sources": [
   {
-   "id": "e4e77d766e81a5b4",
+   "id": "cbe94cc3f26c0216",
    "n": 1,
-   "name": "Al Jazeera",
-   "published": "2026-10-30T15:26:00+00:00",
-   "title": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
-   "url": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss"
+   "name": "BBC News World",
+   "published": "2026-10-30T01:44:24+00:00",
+   "title": "More than 43 million ballots cast so far in midterms early voting surge",
+   "url": "https://www.bbc.co.uk/news/articles/c30rlxkjv2yko"
   },
   {
-   "id": "504569e0ffffdf59",
+   "id": "849c2d78759f7721",
    "n": 2,
-   "name": "BleepingComputer",
-   "published": "2026-10-30T14:00:10+00:00",
-   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone"
+   "name": "Reuters (via Google News)",
+   "published": "2026-10-30T11:36:39+00:00",
+   "title": "Mapletree eyes Singapore IPO in 2027, Business Times reports, Money News",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSzZZblJHY1plcjZuUllGdmJpNWxqNlM4cDEzTllOTmpQLU1kakdPd0lEd3gtYkNnb09ENDZ6eWJobWtGWDhKNWpveG9ORVFMc0M5ZWs0Nkl6cEtpaExOOVFPcFpxRTY2b3JfMFFTbXJ2UXlORDJnaE1CT05HTlhNM3lzVUhHX0F6NzNwajlGdw?oc=5"
   },
   {
-   "id": "2e93aa554566e767",
+   "id": "d4cd844bb7b24063",
    "n": 3,
-   "name": "France 24",
-   "published": "2026-10-30T15:34:46+00:00",
-   "title": "Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion",
-   "url": "https://www.france24.com/en/video/20261030-biggest-hack-in-history-cryptocurrency-giant-binance-loses-6-3-billion"
+   "name": "Reuters (via Google News)",
+   "published": "2026-10-30T01:57:17+00:00",
+   "title": "EU military helicopter crash kills 4, injures 11 - PHOTO",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01ajdIX2xiVFJrUDdhWFlTVml1c2NHTDRvRHJZNXhsMWZSRGl5OW1SZHJpYjJvU2RiWXlhajJobWJIaEJuUjFnVGI0Sld0TGxTalloTjU0amRoQmY2OEhrdGV0UzhNZkVqamhXTTJpb0JudnJlc0RVc3A2WExFWjA?oc=5"
   },
   {
-   "id": "fb1430c3f4c9db1f",
+   "id": "245f94be60eddb74",
    "n": 4,
-   "name": "Al Jazeera",
-   "published": "2026-10-30T12:26:56+00:00",
-   "title": "Qatari officials in Iran in bid to revive ceasefire deal with US",
-   "url": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us?traffic_source=rss"
+   "name": "Reuters (via Google News)",
+   "published": "2026-10-29T18:05:58+00:00",
+   "title": "Kalshi raises $1 billion at $40 billion valuation as it expands beyond prediction markets",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbzd3N0FYcjQ3ZFIzYjhnUWZ4V2tPT0QyUDQ5T0hCai1WM3JXRG1GWjNXUlczOEoxRmVyTmdicmNSSlVMWENEdUNjcFhFMkpFQUw4dW9Ed2V0c01EeWZ3cnhGSnhuQldid3pjVTVmOGVEV0Z5ZWZ1VWZncDhTUG9ROEdIMDNiYnRBaWJwSjBIUWN4TmFrTHpyalRYQ183T3lJWGRUTl94d0cxM1FuejJHZFM3R1piRllmbVE?oc=5"
   },
   {
-   "id": "bd0fe6fcb613b36c",
+   "id": "317d4db428ac5d3e",
    "n": 5,
-   "name": "France 24",
-   "published": "2026-10-30T15:34:03+00:00",
-   "title": "Israeli election: 'Netanyahu did not win, he lost dramatically,' former PM Barak says",
-   "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261030-israeli-election-netanyahu-did-not-win-he-lost-dramatically-former-pm-barak-says"
+   "name": "Reuters (via Google News)",
+   "published": "2026-10-29T22:06:02+00:00",
+   "title": "Iran Deal Includes $300 Billion Fund, More Than Half of Which Already Committed, Source Says",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYlZxa2pabWh6QjU5cU9hZkN4am5vZkllNllpUGZTMWotMjQyU1puWXFqX2dlNVNEUEJyUjBaeHJJYXcydnBNVk9HbkFBM29RdDVSOUlHUzZxZFBVbUpRNGF6ejVoRDZtU1o1ODFvNXZOZFZvVGFnR1R2aC0xTU50bEVtVWhmcGdwZVRpWU5KQW1xS1JxUXR3YVJFeGFLcndDcjJmLV83OWhpZERGald5c28xUnpCZU41ZmVNTQ?oc=5"
   },
   {
-   "id": "fb8e5225b2b886d4",
+   "id": "92f9a6802cbb503a",
    "n": 6,
-   "name": "France 24",
-   "published": "2026-10-30T15:34:20+00:00",
-   "title": "Spain working to identify train crash dead as relatives' anguish grows",
-   "url": "https://www.france24.com/en/video/20261030-spain-working-to-identify-train-crash-dead-as-relatives-anguish-grows"
+   "name": "BleepingComputer",
+   "published": "2026-10-29T23:35:52+00:00",
+   "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut"
   },
   {
-   "id": "e229ce84f2e6ecfa",
+   "id": "df6f861239b8067d",
    "n": 7,
-   "name": "GDACS",
-   "published": "2026-10-30T09:34:20+00:00",
-   "title": "Green flood alert in Syria",
-   "url": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104263"
+   "name": "France 24",
+   "published": "2026-10-30T15:34:09+00:00",
+   "title": "Midterms 2026: The former neo-Nazi pastor speaking out against Trump",
+   "url": "https://www.france24.com/en/video/20261030-midterms-2026-the-former-neo-nazi-pastor-speaking-out-against-trump"
   }
  ],
  "title": "The Daily Brief",
  "usage": {
   "calls": 2,
   "estimated_cost_usd": 0.0,
-  "tokens_in": 3786,
-  "tokens_out": 718
+  "tokens_in": 3779,
+  "tokens_out": 677
  },
  "warnings": [
-  "Automated summary failed verification; evidence-only edition. E1: assertive term 'struck' not in cited evidence"
+  "Automated summary failed verification; evidence-only edition. E4: name 'The' not in cited evidence; E4: weakly corroborated claim must be attributed; bluf: number '2,6' not in cited evidence"
  ],
  "watch": [
   {
-   "indicator": "Independent reporting on: ‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
+   "indicator": "Independent reporting on: More than 43 million ballots cast so far in midterms early voting surge",
    "refs": [
     1
    ],
    "significance": "Would confirm or contradict the current account."
   },
   {
-   "indicator": "Independent reporting on: SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+   "indicator": "Independent reporting on: Mapletree eyes Singapore IPO in 2027, Business Times reports, Money News",
    "refs": [
     2
    ],
    "significance": "Would confirm or contradict the current account."
   },
   {
-   "indicator": "Independent reporting on: Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion",
+   "indicator": "Independent reporting on: EU military helicopter crash kills 4, injures 11 - PHOTO",
    "refs": [
     3
    ],
    "significance": "Would confirm or contradict the current account."
   }
  ],
- "window_end": "2026-10-30T15:59:22.298308+00:00",
- "window_start": "2026-10-29T15:59:22.298308+00:00",
- "words": 186
+ "window_end": "2026-10-30T16:14:11.016532+00:00",
+ "window_start": "2026-10-29T16:14:11.016532+00:00",
+ "words": 212
 }

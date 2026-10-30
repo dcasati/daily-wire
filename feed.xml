@@ -2,44 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <id>urn:daily-wire:feed</id>
 <title>The Daily Brief</title>
-<updated>2026-10-30T15:59:22.298308+00:00</updated>
+<updated>2026-10-30T16:14:11.016532+00:00</updated>
 <author><name>Daily Wire (automated)</name></author>
 <link rel="self" type="application/atom+xml" href="https://dcasati.github.io/daily-wire/feed.xml"/>
 <link rel="alternate" type="text/html" href="https://dcasati.github.io/daily-wire/"/>
-<entry><id>urn:daily-wire:2026-10-30</id><title>The Daily Brief 2026-10-30</title><updated>2026-10-30T15:59:22.298308+00:00</updated><link rel="alternate" type="application/epub+zip" href="https://dcasati.github.io/daily-wire/editions/briefing-2026-10-30.epub"/><summary>Highest-ranked development: Yemenis in Aden prepare for another war as missiles fall. Further items follow by region.</summary><content type="html">&lt;p&gt;&lt;b&gt;BLUF:&lt;/b&gt; Highest-ranked development: Yemenis in Aden prepare for another war as missiles fall. Further items follow by region.&lt;/p&gt;
-&lt;h3&gt;Europe / Russia&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;According to France 24: Israeli election: &amp;#x27;Netanyahu did not win, he lost dramatically,&amp;#x27; former PM Barak says &lt;i&gt;(attributed)&lt;/i&gt; [5]&lt;/li&gt;
-&lt;/ul&gt;
+<entry><id>urn:daily-wire:2026-10-30</id><title>The Daily Brief 2026-10-30</title><updated>2026-10-30T16:14:11.016532+00:00</updated><link rel="alternate" type="application/epub+zip" href="https://dcasati.github.io/daily-wire/editions/briefing-2026-10-30.epub"/><summary>Highest-ranked development: More than 43 million ballots cast so far in midterms early voting surge. Further items follow by region.</summary><content type="html">&lt;p&gt;&lt;b&gt;BLUF:&lt;/b&gt; Highest-ranked development: More than 43 million ballots cast so far in midterms early voting surge. Further items follow by region.&lt;/p&gt;
 &lt;h3&gt;Middle East&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;According to Al Jazeera: ‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall &lt;i&gt;(attributed)&lt;/i&gt; [1]&lt;/li&gt;
-&lt;li&gt;According to Al Jazeera: Qatari officials in Iran in bid to revive ceasefire deal with US &lt;i&gt;(attributed)&lt;/i&gt; [4]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Indo-Pacific&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;According to France 24: Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion &lt;i&gt;(attributed)&lt;/i&gt; [3]&lt;/li&gt;
+&lt;li&gt;According to Reuters (via Google News): Iran Deal Includes $300 Billion Fund, More Than Half of Which Already Committed, Source Says &lt;i&gt;(attributed)&lt;/i&gt; [5]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Other Regions&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;According to France 24: Spain working to identify train crash dead as relatives&amp;#x27; anguish grows &lt;i&gt;(attributed)&lt;/i&gt; [6]&lt;/li&gt;
+&lt;li&gt;According to BBC News World: More than 43 million ballots cast so far in midterms early voting surge &lt;i&gt;(attributed)&lt;/i&gt; [1]&lt;/li&gt;
+&lt;li&gt;According to Reuters (via Google News): Mapletree eyes Singapore IPO in 2027, Business Times reports, Money News &lt;i&gt;(attributed)&lt;/i&gt; [2]&lt;/li&gt;
+&lt;li&gt;According to Reuters (via Google News): EU military helicopter crash kills 4, injures 11 - PHOTO &lt;i&gt;(attributed)&lt;/i&gt; [3]&lt;/li&gt;
+&lt;li&gt;According to Reuters (via Google News): Kalshi raises $1 billion at $40 billion valuation as it expands beyond prediction markets &lt;i&gt;(attributed)&lt;/i&gt; [4]&lt;/li&gt;
+&lt;li&gt;According to France 24: Midterms 2026: The former neo-Nazi pastor speaking out against Trump &lt;i&gt;(attributed)&lt;/i&gt; [7]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Cyber and Infrastructure&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;According to BleepingComputer: SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone &lt;i&gt;(attributed)&lt;/i&gt; [2]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Significant Disasters&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Green flood alert in Syria &lt;i&gt;(observed)&lt;/i&gt; [7]&lt;/li&gt;
+&lt;li&gt;According to BleepingComputer: OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut &lt;i&gt;(attributed)&lt;/i&gt; [6]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Changes since previous brief&lt;/h3&gt;&lt;p&gt;7 new and 0 updated development(s) reported.&lt;/p&gt;
 &lt;h3&gt;Watch items (next 24-72 hours)&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Independent reporting on: ‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall&lt;/b&gt; Would confirm or contradict the current account. [1]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Independent reporting on: SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone&lt;/b&gt; Would confirm or contradict the current account. [2]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Independent reporting on: Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion&lt;/b&gt; Would confirm or contradict the current account. [3]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Independent reporting on: More than 43 million ballots cast so far in midterms early voting surge&lt;/b&gt; Would confirm or contradict the current account. [1]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Independent reporting on: Mapletree eyes Singapore IPO in 2027, Business Times reports, Money News&lt;/b&gt; Would confirm or contradict the current account. [2]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Independent reporting on: EU military helicopter crash kills 4, injures 11 - PHOTO&lt;/b&gt; Would confirm or contradict the current account. [3]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Sources&lt;/h3&gt;&lt;ol&gt;
-&lt;li value=&quot;1&quot;&gt;&lt;a href=&quot;https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss&quot;&gt;Al Jazeera: ‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall&lt;/a&gt;&lt;/li&gt;
-&lt;li value=&quot;2&quot;&gt;&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone&quot;&gt;BleepingComputer: SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone&lt;/a&gt;&lt;/li&gt;
-&lt;li value=&quot;3&quot;&gt;&lt;a href=&quot;https://www.france24.com/en/video/20261030-biggest-hack-in-history-cryptocurrency-giant-binance-loses-6-3-billion&quot;&gt;France 24: Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion&lt;/a&gt;&lt;/li&gt;
-&lt;li value=&quot;4&quot;&gt;&lt;a href=&quot;https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us?traffic_source=rss&quot;&gt;Al Jazeera: Qatari officials in Iran in bid to revive ceasefire deal with US&lt;/a&gt;&lt;/li&gt;
-&lt;li value=&quot;5&quot;&gt;&lt;a href=&quot;https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261030-israeli-election-netanyahu-did-not-win-he-lost-dramatically-former-pm-barak-says&quot;&gt;France 24: Israeli election: &amp;#x27;Netanyahu did not win, he lost dramatically,&amp;#x27; former PM Barak says&lt;/a&gt;&lt;/li&gt;
-&lt;li value=&quot;6&quot;&gt;&lt;a href=&quot;https://www.france24.com/en/video/20261030-spain-working-to-identify-train-crash-dead-as-relatives-anguish-grows&quot;&gt;France 24: Spain working to identify train crash dead as relatives&amp;#x27; anguish grows&lt;/a&gt;&lt;/li&gt;
-&lt;li value=&quot;7&quot;&gt;&lt;a href=&quot;http://www.gdacs.org/report.aspx?eventtype=FL&amp;amp;eventid=1104263&quot;&gt;GDACS: Green flood alert in Syria&lt;/a&gt;&lt;/li&gt;
+&lt;li value=&quot;1&quot;&gt;&lt;a href=&quot;https://www.bbc.co.uk/news/articles/c30rlxkjv2yko&quot;&gt;BBC News World: More than 43 million ballots cast so far in midterms early voting surge&lt;/a&gt;&lt;/li&gt;
+&lt;li value=&quot;2&quot;&gt;&lt;a href=&quot;https://news.google.com/rss/articles/CBMijwFBVV95cUxPSzZZblJHY1plcjZuUllGdmJpNWxqNlM4cDEzTllOTmpQLU1kakdPd0lEd3gtYkNnb09ENDZ6eWJobWtGWDhKNWpveG9ORVFMc0M5ZWs0Nkl6cEtpaExOOVFPcFpxRTY2b3JfMFFTbXJ2UXlORDJnaE1CT05HTlhNM3lzVUhHX0F6NzNwajlGdw?oc=5&quot;&gt;Reuters (via Google News): Mapletree eyes Singapore IPO in 2027, Business Times reports, Money News&lt;/a&gt;&lt;/li&gt;
+&lt;li value=&quot;3&quot;&gt;&lt;a href=&quot;https://news.google.com/rss/articles/CBMif0FVX3lxTE01ajdIX2xiVFJrUDdhWFlTVml1c2NHTDRvRHJZNXhsMWZSRGl5OW1SZHJpYjJvU2RiWXlhajJobWJIaEJuUjFnVGI0Sld0TGxTalloTjU0amRoQmY2OEhrdGV0UzhNZkVqamhXTTJpb0JudnJlc0RVc3A2WExFWjA?oc=5&quot;&gt;Reuters (via Google News): EU military helicopter crash kills 4, injures 11 - PHOTO&lt;/a&gt;&lt;/li&gt;
+&lt;li value=&quot;4&quot;&gt;&lt;a href=&quot;https://news.google.com/rss/articles/CBMiugFBVV95cUxNbzd3N0FYcjQ3ZFIzYjhnUWZ4V2tPT0QyUDQ5T0hCai1WM3JXRG1GWjNXUlczOEoxRmVyTmdicmNSSlVMWENEdUNjcFhFMkpFQUw4dW9Ed2V0c01EeWZ3cnhGSnhuQldid3pjVTVmOGVEV0Z5ZWZ1VWZncDhTUG9ROEdIMDNiYnRBaWJwSjBIUWN4TmFrTHpyalRYQ183T3lJWGRUTl94d0cxM1FuejJHZFM3R1piRllmbVE?oc=5&quot;&gt;Reuters (via Google News): Kalshi raises $1 billion at $40 billion valuation as it expands beyond prediction markets&lt;/a&gt;&lt;/li&gt;
+&lt;li value=&quot;5&quot;&gt;&lt;a href=&quot;https://news.google.com/rss/articles/CBMivAFBVV95cUxQYlZxa2pabWh6QjU5cU9hZkN4am5vZkllNllpUGZTMWotMjQyU1puWXFqX2dlNVNEUEJyUjBaeHJJYXcydnBNVk9HbkFBM29RdDVSOUlHUzZxZFBVbUpRNGF6ejVoRDZtU1o1ODFvNXZOZFZvVGFnR1R2aC0xTU50bEVtVWhmcGdwZVRpWU5KQW1xS1JxUXR3YVJFeGFLcndDcjJmLV83OWhpZERGald5c28xUnpCZU41ZmVNTQ?oc=5&quot;&gt;Reuters (via Google News): Iran Deal Includes $300 Billion Fund, More Than Half of Which Already Committed, Source Says&lt;/a&gt;&lt;/li&gt;
+&lt;li value=&quot;6&quot;&gt;&lt;a href=&quot;https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut&quot;&gt;BleepingComputer: OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut&lt;/a&gt;&lt;/li&gt;
+&lt;li value=&quot;7&quot;&gt;&lt;a href=&quot;https://www.france24.com/en/video/20261030-midterms-2026-the-former-neo-nazi-pastor-speaking-out-against-trump&quot;&gt;France 24: Midterms 2026: The former neo-Nazi pastor speaking out against Trump&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</content></entry>
 <entry><id>urn:daily-wire:2026-10-29</id><title>The Daily Brief 2026-10-29</title><updated>2026-10-30T04:39:17.801047+00:00</updated><link rel="alternate" type="application/epub+zip" href="https://dcasati.github.io/daily-wire/editions/briefing-2026-10-29.epub"/><summary>Highest-ranked development: Patrick Stewart, star of &#x27;Star Trek&#x27; and &#x27;X men&#x27;, dies at 86. Further items follow by region.</summary><content type="html">&lt;p&gt;&lt;b&gt;BLUF:&lt;/b&gt; Highest-ranked development: Patrick Stewart, star of &amp;#x27;Star Trek&amp;#x27; and &amp;#x27;X men&amp;#x27;, dies at 86. Further items follow by region.&lt;/p&gt;
 &lt;h3&gt;Europe / Russia&lt;/h3&gt;&lt;ul&gt;

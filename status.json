@@ -1,16 +1,16 @@
 {
- "last_success": "2026-10-30T15:59:22.298308+00:00",
+ "last_success": "2026-10-30T16:14:11.016532+00:00",
  "edition": "2026-10-30",
  "mode": "evidence-only",
- "words": 186,
+ "words": 212,
  "usage": {
   "calls": 2,
-  "tokens_in": 3786,
-  "tokens_out": 718,
+  "tokens_in": 3779,
+  "tokens_out": 677,
   "estimated_cost_usd": 0.0
  },
  "label": null,
  "warnings": [
-  "Automated summary failed verification; evidence-only edition. E1: assertive term 'struck' not in cited evidence"
+  "Automated summary failed verification; evidence-only edition. E4: name 'The' not in cited evidence; E4: weakly corroborated claim must be attributed; bluf: number '2,6' not in cited evidence"
  ]
 }
